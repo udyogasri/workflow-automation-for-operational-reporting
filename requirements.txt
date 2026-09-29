@@ -1,0 +1,10 @@
+# Workflow Automation for Operational Reporting
+# All dependencies are Python standard library — no external packages required.
+#
+# Standard library modules used:
+#   - sqlite3
+#   - csv
+#   - os
+#   - datetime
+#   - logging
+#   - pathlib

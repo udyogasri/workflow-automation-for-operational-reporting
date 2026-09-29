@@ -1,0 +1,51 @@
+record_id,employee,team,date,department,status,quantity,target,actual_value,shift,notes
+OPS-001,Rajesh Kumar,Team Alpha,2026-09-01,Manufacturing,Completed,150,140,155,Morning,Exceeded target
+OPS-002,Priya Sharma,Team Beta,2026-09-01,Manufacturing,Completed,120,130,118,Morning,Slightly below target
+OPS-003,Amit Patel,Team Alpha,2026-09-02,Logistics,Completed,200,180,205,Afternoon,Strong performance
+OPS-004,Sneha Reddy,Team Gamma,2026-09-02,Manufacturing,In Progress,90,150,90,Night,Ongoing
+OPS-005,Vikram Singh,Team Beta,2026-09-03,Quality Control,Completed,50,50,52,Morning,On target
+OPS-006,Anita Desai,Team Alpha,2026-09-03,Logistics,Failed,30,100,30,Afternoon,Equipment failure
+OPS-007,Ravi Menon,Team Gamma,2026-09-04,Manufacturing,Completed,175,160,178,Morning,Good output
+OPS-008,Kavita Nair,Team Beta,2026-09-04,Quality Control,Completed,60,55,63,Afternoon,Above target
+OPS-009,Suresh Iyer,Team Alpha,2026-09-05,Logistics,Completed,180,170,182,Morning,Steady performance
+OPS-010,Deepa Joshi,Team Gamma,2026-09-05,Manufacturing,In Progress,100,140,100,Night,Shift ongoing
+OPS-011,Manoj Tiwari,Team Beta,2026-09-06,Manufacturing,Completed,145,140,148,Morning,Target met
+OPS-012,Pooja Gupta,Team Alpha,2026-09-06,Logistics,Completed,190,185,192,Afternoon,Consistent
+OPS-013,Arjun Rao,Team Gamma,2026-09-07,Quality Control,Failed,20,50,20,Morning,Material shortage
+OPS-014,Meera Pillai,Team Beta,2026-09-07,Manufacturing,Completed,160,155,165,Afternoon,On track
+OPS-015,Kiran Das,Team Alpha,2026-09-08,Logistics,Completed,170,160,175,Morning,Ahead of schedule
+OPS-016,Neha Agarwal,Team Gamma,2026-09-08,Manufacturing,Completed,130,130,132,Night,Target achieved
+OPS-017,Sanjay Verma,Team Beta,2026-09-09,Quality Control,Completed,45,50,47,Morning,Close to target
+OPS-018,Lakshmi Bhat,Team Alpha,2026-09-09,Logistics,In Progress,80,180,80,Afternoon,In transit
+OPS-019,Rahul Mishra,Team Gamma,2026-09-10,Manufacturing,Completed,155,150,158,Morning,Solid day
+OPS-020,Divya Saxena,Team Beta,2026-09-10,Manufacturing,Completed,140,135,143,Afternoon,Above target
+OPS-021,Ramesh Pandey,Team Alpha,2026-09-11,Logistics,Completed,195,190,198,Morning,Best day this week
+OPS-022,Swati Kulkarni,Team Gamma,2026-09-11,Quality Control,Completed,55,50,57,Night,Exceeded
+OPS-023,Ashok Mehta,Team Beta,2026-09-12,Manufacturing,Failed,40,150,40,Morning,Power outage
+OPS-024,Geeta Yadav,Team Alpha,2026-09-12,Logistics,Completed,185,180,188,Afternoon,On schedule
+OPS-025,Vijay Chauhan,Team Gamma,2026-09-13,Manufacturing,Completed,165,160,168,Morning,Good day
+OPS-026,Sunita Jain,Team Beta,2026-09-13,Quality Control,Completed,48,50,49,Afternoon,Nearly there
+OPS-027,Prakash Sinha,Team Alpha,2026-09-14,Logistics,Completed,175,170,179,Morning,Consistent
+OPS-028,Rina Dutta,Team Gamma,2026-09-14,Manufacturing,In Progress,110,145,110,Night,Still running
+OPS-029,Tarun Bose,Team Beta,2026-09-15,Manufacturing,Completed,150,145,153,Morning,Good output
+OPS-030,Jaya Krishnan,Team Alpha,2026-09-15,Logistics,Completed,200,190,205,Afternoon,Excellent
+OPS-031,Nitin Sharma,Team Gamma,2026-09-16,Quality Control,Completed,52,50,54,Morning,Above target
+OPS-032,Pallavi Rao,Team Beta,2026-09-16,Manufacturing,Completed,135,130,138,Afternoon,Smooth run
+OPS-033,Anil Kapoor,Team Alpha,2026-09-17,Logistics,Failed,50,180,50,Morning,Vehicle breakdown
+OPS-034,Rekha Singh,Team Gamma,2026-09-17,Manufacturing,Completed,170,165,173,Night,Night shift output
+OPS-035,Gaurav Dubey,Team Beta,2026-09-18,Manufacturing,Completed,148,140,151,Morning,Target exceeded
+OPS-036,Shalini Nair,Team Alpha,2026-09-18,Logistics,Completed,188,185,191,Afternoon,On track
+OPS-037,Mohan Lal,Team Gamma,2026-09-19,Quality Control,Completed,47,50,48,Morning,Close
+OPS-038,Usha Patil,Team Beta,2026-09-19,Manufacturing,In Progress,95,150,95,Afternoon,Delayed start
+OPS-039,Dinesh Goyal,Team Alpha,2026-09-20,Logistics,Completed,178,175,181,Morning,Reliable
+OPS-040,Bhavna Thakur,Team Gamma,2026-09-20,Manufacturing,Completed,160,155,163,Night,Good shift
+OPS-041,Sunil Malhotra,Team Beta,2026-09-21,Manufacturing,Completed,142,140,145,Morning,Target met
+OPS-042,Aarti Chandra,Team Alpha,2026-09-21,Logistics,Completed,192,185,196,Afternoon,Strong finish
+OPS-043,Pankaj Misra,Team Gamma,2026-09-22,Quality Control,Completed,53,50,55,Morning,Solid
+OPS-044,Vandana Rana,Team Beta,2026-09-22,Manufacturing,Failed,35,150,35,Afternoon,Raw material issue
+OPS-045,Harish Bhatia,Team Alpha,2026-09-23,Logistics,Completed,183,180,186,Morning,Consistent
+OPS-046,Alka Pandey,Team Gamma,2026-09-23,Manufacturing,Completed,155,150,158,Night,Smooth
+OPS-047,Naveen Joshi,Team Beta,2026-09-24,Manufacturing,Completed,147,145,150,Morning,Good
+OPS-048,Seema Rani,Team Alpha,2026-09-24,Logistics,In Progress,130,190,130,Afternoon,Partial completion
+OPS-049,Yogesh Puri,Team Gamma,2026-09-25,Quality Control,Completed,50,50,51,Morning,On target
+OPS-050,Rashmi Tomar,Team Beta,2026-09-25,Manufacturing,Completed,138,135,141,Afternoon,Clean run

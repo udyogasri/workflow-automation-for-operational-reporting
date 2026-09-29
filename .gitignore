@@ -1,0 +1,30 @@
+# SQLite Database Files (generated at runtime)
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# Generated HTML Operational Reports (generated dynamically by main.py)
+reports/*.html
+
+# Execution & Log Files (generated dynamically at runtime)
+logs/*.log
+
+# Python Bytecode & Cache Directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments & IDE Configurations
+.venv/
+env/
+venv/
+ENV/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.tmp

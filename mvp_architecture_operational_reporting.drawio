@@ -1,0 +1,118 @@
+<mxfile host="app.diagrams.net" modified="2026-09-29T14:30:00.000Z" agent="Antigravity Enterprise Architecture" version="21.0.0" type="device">
+  <diagram id="operational-reporting-architecture" name="Operational Reporting Architecture">
+    <mxGraphModel dx="1200" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1250" background="#FFFFFF" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ========================================== -->
+        <!-- 1. TOP NODE: DATA SOURCES (SQL, CSV, EXCEL, API) -->
+        <!-- ========================================== -->
+        <mxCell id="node_data_sources" value="&lt;div align=&quot;center&quot;&gt;&lt;table style=&quot;margin: 0 auto 6px auto;&quot;&gt;&lt;tr&gt;&lt;td style=&quot;padding: 0 4px;&quot;&gt;&lt;img src=&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIj48cGF0aCBmaWxsPSIjMUUzQThBIiBkPSJNMzIgNEMxOC43IDQgOCA5LjQgOCAxNnYzMmMwIDYuNiAxMC43IDEyIDI0IDEyczI0LTUuNCAyNC0xMlYxNmMwLTYuNi0xMC43LTEyLTI0LTEyeiIvPjxwYXRoIGZpbGw9IiMzQjgyRjYiIGQ9Ik0zMiA0YzEzLjMgMCAyNCA1LjQgMjQgMTJzLTEwLjcgMTItMjQgMTJTOCAyMi42IDggMTYgMTguNyA0IDMyIDR6Ii8+PHBhdGggZmlsbD0iIzI1NjNFQiIgZD0iTTMyIDI2YzEzLjMgMCAyNC01LjQgMjQtMTJ2MTBjMCA2LjYtMTAuNyAxMi0yNCAxMlM4IDMwLjYgOCAyNFYxNGMwIDYuNiAxMC43IDEyIDI0IDEyeiIvPjxwYXRoIGZpbGw9IiMxRDRFRDgiIGQ9Ik0zMiAzOGMxMy4zIDAgMjQtNS40IDI0LTEydjEwYzAgNi42LTEwLjcgMTItMjQgMTJTOCA0Mi42IDggMzZWMjZjMCA2LjYgMTAuNyAxMiAyNCAxMnoiLz48dGV4dCB4PSIzMiIgeT0iMzgiIGZpbGw9IiNGRkZGRkYiIGZvbnQtZmFtaWx5PSJTZWdvZSBVSSwgQXJpYWwiIGZvbnQtd2VpZ2h0PSI5MDAiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlNRTDwvdGV4dD48L3N2Zz4=&quot; width=&quot;32&quot; height=&quot;32&quot; title=&quot;SQL Database&quot;/&gt;&lt;/td&gt;&lt;td style=&quot;padding: 0 4px;&quot;&gt;&lt;img src=&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIj48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxMiIgZmlsbD0iIzA1OTY2OSIvPjxyZWN0IHg9IjE0IiB5PSIxNCIgd2lkdGg9IjM2IiBoZWlnaHQ9IjM2IiByeD0iNCIgZmlsbD0iIzA0Nzg1NyIvPjx0ZXh0IHg9IjMyIiB5PSI0MiIgZmlsbD0iI0ZGRkZGRiIgZm9udC1mYW1pbHk9IlNlZ29lIFVJLCBBcmlhbCIgZm9udC13ZWlnaHQ9IjkwMCIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+Q1NWPC90ZXh0Pjwvc3ZnPg==&quot; width=&quot;32&quot; height=&quot;32&quot; title=&quot;CSV Files&quot;/&gt;&lt;/td&gt;&lt;td style=&quot;padding: 0 4px;&quot;&gt;&lt;img src=&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIj48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxMiIgZmlsbD0iIzEwN0M0MSIvPjxyZWN0IHg9IjE4IiB5PSIxOCIgd2lkdGg9IjI4IiBoZWlnaHQ9IjI4IiByeD0iMyIgZmlsbD0iIzBDNTkyRiIvPjx0ZXh0IHg9IjMyIiB5PSI0MCIgZmlsbD0iI0ZGRkZGRiIgZm9udC1mYW1pbHk9IlNlZ29lIFVJLCBBcmlhbCIgZm9udC13ZWlnaHQ9IjkwMCIgZm9udC1zaXplPSIxNiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+WDwvdGV4dD48L3N2Zz4=&quot; width=&quot;32&quot; height=&quot;32&quot; title=&quot;Excel Files&quot;/&gt;&lt;/td&gt;&lt;td style=&quot;padding: 0 4px;&quot;&gt;&lt;img src=&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIj48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxMiIgZmlsbD0iIzAyODRDNyIvPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0xOCAzMmE4IDggMCAwIDEtMi0xNSAxNCAxNCAwIDAgMSAyNy0zQTEwIDEwIDAgMCAxIDQ4IDMySDE4eiIvPjxyZWN0IHg9IjE0IiB5PSIzNiIgd2lkdGg9IjM2IiBoZWlnaHQ9IjE2IiByeD0iNCIgZmlsbD0iIzAzNjlBMSIvPjx0ZXh0IHg9IjMyIiB5PSI0OCIgZmlsbD0iI0ZGRkZGRiIgZm9udC1mYW1pbHk9IlNlZ29lIFVJLCBBcmlhbCIgZm9udC13ZWlnaHQ9IjgwMCIgZm9udC1zaXplPSIxMCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QVBJPC90ZXh0Pjwvc3ZnPg==&quot; width=&quot;32&quot; height=&quot;32&quot; title=&quot;REST APIs&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;b style=&quot;font-size: 14px; color: #0F172A;&quot;&gt;Data Sources&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px; color: #0284C7; font-weight: 600;&quot;&gt;(Multiple Tools / Databases: SQL, CSV, Excel, APIs)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0F9FF;strokeColor=#0284C7;strokeWidth=2;shadow=1;fontFamily=Segoe UI,Arial,sans-serif;arcSize=8;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="340" y="30" width="320" height="120" as="geometry" />
+        </mxCell>
+
+
+        <!-- ========================================== -->
+        <!-- 2. PYTHON SCRIPT ENGINE CONTAINER         -->
+        <!-- ========================================== -->
+        <mxCell id="box_python_engine" value="&lt;table style=&quot;width:100%;&quot;&gt;&lt;tr&gt;&lt;td style=&quot;vertical-align:middle;&quot;&gt;&lt;b style=&quot;font-size: 14px; color: #1E293B;&quot;&gt;Python Script Engine&lt;/b&gt;&lt;/td&gt;&lt;td style=&quot;text-align:right; vertical-align:middle;&quot;&gt;&lt;img src=&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4IiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPjxwYXRoIGZpbGw9IiMzODdFQjgiIGQ9Ik02My41IDBDMjguNiAwIDMwLjcgMTUuMSAzMC43IDE1LjFsLjA0IDE1LjZoMzMuNXY0LjdIMTcuNFMwIDMzLjUgMCA2OC40YzAgMzQuOCAxNS4yIDMzLjYgMTUuMiAzMy42aDkuMVY4OS4ycy0uNS0xNS4xIDE0LjgtMTUuMWgzMy4yYzE0LjMgMCAxNC44LTEzLjggMTQuOC0xMy44VjE1LjFTODguNCAwIDYzLjUgMHptLTE0LjggOS45YzIuNyAwIDQuOSAyLjIgNC45IDQuOXMtMi4yIDQuOS00LjkgNC45LTQuOS0yLjItNC45LTQuOSAyLjItNC45IDQuOS00Ljl6Ii8+PHBhdGggZmlsbD0iI0ZGRTA1MiIgZD0iTTY0LjUgMTI4YzM0LjkgMCAzMi44LTE1LjEgMzIuOC0xNS4xbC0uMDQtMTUuNkg2My43di00LjdoNDYuOHMxNy41IDEuOSAxNy41LTMzYzAtMzQuOC0xNS4yLTMzLjYtMTUuMi0zMy42aC05LjF2MTIuOHMuNSAxNS4xLTE0LjggMTUuMUgzNS43Yy0xNC4zIDAtMTQuOCAxMy44LTE0LjggMTMuOHY0NC44cy02LjMgMTUuMSAyOC44IDE1LjF6bTE0LjgtOS45Yy0yLjcgMC00LjktMi4yLTQuOS00LjkgczIuMi00LjkgNC45LTQuOSA0LjkgMi4yIDQuOSA0LjktMi4yIDQuOSA0LjktNC45eiIvPjwvc3ZnPg==&quot; width=&quot;24&quot; height=&quot;24&quot; style=&quot;vertical-align:middle;&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#FEFCE8;strokeColor=#EAB308;strokeWidth=2;startSize=36;rounded=1;arcSize=6;shadow=1;fontFamily=Segoe UI,Arial,sans-serif;" vertex="1" parent="1">
+          <mxGeometry x="170" y="220" width="660" height="280" as="geometry" />
+        </mxCell>
+
+        <!-- Data Ingest & Extraction -->
+        <mxCell id="step_ingest" value="&lt;div align=&quot;center&quot;&gt;&lt;img src=&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjM2IiBoZWlnaHQ9IjM2Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0iIzAyODRDNyIvPjxwYXRoIGQ9Ik0xOCAyMmgyNE0xOCAzMmgxNk0xOCA0MmgyMCIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHBvbHlnb24gcG9pbnRzPSI0NiwzMiAzOCwyNyAzOCwzNyIgZmlsbD0iI0JBRTZGRCIvPjwvc3ZnPg==&quot; width=&quot;36&quot; height=&quot;36&quot; style=&quot;margin-bottom: 4px;&quot;/&gt;&lt;br&gt;&lt;b style=&quot;font-size: 13px; color: #0F172A;&quot;&gt;Data Ingest&lt;br&gt;&amp;amp; Extraction&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0284C7;strokeWidth=1.5;shadow=1;fontFamily=Segoe UI,Arial,sans-serif;arcSize=8;spacing=6;" vertex="1" parent="box_python_engine">
+          <mxGeometry x="40" y="55" width="220" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Data Processing & Validation -->
+        <mxCell id="step_processing" value="&lt;div align=&quot;center&quot;&gt;&lt;img src=&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjM2IiBoZWlnaHQ9IjM2Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0iIzI1NjNFQiIvPjxwYXRoIGQ9Ik0xOCAzM2w5IDkgMTktMTkiIHN0cm9rZT0iIzkzQzVGRCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiLz48L3N2Zz4=&quot; width=&quot;36&quot; height=&quot;36&quot; style=&quot;margin-bottom: 4px;&quot;/&gt;&lt;br&gt;&lt;b style=&quot;font-size: 13px; color: #0F172A;&quot;&gt;Data Processing&lt;br&gt;&amp;amp; Validation&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2563EB;strokeWidth=1.5;shadow=1;fontFamily=Segoe UI,Arial,sans-serif;arcSize=8;spacing=6;" vertex="1" parent="box_python_engine">
+          <mxGeometry x="400" y="55" width="220" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Report Generator (Standardised) -->
+        <mxCell id="step_report_gen" value="&lt;div align=&quot;center&quot;&gt;&lt;img src=&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjM2IiBoZWlnaHQ9IjM2Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0iI0Q5NzcwNiIvPjxyZWN0IHg9IjE0IiB5PSIxNCIgd2lkdGg9IjM2IiBoZWlnaHQ9IjM2IiByeD0iNCIgZmlsbD0iI0ZFRjNDNyIvPjxsaW5lIHgxPSIyMCIgeTE9IjIyIiB4Mj0iMzQiIHkyPSIyMiIgc3Ryb2tlPSIjRDk3NzA2IiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxyZWN0IHg9IjIwIiB5PSIzMCIgd2lkdGg9IjYiIGhlaWdodD0iMTQiIGZpbGw9IiNGNTlFMEIiLz48cmVjdCB4PSIyOSIgeT0iMjYiIHdpZHRoPSI2IiBoZWlnaHQ9IjE4IiBmaWxsPSIjRDk3NzA2Ii8+PHJlY3QgeD0iMzgiIHk9IjM0IiB3aWR0aD0iNiIgaGVpZ2h0PSIxMCIgZmlsbD0iI0I0NTMwOSIvPjwvc3ZnPg==&quot; width=&quot;36&quot; height=&quot;36&quot; style=&quot;margin-bottom: 4px;&quot;/&gt;&lt;br&gt;&lt;b style=&quot;font-size: 13px; color: #0F172A;&quot;&gt;Report Generator&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px; color: #D97706;&quot;&gt;(Standardised)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D97706;strokeWidth=1.5;shadow=1;fontFamily=Segoe UI,Arial,sans-serif;arcSize=8;spacing=6;" vertex="1" parent="box_python_engine">
+          <mxGeometry x="220" y="170" width="220" height="90" as="geometry" />
+        </mxCell>
+
+
+        <!-- ========================================== -->
+        <!-- 3. OUTPUT DESTINATIONS                     -->
+        <!-- ========================================== -->
+
+        <!-- Operational Report Destination (Ops Team Access) -->
+        <mxCell id="dest_reports" value="&lt;div align=&quot;center&quot;&gt;&lt;img src=&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjQyIiBoZWlnaHQ9IjQyIj48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0iIzEwN0M0MSIvPjxyZWN0IHg9IjIyIiB5PSIxNCIgd2lkdGg9IjMyIiBoZWlnaHQ9IjM2IiByeD0iNCIgZmlsbD0iI0ZGRkZGRiIgb3BhY2l0eT0iMC45NSIvPjxsaW5lIHgxPSIyMiIgeTE9IjIzIiB4Mj0iNTQiIHkyPSIyMyIgc3Ryb2tlPSIjMTA3QzQxIiBzdHJva2Utd2lkdGg9IjIiLz48bGluZSB4MT0iMjIiIHkxPSIzMiIgeDI9IjU0IiB5Mj0iMzIiIHN0cm9rZT0iIzEwN0M0MSIgc3Ryb2tlLXdpZHRoPSIyIi8+PGxpbmUgeDE9IjIyIiB5MT0iNDEiIHgyPSI1NCIgeTI9IjQxIiBzdHJva2Utd2lkdGg9IjIiLz48bGluZSB4MT0iMzIiIHkxPSIxNCIgeDI9IjMyIiB5Mj0iNTAiIHN0cm9rZT0iIzEwN0M0MSIgc3Ryb2tlLXdpZHRoPSIyIi8+PGxpbmUgeDE9IjQzIiB5MT0iMTQiIHgyPSI0MyIgeTI9IjUwIiBzdHJva2Utd2lkdGg9IjIiLz48cmVjdCB4PSI4IiB5PSIxOCIgd2lkdGg9IjIyIiBoZWlnaHQ9IjI4IiByeD0iNCIgZmlsbD0iIzBDNTkyRiIvPjx0ZXh0IHg9IjE5IiB5PSIzOCIgZmlsbD0iI0ZGRkZGRiIgZm9udC1mYW1pbHk9IlNlZ29lIFVJLCBBcmlhbCIgZm9udC13ZWlnaHQ9IjkwMCIgZm9udC1zaXplPSIxNiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+WDwvdGV4dD48L3N2Zz4=&quot; width=&quot;42&quot; height=&quot;42&quot; style=&quot;margin-bottom: 4px;&quot;/&gt;&lt;br&gt;&lt;b style=&quot;font-size: 13px; color: #0F172A;&quot;&gt;Operational Report Destination&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px; color: #047857;&quot;&gt;(Ops Team Access)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECFDF5;strokeColor=#10B981;strokeWidth=2;shadow=1;fontFamily=Segoe UI,Arial,sans-serif;arcSize=8;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="170" y="560" width="270" height="110" as="geometry" />
+        </mxCell>
+
+        <!-- Confluence (Documentation, Flows, Guides) -->
+        <mxCell id="dest_confluence" value="&lt;div align=&quot;center&quot;&gt;&lt;img src=&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjQyIiBoZWlnaHQ9IjQyIj48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0iIzAwNTJDQyIvPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0xOS41IDM5LjVjLTMuMi0zLjItMy4yLTguNSAwLTExLjhsNy42LTcuNmMxLjUtMS41IDMuOS0xLjUgNS40IDBsMS4yIDEuMmMxLjUgMS41IDEuNSAzLjkgMCA1LjRsLTYuMSA2LjFjLTEgMS0xIDIuNiAwIDMuNmw3LjMgNy4zYzEuNSAxLjUgMS41IDMuOSAwIDUuNGwtMS4yIDEuMmMtMS41IDEuNS0zLjkgMS41LTUuNCAwbC04LjgtMTAuOHoiLz48cGF0aCBmaWxsPSIjNEM5QUZGIiBkPSJNNDQuNSAyNC41YzMuMiAzLjIgMy4yIDguNSAwIDExLjhsLTcuNiA3LjZjLTEuNSAxLjUtMy45IDEuNS01LjQgMGwtMS4yLTEuMmMtMS41LTEuNS0xLjUtMy45IDAtNS40bDYuMS02LjFjMS0xIDEtMi42IDAtMy42bC03LjMtNy4zYy0xLjUtMS41LTEuNS0zLjkgMC01LjRsMS4yLTEuMmMxLjUtMS41IDMuOS0xLjUgNS40IDBsOC44IDEwLjh6Ii8+PC9zdmc+&quot; width=&quot;42&quot; height=&quot;42&quot; style=&quot;margin-bottom: 4px;&quot;/&gt;&lt;br&gt;&lt;b style=&quot;font-size: 13px; color: #0F172A;&quot;&gt;Confluence&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px; color: #1D4ED8;&quot;&gt;(Documentation, Flows, Guides)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#2563EB;strokeWidth=2;shadow=1;fontFamily=Segoe UI,Arial,sans-serif;arcSize=8;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="560" y="560" width="270" height="110" as="geometry" />
+        </mxCell>
+
+
+        <!-- ========================================== -->
+        <!-- 4. SUPPORTING SDLC LAYER                   -->
+        <!-- ========================================== -->
+        <mxCell id="box_sdlc_layer" value="&lt;b style=&quot;font-size: 13px; letter-spacing: 0.8px; color: #475569;&quot;&gt;[SUPPORTING SDLC DEPLOYMENT &amp;amp; DEVELOPMENT LAYER]&lt;/b&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#94A3B8;strokeWidth=1.5;dashed=1;dashPattern=5 5;startSize=34;rounded=1;arcSize=6;shadow=1;fontFamily=Segoe UI,Arial,sans-serif;" vertex="1" parent="1">
+          <mxGeometry x="170" y="730" width="660" height="180" as="geometry" />
+        </mxCell>
+
+        <!-- GitHub Copilot (Code Gen/Refactoring) with Exact User Logo -->
+        <mxCell id="node_copilot" value="&lt;div align=&quot;center&quot;&gt;&lt;img src=&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNDAgODAiIHdpZHRoPSIxNjAiIGhlaWdodD0iNTQiPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0idGV4dEdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM4Q0U3RkUiIC8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjQkZBM0ZGIiAvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSIyNDAiIGhlaWdodD0iODAiIHJ4PSIxNCIgZmlsbD0iIzJGMjA1QSIvPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE4LCAxNCkiPjxwYXRoIGZpbGw9IiM4Q0U3RkUiIGQ9Ik0yNiAyQzE3IDIgMTEgOCA4IDE2Yy0zIDEtNiA0LTYgOSAwIDUgMyA4IDYgOSAyIDggOCAxNCAxOCAxNHMxNi02IDE4LTE0YzMtMSA2LTQgNi05IDAtNS0zLTgtNi05LTMtOC05LTE0LTE4LTE0eiIvPjxwYXRoIGZpbGw9IiMyRjIwNUEiIGQ9Ik0xMiAyNGgyOHYxMmMwIDUtNCA5LTkgOUgyMWMtNSAwLTktNC05LTlWMjR6Ii8+PHJlY3QgeD0iMjEiIHk9IjI4IiB3aWR0aD0iMy4yIiBoZWlnaHQ9IjgiIHJ4PSIxLjYiIGZpbGw9IiM4Q0U3RkUiLz48cmVjdCB4PSIyOCIgeT0iMjgiIHdpZHRoPSIzLjIiIGhlaWdodD0iOCIgcng9IjEuNiIgZmlsbD0iIzhDRTdGRSIvPjxlbGxpcHNlIGN4PSIxOSIgY3k9IjE2IiByeD0iNi41IiByeT0iNi41IiBmaWxsPSIjMkYyMDVBIi8+PGVsbGlwc2UgY3g9IjMzIiBjeT0iMTYiIHJ4PSI2LjUiIHJ5PSI2LjUiIGZpbGw9IiMyRjIwNUEiLz48ZWxsaXBzZSBjeD0iMTkiIGN5PSIxNiIgcng9IjQuNSIgcnk9IjQuNSIgZmlsbD0iIzhDRTdGRSIvPjxlbGxpcHNlIGN4PSIzMyIgY3k9IjE2IiByeD0iNC41IiByeT0iNC41IiBmaWxsPSIjOENFN0ZFIi8+PHJlY3QgeD0iMjQiIHk9IjE0IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiByeD0iMSIgZmlsbD0iIzJGMjA1QSIvPjwvZz48dGV4dCB4PSI4NCIgeT0iMzgiIGZpbGw9InVybCgjdGV4dEdyYWQpIiBmb250LWZhbWlseT0iU2Vnb2UgVUksIEludGVyLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9IjgwMCIgZm9udC1zaXplPSIyNCIgbGV0dGVyLXNwYWNpbmc9Ii0wLjUiPkdpdEh1YjwvdGV4dD48dGV4dCB4PSI4NCIgeT0iNjQiIGZpbGw9InVybCgjdGV4dEdyYWQpIiBmb250LWZhbWlseT0iU2Vnb2UgVUksIEludGVyLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9IjgwMCIgZm9udC1zaXplPSIyNCIgbGV0dGVyLXNwYWNpbmc9Ii0wLjUiPkNvcGlsb3Q8L3RleHQ+PC9zdmc+&quot; width=&quot;160&quot; height=&quot;54&quot; style=&quot;margin-bottom: 4px;&quot;/&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px; color: #6D28D9; font-weight: 600;&quot;&gt;(Code Gen / Refactoring)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F3FF;strokeColor=#8B5CF6;strokeWidth=1.5;shadow=1;fontFamily=Segoe UI,Arial,sans-serif;arcSize=8;spacing=6;" vertex="1" parent="box_sdlc_layer">
+          <mxGeometry x="35" y="48" width="250" height="105" as="geometry" />
+        </mxCell>
+
+        <!-- Developer / Manual Validator -->
+        <mxCell id="node_developer" value="&lt;div align=&quot;center&quot;&gt;&lt;img src=&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjQyIiBoZWlnaHQ9IjQyIj48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0iIzAzNjlBMSIvPjxjaXJjbGUgY3g9IjMyIiBjeT0iMjIiIHI9IjExIiBmaWxsPSIjQkFFNkZEIi8+PHBhdGggZD0iTTE0IDU0YzAtOS45IDguMS0xOCAxOC0xOHMxOCA4LjEgMTggMTh6IiBmaWxsPSIjQkFFNkZEIi8+PHBhdGggZD0iTTI0IDQ1bC00LTQgNC00TTQwIDQ1bDQtNC00LTQiIHN0cm9rZT0iIzAzNjlBMSIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==&quot; width=&quot;42&quot; height=&quot;42&quot; style=&quot;margin-bottom: 4px;&quot;/&gt;&lt;br&gt;&lt;b style=&quot;font-size: 13px; color: #0F172A;&quot;&gt;Developer /&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px; color: #0284C7;&quot;&gt;Manual Validator&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0F9FF;strokeColor=#0284C7;strokeWidth=1.5;shadow=1;fontFamily=Segoe UI,Arial,sans-serif;arcSize=8;spacing=6;" vertex="1" parent="box_sdlc_layer">
+          <mxGeometry x="380" y="48" width="240" height="105" as="geometry" />
+        </mxCell>
+
+
+        <!-- ========================================== -->
+        <!-- 5. CONNECTORS & DATA FLOW ARROWS          -->
+        <!-- ========================================== -->
+
+        <!-- Data Sources -> Python Script Engine (SQL / CSV / Excel / API Feeds) -->
+        <mxCell id="edge_sources_engine" value="&lt;span style=&quot;background-color:#FFFFFF; padding:4px 10px; border-radius:4px; font-size:11px; font-weight:bold; color:#0369A1; border:1px solid #BAE6FD; box-shadow:0 1px 2px rgba(0,0,0,0.05);&quot;&gt;(SQL / CSV / Excel / API Queries)&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0284C7;strokeWidth=2.5;fontColor=#0369A1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="node_data_sources" target="box_python_engine">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Ingest -> Processing -->
+        <mxCell id="edge_ingest_proc" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3B82F6;strokeWidth=2.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="box_python_engine" source="step_ingest" target="step_processing">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Processing -> Report Generator -->
+        <mxCell id="edge_proc_report" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#D97706;strokeWidth=2.5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="box_python_engine" source="step_processing" target="step_report_gen">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Report Generator -> Destination Branch (Fork to Reports & Confluence) -->
+        <mxCell id="edge_report_to_dest_reports" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10B981;strokeWidth=2.5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="step_report_gen" target="dest_reports">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="530" />
+              <mxPoint x="305" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="edge_report_to_confluence" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=2.5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="step_report_gen" target="dest_confluence">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="530" />
+              <mxPoint x="695" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- GitHub Copilot -> Developer / Manual Validator -->
+        <mxCell id="edge_copilot_to_dev" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#8B5CF6;strokeWidth=2.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="box_sdlc_layer" source="node_copilot" target="node_developer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

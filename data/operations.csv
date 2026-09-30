@@ -1,51 +1,1006 @@
 record_id,employee,team,date,department,status,quantity,target,actual_value,shift,notes
-OPS-001,Rajesh Kumar,Team Alpha,2026-09-01,Manufacturing,Completed,150,140,155,Morning,Exceeded target
-OPS-002,Priya Sharma,Team Beta,2026-09-01,Manufacturing,Completed,120,130,118,Morning,Slightly below target
-OPS-003,Amit Patel,Team Alpha,2026-09-02,Logistics,Completed,200,180,205,Afternoon,Strong performance
-OPS-004,Sneha Reddy,Team Gamma,2026-09-02,Manufacturing,In Progress,90,150,90,Night,Ongoing
-OPS-005,Vikram Singh,Team Beta,2026-09-03,Quality Control,Completed,50,50,52,Morning,On target
-OPS-006,Anita Desai,Team Alpha,2026-09-03,Logistics,Failed,30,100,30,Afternoon,Equipment failure
-OPS-007,Ravi Menon,Team Gamma,2026-09-04,Manufacturing,Completed,175,160,178,Morning,Good output
-OPS-008,Kavita Nair,Team Beta,2026-09-04,Quality Control,Completed,60,55,63,Afternoon,Above target
-OPS-009,Suresh Iyer,Team Alpha,2026-09-05,Logistics,Completed,180,170,182,Morning,Steady performance
-OPS-010,Deepa Joshi,Team Gamma,2026-09-05,Manufacturing,In Progress,100,140,100,Night,Shift ongoing
-OPS-011,Manoj Tiwari,Team Beta,2026-09-06,Manufacturing,Completed,145,140,148,Morning,Target met
-OPS-012,Pooja Gupta,Team Alpha,2026-09-06,Logistics,Completed,190,185,192,Afternoon,Consistent
-OPS-013,Arjun Rao,Team Gamma,2026-09-07,Quality Control,Failed,20,50,20,Morning,Material shortage
-OPS-014,Meera Pillai,Team Beta,2026-09-07,Manufacturing,Completed,160,155,165,Afternoon,On track
-OPS-015,Kiran Das,Team Alpha,2026-09-08,Logistics,Completed,170,160,175,Morning,Ahead of schedule
-OPS-016,Neha Agarwal,Team Gamma,2026-09-08,Manufacturing,Completed,130,130,132,Night,Target achieved
-OPS-017,Sanjay Verma,Team Beta,2026-09-09,Quality Control,Completed,45,50,47,Morning,Close to target
-OPS-018,Lakshmi Bhat,Team Alpha,2026-09-09,Logistics,In Progress,80,180,80,Afternoon,In transit
-OPS-019,Rahul Mishra,Team Gamma,2026-09-10,Manufacturing,Completed,155,150,158,Morning,Solid day
-OPS-020,Divya Saxena,Team Beta,2026-09-10,Manufacturing,Completed,140,135,143,Afternoon,Above target
-OPS-021,Ramesh Pandey,Team Alpha,2026-09-11,Logistics,Completed,195,190,198,Morning,Best day this week
-OPS-022,Swati Kulkarni,Team Gamma,2026-09-11,Quality Control,Completed,55,50,57,Night,Exceeded
-OPS-023,Ashok Mehta,Team Beta,2026-09-12,Manufacturing,Failed,40,150,40,Morning,Power outage
-OPS-024,Geeta Yadav,Team Alpha,2026-09-12,Logistics,Completed,185,180,188,Afternoon,On schedule
-OPS-025,Vijay Chauhan,Team Gamma,2026-09-13,Manufacturing,Completed,165,160,168,Morning,Good day
-OPS-026,Sunita Jain,Team Beta,2026-09-13,Quality Control,Completed,48,50,49,Afternoon,Nearly there
-OPS-027,Prakash Sinha,Team Alpha,2026-09-14,Logistics,Completed,175,170,179,Morning,Consistent
-OPS-028,Rina Dutta,Team Gamma,2026-09-14,Manufacturing,In Progress,110,145,110,Night,Still running
-OPS-029,Tarun Bose,Team Beta,2026-09-15,Manufacturing,Completed,150,145,153,Morning,Good output
-OPS-030,Jaya Krishnan,Team Alpha,2026-09-15,Logistics,Completed,200,190,205,Afternoon,Excellent
-OPS-031,Nitin Sharma,Team Gamma,2026-09-16,Quality Control,Completed,52,50,54,Morning,Above target
-OPS-032,Pallavi Rao,Team Beta,2026-09-16,Manufacturing,Completed,135,130,138,Afternoon,Smooth run
-OPS-033,Anil Kapoor,Team Alpha,2026-09-17,Logistics,Failed,50,180,50,Morning,Vehicle breakdown
-OPS-034,Rekha Singh,Team Gamma,2026-09-17,Manufacturing,Completed,170,165,173,Night,Night shift output
-OPS-035,Gaurav Dubey,Team Beta,2026-09-18,Manufacturing,Completed,148,140,151,Morning,Target exceeded
-OPS-036,Shalini Nair,Team Alpha,2026-09-18,Logistics,Completed,188,185,191,Afternoon,On track
-OPS-037,Mohan Lal,Team Gamma,2026-09-19,Quality Control,Completed,47,50,48,Morning,Close
-OPS-038,Usha Patil,Team Beta,2026-09-19,Manufacturing,In Progress,95,150,95,Afternoon,Delayed start
-OPS-039,Dinesh Goyal,Team Alpha,2026-09-20,Logistics,Completed,178,175,181,Morning,Reliable
-OPS-040,Bhavna Thakur,Team Gamma,2026-09-20,Manufacturing,Completed,160,155,163,Night,Good shift
-OPS-041,Sunil Malhotra,Team Beta,2026-09-21,Manufacturing,Completed,142,140,145,Morning,Target met
-OPS-042,Aarti Chandra,Team Alpha,2026-09-21,Logistics,Completed,192,185,196,Afternoon,Strong finish
-OPS-043,Pankaj Misra,Team Gamma,2026-09-22,Quality Control,Completed,53,50,55,Morning,Solid
-OPS-044,Vandana Rana,Team Beta,2026-09-22,Manufacturing,Failed,35,150,35,Afternoon,Raw material issue
-OPS-045,Harish Bhatia,Team Alpha,2026-09-23,Logistics,Completed,183,180,186,Morning,Consistent
-OPS-046,Alka Pandey,Team Gamma,2026-09-23,Manufacturing,Completed,155,150,158,Night,Smooth
-OPS-047,Naveen Joshi,Team Beta,2026-09-24,Manufacturing,Completed,147,145,150,Morning,Good
-OPS-048,Seema Rani,Team Alpha,2026-09-24,Logistics,In Progress,130,190,130,Afternoon,Partial completion
-OPS-049,Yogesh Puri,Team Gamma,2026-09-25,Quality Control,Completed,50,50,51,Morning,On target
-OPS-050,Rashmi Tomar,Team Beta,2026-09-25,Manufacturing,Completed,138,135,141,Afternoon,Clean run
+OPS-0001,Ramesh Pandey,Team Alpha,2026-09-01,Quality Control,Completed,87,85.0,97.3,Night,Standard operations
+OPS-0002,Geeta Yadav,Team Gamma,2026-09-03,Quality Control,Completed,37,73.0,68.4,Night,Standard operations
+OPS-0003,Divya Saxena,Team Alpha,2026-09-18,Manufacturing,Completed,169,157.0,147.3,Night,Standard operations
+OPS-0004,Suresh Iyer,Team Alpha,2026-09-25,Manufacturing,Completed,117,121.0,110.4,Afternoon,Standard operations
+OPS-0005,Sneha Reddy,Team Alpha,2026-09-13,Manufacturing,Completed,118,117.0,137.2,Night,Standard operations
+OPS-0006,Kiran Das,Team Gamma,2026-09-04,Logistics,Completed,105,142.0,153.5,Night,Standard operations
+OPS-0007,Amit Patel,Team Alpha,2026-09-22,Manufacturing,Completed,50,109.0,130.4,Afternoon,Standard operations
+OPS-0008,Suresh Iyer,Team Beta,2026-09-21,Logistics,Completed,120,103.0,115.2,Night,Standard operations
+OPS-0009,Sunita Sharma,Team Gamma,2026-09-21,Manufacturing,Completed,73,186.0,212.3,Morning,Standard operations
+OPS-0010,Kiran Das,Team Beta,2026-09-09,Quality Control,Completed,86,133.0,157.9,Morning,Standard operations
+OPS-0011,Kavita Nair,Team Alpha,2026-09-26,Logistics,Completed,46,104.0,126.4,Night,Standard operations
+OPS-0012,Alok Kumar,Team Gamma,2026-09-11,Manufacturing,Completed,131,167.0,151.5,Morning,Standard operations
+OPS-0013,Kavita Nair,Team Gamma,2026-09-18,Quality Control,Completed,179,159.0,192.3,Afternoon,Standard operations
+OPS-0014,Pooja Gupta,Team Alpha,2026-09-05,Quality Control,Completed,42,78.0,71.1,Morning,Standard operations
+OPS-0015,Anjali Singh,Team Gamma,2026-09-14,Quality Control,Completed,127,169.0,179.4,Night,Standard operations
+OPS-0016,Bhavna Patel,Team Alpha,2026-09-22,Quality Control,Completed,167,118.0,136.6,Afternoon,Standard operations
+OPS-0017,Sneha Reddy,Team Beta,2026-09-14,Manufacturing,Completed,97,178.0,205.6,Night,Standard operations
+OPS-0018,Sunita Sharma,Team Alpha,2026-09-28,Quality Control,Completed,193,179.0,195.8,Morning,Standard operations
+OPS-0019,Pooja Gupta,Team Alpha,2026-09-18,Quality Control,Failed,183,132.0,29.3,Morning,Standard operations
+OPS-0020,Sunita Sharma,Team Beta,2026-09-29,Logistics,Completed,91,195.0,239.6,Morning,Standard operations
+OPS-0021,Geeta Yadav,Team Beta,2026-09-27,Manufacturing,Failed,166,82.0,10.8,Afternoon,Standard operations
+OPS-0022,Lakshmi Bhat,Team Alpha,2026-09-09,Quality Control,In Progress,138,104.0,70.6,Night,Standard operations
+OPS-0023,Ashok Mehta,Team Alpha,2026-09-23,Logistics,Completed,196,145.0,148.7,Night,Standard operations
+OPS-0024,Kiran Das,Team Alpha,2026-09-08,Manufacturing,Completed,35,200.0,214.3,Night,Standard operations
+OPS-0025,Kavita Nair,Team Alpha,2026-09-03,Quality Control,Completed,88,67.0,81.2,Afternoon,Standard operations
+OPS-0026,Amit Patel,Team Gamma,2026-09-08,Logistics,Completed,84,188.0,169.7,Night,Standard operations
+OPS-0027,Rahul Mishra,Team Beta,2026-09-08,Logistics,In Progress,78,74.0,31.8,Afternoon,Standard operations
+OPS-0028,Pooja Gupta,Team Beta,2026-09-14,Logistics,In Progress,43,75.0,31.4,Night,Standard operations
+OPS-0029,Manoj Tiwari,Team Alpha,2026-09-08,Manufacturing,Completed,144,85.0,86.6,Afternoon,Standard operations
+OPS-0030,Kiran Das,Team Alpha,2026-09-28,Manufacturing,Completed,170,75.0,65.3,Night,Standard operations
+OPS-0031,Siddharth Rao,Team Alpha,2026-09-03,Manufacturing,Completed,154,173.0,161.8,Afternoon,Standard operations
+OPS-0032,Alok Kumar,Team Alpha,2026-09-06,Logistics,Completed,129,117.0,142.8,Afternoon,Standard operations
+OPS-0033,Deepa Joshi,Team Beta,2026-09-23,Quality Control,Failed,172,174.0,24.1,Afternoon,Standard operations
+OPS-0034,Ravi Menon,Team Alpha,2026-09-19,Quality Control,Completed,110,64.0,55.7,Afternoon,Standard operations
+OPS-0035,Sanjay Verma,Team Gamma,2026-09-06,Manufacturing,Failed,50,97.0,11.4,Morning,Standard operations
+OPS-0036,Swati Kulkarni,Team Alpha,2026-09-13,Manufacturing,Failed,175,113.0,27.7,Morning,Standard operations
+OPS-0037,Divya Saxena,Team Alpha,2026-09-14,Quality Control,Completed,163,130.0,159.1,Morning,Standard operations
+OPS-0038,Swati Kulkarni,Team Gamma,2026-09-11,Manufacturing,Completed,63,126.0,130.1,Morning,Standard operations
+OPS-0039,Rajesh Kumar,Team Beta,2026-09-20,Quality Control,Failed,48,187.0,28.7,Afternoon,Standard operations
+OPS-0040,Vikram Singh,Team Beta,2026-09-29,Manufacturing,In Progress,124,122.0,54.6,Night,Standard operations
+OPS-0041,Ashok Mehta,Team Beta,2026-09-20,Quality Control,Completed,200,191.0,185.2,Night,Standard operations
+OPS-0042,Sneha Reddy,Team Alpha,2026-09-09,Manufacturing,In Progress,171,89.0,42.9,Night,Standard operations
+OPS-0043,Ravi Menon,Team Gamma,2026-09-11,Manufacturing,Completed,97,179.0,187.1,Morning,Standard operations
+OPS-0044,Amit Patel,Team Gamma,2026-09-14,Logistics,Completed,115,83.0,91.7,Afternoon,Standard operations
+OPS-0045,Anita Desai,Team Gamma,2026-09-15,Quality Control,Completed,173,52.0,46.5,Night,Standard operations
+OPS-0046,Alok Kumar,Team Alpha,2026-09-18,Manufacturing,In Progress,179,191.0,84.9,Morning,Standard operations
+OPS-0047,Priya Sharma,Team Beta,2026-09-12,Manufacturing,In Progress,83,113.0,67.8,Afternoon,Standard operations
+OPS-0048,Tarun Kapoor,Team Gamma,2026-09-29,Logistics,Failed,69,110.0,34.8,Morning,Standard operations
+OPS-0049,Alok Kumar,Team Beta,2026-09-01,Manufacturing,Completed,115,155.0,181.5,Night,Standard operations
+OPS-0050,Anjali Singh,Team Alpha,2026-09-09,Manufacturing,In Progress,57,147.0,97.3,Afternoon,Standard operations
+OPS-0051,Kavita Nair,Team Alpha,2026-09-27,Logistics,Completed,88,107.0,92.0,Morning,Standard operations
+OPS-0052,Arjun Rao,Team Beta,2026-09-09,Manufacturing,Failed,101,139.0,36.2,Afternoon,Standard operations
+OPS-0053,Swati Kulkarni,Team Gamma,2026-09-11,Manufacturing,Completed,96,95.0,102.8,Afternoon,Standard operations
+OPS-0054,Priya Sharma,Team Alpha,2026-09-20,Logistics,Completed,110,161.0,175.9,Night,Standard operations
+OPS-0055,Sneha Reddy,Team Beta,2026-09-29,Quality Control,Completed,41,161.0,137.0,Night,Standard operations
+OPS-0056,Swati Kulkarni,Team Gamma,2026-09-24,Quality Control,Completed,123,160.0,140.5,Night,Standard operations
+OPS-0057,Sunita Sharma,Team Beta,2026-09-20,Logistics,Completed,61,126.0,132.7,Night,Standard operations
+OPS-0058,Meera Pillai,Team Beta,2026-09-13,Quality Control,Completed,62,99.0,100.8,Afternoon,Standard operations
+OPS-0059,Swati Kulkarni,Team Gamma,2026-09-29,Manufacturing,Completed,107,153.0,163.6,Morning,Standard operations
+OPS-0060,Deepa Joshi,Team Beta,2026-09-07,Logistics,In Progress,185,132.0,71.2,Afternoon,Standard operations
+OPS-0061,Swati Kulkarni,Team Alpha,2026-09-17,Logistics,In Progress,73,71.0,34.4,Night,Standard operations
+OPS-0062,Ramesh Pandey,Team Gamma,2026-09-11,Manufacturing,In Progress,90,129.0,60.3,Morning,Standard operations
+OPS-0063,Vikram Singh,Team Alpha,2026-09-02,Manufacturing,Failed,186,68.0,14.5,Night,Standard operations
+OPS-0064,Rahul Mishra,Team Alpha,2026-09-23,Quality Control,Completed,132,112.0,101.8,Night,Standard operations
+OPS-0065,Rajesh Kumar,Team Alpha,2026-09-25,Logistics,Completed,162,168.0,146.2,Morning,Standard operations
+OPS-0066,Sunita Sharma,Team Alpha,2026-09-15,Manufacturing,In Progress,200,185.0,128.8,Night,Standard operations
+OPS-0067,Manoj Tiwari,Team Beta,2026-09-20,Quality Control,In Progress,139,190.0,101.4,Morning,Standard operations
+OPS-0068,Geeta Yadav,Team Beta,2026-09-15,Logistics,Completed,193,120.0,138.8,Night,Standard operations
+OPS-0069,Neha Agarwal,Team Gamma,2026-09-08,Logistics,Completed,103,110.0,105.5,Afternoon,Standard operations
+OPS-0070,Alok Kumar,Team Gamma,2026-09-03,Manufacturing,Completed,128,89.0,100.8,Morning,Standard operations
+OPS-0071,Meera Pillai,Team Beta,2026-09-11,Quality Control,Completed,45,102.0,120.7,Afternoon,Standard operations
+OPS-0072,Alok Kumar,Team Gamma,2026-09-23,Manufacturing,In Progress,177,147.0,79.8,Afternoon,Standard operations
+OPS-0073,Deepa Joshi,Team Beta,2026-09-28,Logistics,Completed,169,106.0,110.8,Afternoon,Standard operations
+OPS-0074,Meera Pillai,Team Beta,2026-09-01,Logistics,Completed,133,92.0,109.1,Morning,Standard operations
+OPS-0075,Divya Saxena,Team Gamma,2026-09-01,Logistics,Completed,199,56.0,49.5,Afternoon,Standard operations
+OPS-0076,Vikram Singh,Team Beta,2026-09-06,Manufacturing,Completed,113,104.0,107.3,Afternoon,Standard operations
+OPS-0077,Tarun Kapoor,Team Beta,2026-09-09,Logistics,Completed,50,170.0,145.8,Night,Standard operations
+OPS-0078,Priya Sharma,Team Beta,2026-09-08,Quality Control,Completed,196,60.0,69.1,Morning,Standard operations
+OPS-0079,Ravi Menon,Team Alpha,2026-09-20,Manufacturing,Completed,151,79.0,85.0,Morning,Standard operations
+OPS-0080,Kiran Das,Team Gamma,2026-09-09,Logistics,Completed,185,79.0,91.7,Morning,Standard operations
+OPS-0081,Deepa Joshi,Team Alpha,2026-09-19,Manufacturing,Failed,177,146.0,29.1,Night,Standard operations
+OPS-0082,Ravi Menon,Team Alpha,2026-09-19,Quality Control,In Progress,92,76.0,46.3,Afternoon,Standard operations
+OPS-0083,Bhavna Patel,Team Gamma,2026-09-20,Manufacturing,In Progress,174,60.0,30.2,Afternoon,Standard operations
+OPS-0084,Swati Kulkarni,Team Beta,2026-09-03,Quality Control,Completed,33,157.0,185.1,Morning,Standard operations
+OPS-0085,Meera Pillai,Team Beta,2026-09-21,Logistics,Completed,141,95.0,108.6,Night,Standard operations
+OPS-0086,Suresh Iyer,Team Gamma,2026-09-26,Quality Control,Completed,149,161.0,190.0,Night,Standard operations
+OPS-0087,Suresh Iyer,Team Beta,2026-09-28,Manufacturing,In Progress,52,121.0,80.4,Morning,Standard operations
+OPS-0088,Tarun Kapoor,Team Beta,2026-09-19,Quality Control,Completed,116,57.0,59.7,Afternoon,Standard operations
+OPS-0089,Anita Desai,Team Beta,2026-09-07,Logistics,In Progress,117,121.0,80.4,Night,Standard operations
+OPS-0090,Alok Kumar,Team Beta,2026-09-18,Manufacturing,Completed,78,71.0,67.2,Afternoon,Standard operations
+OPS-0091,Neha Agarwal,Team Gamma,2026-09-25,Manufacturing,Completed,195,175.0,180.1,Morning,Standard operations
+OPS-0092,Amit Patel,Team Beta,2026-09-08,Logistics,Completed,108,198.0,197.5,Night,Standard operations
+OPS-0093,Sanjay Verma,Team Beta,2026-09-14,Quality Control,Completed,120,166.0,159.1,Afternoon,Standard operations
+OPS-0094,Kavita Nair,Team Alpha,2026-09-24,Manufacturing,Completed,167,97.0,89.9,Night,Standard operations
+OPS-0095,Neha Agarwal,Team Beta,2026-09-24,Quality Control,Failed,164,122.0,42.1,Morning,Standard operations
+OPS-0096,Deepa Joshi,Team Alpha,2026-09-12,Manufacturing,Completed,166,82.0,78.7,Morning,Standard operations
+OPS-0097,Lakshmi Bhat,Team Beta,2026-09-23,Manufacturing,Completed,155,76.0,91.1,Night,Standard operations
+OPS-0098,Deepa Joshi,Team Beta,2026-09-16,Logistics,Completed,43,114.0,139.8,Afternoon,Standard operations
+OPS-0099,Sneha Reddy,Team Alpha,2026-09-13,Logistics,Completed,191,63.0,57.4,Night,Standard operations
+OPS-0100,Deepa Joshi,Team Alpha,2026-09-08,Manufacturing,Completed,136,107.0,124.1,Afternoon,Standard operations
+OPS-0101,Kiran Das,Team Beta,2026-09-10,Quality Control,Failed,108,195.0,49.8,Night,Standard operations
+OPS-0102,Geeta Yadav,Team Alpha,2026-09-25,Manufacturing,Completed,97,70.0,63.9,Morning,Standard operations
+OPS-0103,Lakshmi Bhat,Team Alpha,2026-09-06,Manufacturing,Completed,182,170.0,164.3,Morning,Standard operations
+OPS-0104,Deepa Joshi,Team Gamma,2026-09-10,Quality Control,In Progress,48,109.0,73.8,Night,Standard operations
+OPS-0105,Rahul Mishra,Team Gamma,2026-09-26,Manufacturing,Completed,169,107.0,118.7,Afternoon,Standard operations
+OPS-0106,Siddharth Rao,Team Alpha,2026-09-03,Manufacturing,Completed,108,195.0,237.6,Afternoon,Standard operations
+OPS-0107,Sneha Reddy,Team Beta,2026-09-23,Logistics,Completed,99,178.0,189.7,Afternoon,Standard operations
+OPS-0108,Amit Patel,Team Gamma,2026-09-02,Logistics,Completed,184,114.0,98.1,Morning,Standard operations
+OPS-0109,Swati Kulkarni,Team Gamma,2026-09-19,Manufacturing,Failed,98,197.0,21.7,Morning,Standard operations
+OPS-0110,Neha Agarwal,Team Gamma,2026-09-21,Logistics,Failed,76,199.0,41.6,Afternoon,Standard operations
+OPS-0111,Amit Patel,Team Beta,2026-09-12,Logistics,Completed,56,91.0,89.4,Night,Standard operations
+OPS-0112,Neha Agarwal,Team Beta,2026-09-22,Logistics,In Progress,170,59.0,31.7,Afternoon,Standard operations
+OPS-0113,Suresh Iyer,Team Beta,2026-09-04,Logistics,In Progress,30,188.0,101.3,Morning,Standard operations
+OPS-0114,Ravi Menon,Team Gamma,2026-09-12,Quality Control,Completed,190,163.0,188.1,Morning,Standard operations
+OPS-0115,Suresh Iyer,Team Gamma,2026-09-05,Logistics,Completed,154,81.0,69.8,Night,Standard operations
+OPS-0116,Divya Saxena,Team Alpha,2026-09-23,Manufacturing,Completed,33,191.0,193.5,Morning,Standard operations
+OPS-0117,Siddharth Rao,Team Alpha,2026-09-15,Manufacturing,Completed,69,177.0,216.5,Afternoon,Standard operations
+OPS-0118,Sanjay Verma,Team Gamma,2026-09-09,Logistics,In Progress,150,112.0,60.1,Morning,Standard operations
+OPS-0119,Arjun Rao,Team Alpha,2026-09-30,Quality Control,Completed,64,67.0,64.4,Afternoon,Standard operations
+OPS-0120,Manoj Tiwari,Team Gamma,2026-09-09,Manufacturing,Completed,106,200.0,216.4,Night,Standard operations
+OPS-0121,Neha Agarwal,Team Alpha,2026-09-15,Quality Control,Completed,115,191.0,220.6,Afternoon,Standard operations
+OPS-0122,Kiran Das,Team Beta,2026-09-28,Manufacturing,Failed,91,196.0,38.4,Afternoon,Standard operations
+OPS-0123,Priya Sharma,Team Beta,2026-09-24,Logistics,Completed,127,148.0,184.3,Night,Standard operations
+OPS-0124,Vikram Singh,Team Beta,2026-09-02,Manufacturing,Completed,181,134.0,160.5,Afternoon,Standard operations
+OPS-0125,Sneha Reddy,Team Gamma,2026-09-30,Logistics,Completed,66,154.0,184.5,Morning,Standard operations
+OPS-0126,Amit Patel,Team Beta,2026-09-26,Logistics,Completed,131,70.0,83.3,Night,Standard operations
+OPS-0127,Bhavna Patel,Team Gamma,2026-09-13,Logistics,Completed,154,188.0,162.5,Morning,Standard operations
+OPS-0128,Kavita Nair,Team Gamma,2026-09-22,Logistics,Failed,53,161.0,55.5,Night,Standard operations
+OPS-0129,Ashok Mehta,Team Alpha,2026-09-15,Manufacturing,Completed,37,61.0,59.8,Morning,Standard operations
+OPS-0130,Deepa Joshi,Team Beta,2026-09-12,Logistics,Completed,165,155.0,166.8,Morning,Standard operations
+OPS-0131,Anita Desai,Team Alpha,2026-09-03,Quality Control,In Progress,188,111.0,61.0,Night,Standard operations
+OPS-0132,Vikram Singh,Team Alpha,2026-09-15,Quality Control,Completed,95,52.0,62.9,Afternoon,Standard operations
+OPS-0133,Alok Kumar,Team Beta,2026-09-22,Quality Control,Completed,143,138.0,171.8,Afternoon,Standard operations
+OPS-0134,Ramesh Pandey,Team Beta,2026-09-23,Logistics,Completed,107,100.0,125.0,Afternoon,Standard operations
+OPS-0135,Sneha Reddy,Team Alpha,2026-09-13,Quality Control,Completed,105,125.0,107.3,Night,Standard operations
+OPS-0136,Arjun Rao,Team Beta,2026-09-01,Quality Control,In Progress,42,177.0,115.0,Afternoon,Standard operations
+OPS-0137,Tarun Kapoor,Team Alpha,2026-09-20,Logistics,Completed,78,114.0,127.8,Night,Standard operations
+OPS-0138,Tarun Kapoor,Team Gamma,2026-09-22,Manufacturing,Completed,190,60.0,58.4,Afternoon,Standard operations
+OPS-0139,Priya Sharma,Team Gamma,2026-09-12,Quality Control,Completed,105,133.0,152.8,Morning,Standard operations
+OPS-0140,Ravi Menon,Team Alpha,2026-09-26,Quality Control,In Progress,123,185.0,101.8,Afternoon,Standard operations
+OPS-0141,Siddharth Rao,Team Alpha,2026-09-09,Logistics,Failed,105,136.0,40.9,Afternoon,Standard operations
+OPS-0142,Amit Patel,Team Alpha,2026-09-25,Manufacturing,In Progress,131,192.0,97.9,Afternoon,Standard operations
+OPS-0143,Rajesh Kumar,Team Beta,2026-09-18,Manufacturing,Completed,97,199.0,199.5,Night,Standard operations
+OPS-0144,Pooja Gupta,Team Alpha,2026-09-22,Manufacturing,Completed,188,193.0,189.4,Night,Standard operations
+OPS-0145,Kavita Nair,Team Gamma,2026-09-03,Quality Control,In Progress,107,154.0,67.0,Morning,Standard operations
+OPS-0146,Priya Sharma,Team Beta,2026-09-16,Manufacturing,Completed,167,84.0,84.5,Afternoon,Standard operations
+OPS-0147,Swati Kulkarni,Team Gamma,2026-09-23,Quality Control,Completed,69,156.0,173.5,Afternoon,Standard operations
+OPS-0148,Divya Saxena,Team Beta,2026-09-09,Manufacturing,Completed,85,163.0,167.5,Morning,Standard operations
+OPS-0149,Bhavna Patel,Team Beta,2026-09-04,Quality Control,Completed,195,141.0,123.3,Afternoon,Standard operations
+OPS-0150,Ravi Menon,Team Alpha,2026-09-28,Logistics,Completed,84,55.0,47.9,Afternoon,Standard operations
+OPS-0151,Kavita Nair,Team Alpha,2026-09-26,Quality Control,Completed,171,103.0,111.7,Morning,Standard operations
+OPS-0152,Manoj Tiwari,Team Alpha,2026-09-26,Quality Control,Completed,67,83.0,88.5,Morning,Standard operations
+OPS-0153,Sneha Reddy,Team Gamma,2026-09-28,Manufacturing,Completed,121,110.0,119.4,Morning,Standard operations
+OPS-0154,Anita Desai,Team Beta,2026-09-02,Manufacturing,Completed,164,79.0,90.7,Afternoon,Standard operations
+OPS-0155,Kiran Das,Team Beta,2026-09-17,Quality Control,Completed,158,106.0,130.2,Morning,Standard operations
+OPS-0156,Geeta Yadav,Team Gamma,2026-09-17,Logistics,Completed,37,65.0,81.2,Afternoon,Standard operations
+OPS-0157,Meera Pillai,Team Gamma,2026-09-04,Logistics,Completed,143,68.0,82.3,Afternoon,Standard operations
+OPS-0158,Divya Saxena,Team Alpha,2026-09-03,Manufacturing,Completed,192,199.0,212.8,Afternoon,Standard operations
+OPS-0159,Arjun Rao,Team Gamma,2026-09-17,Logistics,Completed,184,160.0,142.3,Night,Standard operations
+OPS-0160,Sneha Reddy,Team Gamma,2026-09-21,Quality Control,Completed,85,160.0,164.9,Morning,Standard operations
+OPS-0161,Meera Pillai,Team Beta,2026-09-27,Logistics,Completed,54,130.0,132.7,Night,Standard operations
+OPS-0162,Suresh Iyer,Team Beta,2026-09-05,Quality Control,Failed,47,73.0,22.5,Morning,Standard operations
+OPS-0163,Meera Pillai,Team Alpha,2026-09-24,Quality Control,Completed,63,192.0,167.8,Night,Standard operations
+OPS-0164,Lakshmi Bhat,Team Beta,2026-09-22,Manufacturing,Completed,200,158.0,189.2,Night,Standard operations
+OPS-0165,Priya Sharma,Team Beta,2026-09-20,Logistics,Completed,177,179.0,167.4,Night,Standard operations
+OPS-0166,Neha Agarwal,Team Alpha,2026-09-28,Manufacturing,Completed,172,144.0,129.0,Afternoon,Standard operations
+OPS-0167,Rahul Mishra,Team Alpha,2026-09-26,Logistics,In Progress,189,192.0,78.3,Night,Standard operations
+OPS-0168,Siddharth Rao,Team Gamma,2026-09-09,Manufacturing,Completed,109,136.0,134.7,Morning,Standard operations
+OPS-0169,Bhavna Patel,Team Alpha,2026-09-19,Quality Control,Completed,66,57.0,50.5,Night,Standard operations
+OPS-0170,Ravi Menon,Team Beta,2026-09-14,Logistics,Completed,124,129.0,146.9,Night,Standard operations
+OPS-0171,Divya Saxena,Team Alpha,2026-09-29,Manufacturing,Completed,188,62.0,69.4,Afternoon,Standard operations
+OPS-0172,Kiran Das,Team Gamma,2026-09-14,Logistics,Completed,136,119.0,111.4,Night,Standard operations
+OPS-0173,Sneha Reddy,Team Beta,2026-09-14,Manufacturing,Completed,181,174.0,184.6,Afternoon,Standard operations
+OPS-0174,Priya Sharma,Team Alpha,2026-09-13,Quality Control,Completed,82,127.0,156.0,Morning,Standard operations
+OPS-0175,Tarun Kapoor,Team Beta,2026-09-10,Logistics,Completed,157,160.0,147.2,Afternoon,Standard operations
+OPS-0176,Lakshmi Bhat,Team Gamma,2026-09-08,Quality Control,Completed,120,68.0,68.6,Night,Standard operations
+OPS-0177,Priya Sharma,Team Beta,2026-09-01,Logistics,Failed,110,197.0,40.8,Afternoon,Standard operations
+OPS-0178,Ashok Mehta,Team Gamma,2026-09-14,Logistics,Completed,35,133.0,122.2,Night,Standard operations
+OPS-0179,Kiran Das,Team Gamma,2026-09-30,Logistics,Completed,57,112.0,114.7,Afternoon,Standard operations
+OPS-0180,Sanjay Verma,Team Alpha,2026-09-13,Logistics,Completed,86,135.0,156.8,Morning,Standard operations
+OPS-0181,Sanjay Verma,Team Gamma,2026-09-04,Quality Control,Completed,119,139.0,158.6,Night,Standard operations
+OPS-0182,Siddharth Rao,Team Alpha,2026-09-08,Manufacturing,Completed,80,94.0,102.6,Night,Standard operations
+OPS-0183,Amit Patel,Team Alpha,2026-09-25,Quality Control,Completed,174,198.0,203.9,Night,Standard operations
+OPS-0184,Ramesh Pandey,Team Gamma,2026-09-20,Logistics,In Progress,190,130.0,57.9,Morning,Standard operations
+OPS-0185,Neha Agarwal,Team Beta,2026-09-21,Logistics,In Progress,181,64.0,32.4,Morning,Standard operations
+OPS-0186,Deepa Joshi,Team Beta,2026-09-15,Manufacturing,Completed,103,69.0,76.4,Morning,Standard operations
+OPS-0187,Divya Saxena,Team Gamma,2026-09-17,Logistics,Completed,171,60.0,61.8,Night,Standard operations
+OPS-0188,Ramesh Pandey,Team Alpha,2026-09-11,Quality Control,Completed,68,65.0,67.0,Afternoon,Standard operations
+OPS-0189,Ashok Mehta,Team Alpha,2026-09-17,Quality Control,Completed,93,162.0,201.9,Night,Standard operations
+OPS-0190,Sanjay Verma,Team Gamma,2026-09-06,Logistics,Completed,102,149.0,151.0,Afternoon,Standard operations
+OPS-0191,Swati Kulkarni,Team Gamma,2026-09-02,Quality Control,Completed,46,134.0,119.0,Night,Standard operations
+OPS-0192,Arjun Rao,Team Beta,2026-09-09,Quality Control,In Progress,184,88.0,44.0,Night,Standard operations
+OPS-0193,Swati Kulkarni,Team Alpha,2026-09-30,Logistics,Completed,197,150.0,135.2,Night,Standard operations
+OPS-0194,Amit Patel,Team Beta,2026-09-18,Logistics,Completed,114,82.0,91.7,Night,Standard operations
+OPS-0195,Swati Kulkarni,Team Gamma,2026-09-03,Quality Control,Completed,160,142.0,121.7,Afternoon,Standard operations
+OPS-0196,Anita Desai,Team Alpha,2026-09-11,Logistics,Completed,65,89.0,78.4,Morning,Standard operations
+OPS-0197,Sanjay Verma,Team Gamma,2026-09-27,Quality Control,In Progress,39,136.0,90.2,Night,Standard operations
+OPS-0198,Vikram Singh,Team Gamma,2026-09-13,Manufacturing,Completed,189,92.0,104.7,Morning,Standard operations
+OPS-0199,Meera Pillai,Team Beta,2026-09-22,Quality Control,Completed,143,122.0,140.4,Afternoon,Standard operations
+OPS-0200,Kavita Nair,Team Gamma,2026-09-08,Logistics,Failed,150,99.0,19.0,Night,Standard operations
+OPS-0201,Kiran Das,Team Beta,2026-09-25,Logistics,Completed,158,185.0,188.2,Morning,Standard operations
+OPS-0202,Siddharth Rao,Team Alpha,2026-09-26,Quality Control,Completed,94,63.0,69.7,Afternoon,Standard operations
+OPS-0203,Lakshmi Bhat,Team Alpha,2026-09-23,Quality Control,In Progress,102,71.0,44.7,Afternoon,Standard operations
+OPS-0204,Kiran Das,Team Gamma,2026-09-05,Logistics,Completed,86,165.0,198.6,Morning,Standard operations
+OPS-0205,Meera Pillai,Team Alpha,2026-09-13,Quality Control,Completed,128,70.0,70.0,Morning,Standard operations
+OPS-0206,Manoj Tiwari,Team Alpha,2026-09-27,Quality Control,Completed,67,85.0,73.6,Afternoon,Standard operations
+OPS-0207,Ashok Mehta,Team Alpha,2026-09-25,Quality Control,Completed,187,51.0,61.8,Morning,Standard operations
+OPS-0208,Suresh Iyer,Team Alpha,2026-09-27,Manufacturing,Completed,185,185.0,188.6,Afternoon,Standard operations
+OPS-0209,Kavita Nair,Team Beta,2026-09-04,Manufacturing,Completed,193,167.0,146.1,Afternoon,Standard operations
+OPS-0210,Divya Saxena,Team Gamma,2026-09-01,Quality Control,Completed,91,86.0,83.1,Morning,Standard operations
+OPS-0211,Divya Saxena,Team Beta,2026-09-08,Quality Control,Completed,200,71.0,75.2,Afternoon,Standard operations
+OPS-0212,Amit Patel,Team Gamma,2026-09-18,Quality Control,In Progress,159,191.0,77.6,Afternoon,Standard operations
+OPS-0213,Priya Sharma,Team Gamma,2026-09-13,Logistics,Completed,34,141.0,164.3,Afternoon,Standard operations
+OPS-0214,Kavita Nair,Team Gamma,2026-09-22,Quality Control,Completed,178,135.0,122.0,Afternoon,Standard operations
+OPS-0215,Lakshmi Bhat,Team Beta,2026-09-27,Quality Control,Completed,148,172.0,189.7,Morning,Standard operations
+OPS-0216,Amit Patel,Team Gamma,2026-09-25,Logistics,Completed,81,61.0,71.2,Morning,Standard operations
+OPS-0217,Manoj Tiwari,Team Beta,2026-09-17,Logistics,Failed,169,171.0,27.9,Night,Standard operations
+OPS-0218,Ravi Menon,Team Beta,2026-09-12,Manufacturing,In Progress,114,119.0,52.0,Afternoon,Standard operations
+OPS-0219,Meera Pillai,Team Beta,2026-09-24,Logistics,In Progress,128,136.0,94.1,Afternoon,Standard operations
+OPS-0220,Ashok Mehta,Team Beta,2026-09-12,Quality Control,Completed,51,158.0,139.3,Night,Standard operations
+OPS-0221,Siddharth Rao,Team Alpha,2026-09-18,Logistics,Completed,50,133.0,148.2,Afternoon,Standard operations
+OPS-0222,Kiran Das,Team Gamma,2026-09-23,Logistics,Completed,143,139.0,143.0,Night,Standard operations
+OPS-0223,Bhavna Patel,Team Beta,2026-09-20,Logistics,Completed,44,69.0,77.2,Afternoon,Standard operations
+OPS-0224,Pooja Gupta,Team Gamma,2026-09-26,Quality Control,Completed,37,86.0,102.3,Night,Standard operations
+OPS-0225,Anjali Singh,Team Beta,2026-09-02,Manufacturing,Completed,195,143.0,142.3,Night,Standard operations
+OPS-0226,Priya Sharma,Team Gamma,2026-09-05,Quality Control,Completed,124,145.0,149.0,Morning,Standard operations
+OPS-0227,Rahul Mishra,Team Alpha,2026-09-17,Logistics,Completed,196,121.0,114.9,Morning,Standard operations
+OPS-0228,Rajesh Kumar,Team Gamma,2026-09-06,Logistics,Completed,173,80.0,76.4,Afternoon,Standard operations
+OPS-0229,Ashok Mehta,Team Beta,2026-09-07,Quality Control,Completed,155,101.0,90.8,Morning,Standard operations
+OPS-0230,Kiran Das,Team Alpha,2026-09-29,Quality Control,Completed,52,131.0,146.3,Night,Standard operations
+OPS-0231,Amit Patel,Team Gamma,2026-09-18,Logistics,In Progress,70,94.0,60.0,Night,Standard operations
+OPS-0232,Kavita Nair,Team Alpha,2026-09-07,Manufacturing,Completed,156,56.0,55.7,Night,Standard operations
+OPS-0233,Pooja Gupta,Team Beta,2026-09-26,Quality Control,Completed,52,66.0,64.3,Night,Standard operations
+OPS-0234,Geeta Yadav,Team Beta,2026-09-17,Logistics,Completed,177,68.0,61.2,Afternoon,Standard operations
+OPS-0235,Ramesh Pandey,Team Alpha,2026-09-15,Logistics,Completed,118,82.0,98.5,Night,Standard operations
+OPS-0236,Ramesh Pandey,Team Gamma,2026-09-06,Manufacturing,Completed,44,81.0,85.6,Afternoon,Standard operations
+OPS-0237,Anita Desai,Team Alpha,2026-09-11,Quality Control,Completed,162,122.0,145.0,Afternoon,Standard operations
+OPS-0238,Ravi Menon,Team Gamma,2026-09-18,Logistics,Completed,107,186.0,165.1,Night,Standard operations
+OPS-0239,Anita Desai,Team Gamma,2026-09-19,Manufacturing,Completed,189,136.0,161.4,Night,Standard operations
+OPS-0240,Priya Sharma,Team Alpha,2026-09-03,Manufacturing,Failed,177,117.0,30.7,Night,Standard operations
+OPS-0241,Meera Pillai,Team Gamma,2026-09-21,Manufacturing,Completed,190,189.0,182.5,Afternoon,Standard operations
+OPS-0242,Neha Agarwal,Team Alpha,2026-09-26,Quality Control,Completed,146,68.0,76.5,Morning,Standard operations
+OPS-0243,Kiran Das,Team Beta,2026-09-16,Logistics,Completed,185,86.0,83.9,Night,Standard operations
+OPS-0244,Manoj Tiwari,Team Gamma,2026-09-28,Logistics,Failed,63,144.0,32.9,Morning,Standard operations
+OPS-0245,Manoj Tiwari,Team Alpha,2026-09-15,Manufacturing,Completed,93,86.0,76.4,Afternoon,Standard operations
+OPS-0246,Arjun Rao,Team Gamma,2026-09-14,Manufacturing,Failed,70,133.0,44.3,Night,Standard operations
+OPS-0247,Manoj Tiwari,Team Alpha,2026-09-25,Manufacturing,Completed,161,169.0,177.4,Afternoon,Standard operations
+OPS-0248,Neha Agarwal,Team Alpha,2026-09-03,Logistics,Completed,91,105.0,113.8,Morning,Standard operations
+OPS-0249,Priya Sharma,Team Beta,2026-09-16,Quality Control,In Progress,197,170.0,82.6,Morning,Standard operations
+OPS-0250,Bhavna Patel,Team Alpha,2026-09-14,Manufacturing,In Progress,123,153.0,78.0,Afternoon,Standard operations
+OPS-0251,Priya Sharma,Team Gamma,2026-09-18,Manufacturing,Completed,103,68.0,68.3,Afternoon,Standard operations
+OPS-0252,Tarun Kapoor,Team Gamma,2026-09-09,Quality Control,Completed,60,82.0,101.7,Afternoon,Standard operations
+OPS-0253,Pooja Gupta,Team Beta,2026-09-18,Logistics,Completed,80,180.0,181.9,Morning,Standard operations
+OPS-0254,Priya Sharma,Team Alpha,2026-09-05,Quality Control,Completed,151,182.0,188.0,Night,Standard operations
+OPS-0255,Alok Kumar,Team Gamma,2026-09-05,Logistics,Failed,111,91.0,18.0,Night,Standard operations
+OPS-0256,Geeta Yadav,Team Beta,2026-09-19,Logistics,Completed,160,186.0,194.5,Night,Standard operations
+OPS-0257,Deepa Joshi,Team Beta,2026-09-27,Manufacturing,Completed,58,156.0,169.0,Night,Standard operations
+OPS-0258,Bhavna Patel,Team Gamma,2026-09-21,Manufacturing,Completed,97,198.0,214.0,Night,Standard operations
+OPS-0259,Priya Sharma,Team Gamma,2026-09-16,Manufacturing,Completed,188,147.0,133.6,Night,Standard operations
+OPS-0260,Kavita Nair,Team Alpha,2026-09-19,Quality Control,Completed,34,162.0,158.0,Morning,Standard operations
+OPS-0261,Meera Pillai,Team Gamma,2026-09-07,Logistics,Completed,186,170.0,203.9,Night,Standard operations
+OPS-0262,Geeta Yadav,Team Alpha,2026-09-23,Manufacturing,Completed,173,133.0,166.2,Afternoon,Standard operations
+OPS-0263,Sanjay Verma,Team Beta,2026-09-11,Manufacturing,Completed,166,137.0,146.4,Night,Standard operations
+OPS-0264,Tarun Kapoor,Team Gamma,2026-09-22,Quality Control,In Progress,97,173.0,79.2,Morning,Standard operations
+OPS-0265,Suresh Iyer,Team Gamma,2026-09-10,Manufacturing,Failed,106,123.0,34.0,Night,Standard operations
+OPS-0266,Ashok Mehta,Team Beta,2026-09-11,Logistics,Completed,100,123.0,110.5,Night,Standard operations
+OPS-0267,Lakshmi Bhat,Team Beta,2026-09-29,Logistics,In Progress,67,124.0,51.2,Night,Standard operations
+OPS-0268,Amit Patel,Team Beta,2026-09-30,Logistics,Completed,152,104.0,96.8,Night,Standard operations
+OPS-0269,Suresh Iyer,Team Gamma,2026-09-23,Logistics,Completed,187,200.0,189.1,Morning,Standard operations
+OPS-0270,Swati Kulkarni,Team Gamma,2026-09-08,Quality Control,Completed,55,155.0,152.2,Afternoon,Standard operations
+OPS-0271,Sneha Reddy,Team Gamma,2026-09-25,Manufacturing,Completed,170,90.0,91.1,Afternoon,Standard operations
+OPS-0272,Neha Agarwal,Team Gamma,2026-09-07,Logistics,Completed,195,65.0,78.9,Morning,Standard operations
+OPS-0273,Ramesh Pandey,Team Gamma,2026-09-08,Quality Control,Completed,39,94.0,95.6,Morning,Standard operations
+OPS-0274,Sunita Sharma,Team Alpha,2026-09-27,Logistics,In Progress,77,124.0,82.2,Morning,Standard operations
+OPS-0275,Deepa Joshi,Team Gamma,2026-09-20,Manufacturing,Failed,115,122.0,26.1,Night,Standard operations
+OPS-0276,Lakshmi Bhat,Team Gamma,2026-09-16,Manufacturing,In Progress,149,119.0,54.5,Morning,Standard operations
+OPS-0277,Manoj Tiwari,Team Alpha,2026-09-24,Logistics,Completed,77,53.0,60.7,Afternoon,Standard operations
+OPS-0278,Rahul Mishra,Team Gamma,2026-09-25,Manufacturing,Completed,193,153.0,180.7,Night,Standard operations
+OPS-0279,Manoj Tiwari,Team Alpha,2026-09-13,Quality Control,Completed,65,172.0,168.5,Morning,Standard operations
+OPS-0280,Rajesh Kumar,Team Beta,2026-09-13,Manufacturing,Completed,98,134.0,130.1,Night,Standard operations
+OPS-0281,Rahul Mishra,Team Alpha,2026-09-09,Quality Control,Completed,90,65.0,72.6,Afternoon,Standard operations
+OPS-0282,Deepa Joshi,Team Alpha,2026-09-13,Quality Control,Completed,109,80.0,88.4,Afternoon,Standard operations
+OPS-0283,Pooja Gupta,Team Gamma,2026-09-08,Manufacturing,Failed,152,89.0,19.0,Night,Standard operations
+OPS-0284,Pooja Gupta,Team Beta,2026-09-23,Quality Control,Failed,167,105.0,30.5,Night,Standard operations
+OPS-0285,Tarun Kapoor,Team Gamma,2026-09-28,Manufacturing,Completed,165,142.0,125.1,Night,Standard operations
+OPS-0286,Sneha Reddy,Team Alpha,2026-09-27,Quality Control,Failed,81,196.0,45.9,Morning,Standard operations
+OPS-0287,Manoj Tiwari,Team Gamma,2026-09-15,Manufacturing,Completed,179,175.0,155.1,Night,Standard operations
+OPS-0288,Kiran Das,Team Alpha,2026-09-15,Manufacturing,Completed,146,194.0,169.4,Afternoon,Standard operations
+OPS-0289,Swati Kulkarni,Team Beta,2026-09-24,Manufacturing,Completed,30,105.0,113.5,Morning,Standard operations
+OPS-0290,Meera Pillai,Team Beta,2026-09-23,Manufacturing,Completed,45,67.0,83.4,Afternoon,Standard operations
+OPS-0291,Priya Sharma,Team Beta,2026-09-14,Manufacturing,Completed,194,157.0,157.0,Afternoon,Standard operations
+OPS-0292,Kiran Das,Team Beta,2026-09-13,Manufacturing,Completed,199,188.0,169.8,Afternoon,Standard operations
+OPS-0293,Sneha Reddy,Team Alpha,2026-09-18,Logistics,Completed,87,50.0,57.6,Afternoon,Standard operations
+OPS-0294,Kiran Das,Team Gamma,2026-09-24,Quality Control,Completed,127,108.0,102.5,Afternoon,Standard operations
+OPS-0295,Vikram Singh,Team Beta,2026-09-07,Quality Control,Completed,38,157.0,172.1,Morning,Standard operations
+OPS-0296,Kavita Nair,Team Alpha,2026-09-03,Manufacturing,Completed,144,62.0,58.8,Morning,Standard operations
+OPS-0297,Arjun Rao,Team Beta,2026-09-08,Quality Control,Completed,44,85.0,89.4,Afternoon,Standard operations
+OPS-0298,Kavita Nair,Team Gamma,2026-09-19,Logistics,Completed,112,110.0,106.8,Morning,Standard operations
+OPS-0299,Swati Kulkarni,Team Gamma,2026-09-08,Logistics,Completed,45,192.0,236.0,Night,Standard operations
+OPS-0300,Sunita Sharma,Team Alpha,2026-09-21,Quality Control,Completed,156,62.0,76.8,Night,Standard operations
+OPS-0301,Swati Kulkarni,Team Beta,2026-09-26,Quality Control,Completed,136,154.0,140.1,Afternoon,Standard operations
+OPS-0302,Anita Desai,Team Gamma,2026-09-16,Manufacturing,In Progress,106,86.0,55.2,Morning,Standard operations
+OPS-0303,Lakshmi Bhat,Team Beta,2026-09-14,Quality Control,Completed,129,112.0,106.6,Afternoon,Standard operations
+OPS-0304,Ramesh Pandey,Team Alpha,2026-09-30,Logistics,In Progress,53,187.0,115.4,Morning,Standard operations
+OPS-0305,Priya Sharma,Team Beta,2026-09-13,Quality Control,Completed,40,68.0,62.9,Night,Standard operations
+OPS-0306,Geeta Yadav,Team Gamma,2026-09-18,Manufacturing,Completed,115,127.0,156.6,Morning,Standard operations
+OPS-0307,Ravi Menon,Team Alpha,2026-09-24,Manufacturing,Completed,152,112.0,126.4,Night,Standard operations
+OPS-0308,Ravi Menon,Team Beta,2026-09-30,Manufacturing,Completed,102,147.0,152.4,Night,Standard operations
+OPS-0309,Pooja Gupta,Team Beta,2026-09-09,Logistics,Completed,157,169.0,150.3,Night,Standard operations
+OPS-0310,Neha Agarwal,Team Beta,2026-09-30,Manufacturing,Completed,135,61.0,65.6,Morning,Standard operations
+OPS-0311,Geeta Yadav,Team Alpha,2026-09-01,Logistics,Completed,179,198.0,225.3,Afternoon,Standard operations
+OPS-0312,Vikram Singh,Team Alpha,2026-09-11,Manufacturing,Completed,92,177.0,189.4,Night,Standard operations
+OPS-0313,Manoj Tiwari,Team Beta,2026-09-25,Logistics,Failed,194,175.0,37.7,Night,Standard operations
+OPS-0314,Anjali Singh,Team Beta,2026-09-06,Manufacturing,Completed,155,97.0,118.0,Night,Standard operations
+OPS-0315,Ramesh Pandey,Team Alpha,2026-09-17,Manufacturing,In Progress,49,62.0,39.0,Afternoon,Standard operations
+OPS-0316,Vikram Singh,Team Gamma,2026-09-08,Manufacturing,Completed,32,105.0,110.5,Afternoon,Standard operations
+OPS-0317,Priya Sharma,Team Gamma,2026-09-21,Quality Control,Failed,153,174.0,18.1,Night,Standard operations
+OPS-0318,Lakshmi Bhat,Team Beta,2026-09-01,Manufacturing,Completed,100,187.0,232.1,Morning,Standard operations
+OPS-0319,Sanjay Verma,Team Gamma,2026-09-22,Logistics,In Progress,75,77.0,52.0,Night,Standard operations
+OPS-0320,Vikram Singh,Team Alpha,2026-09-07,Quality Control,Completed,120,118.0,137.8,Morning,Standard operations
+OPS-0321,Pooja Gupta,Team Beta,2026-09-15,Quality Control,Completed,87,126.0,141.6,Morning,Standard operations
+OPS-0322,Ramesh Pandey,Team Gamma,2026-09-25,Manufacturing,Completed,127,146.0,156.4,Morning,Standard operations
+OPS-0323,Ramesh Pandey,Team Alpha,2026-09-23,Manufacturing,Completed,141,134.0,144.2,Morning,Standard operations
+OPS-0324,Alok Kumar,Team Gamma,2026-09-30,Manufacturing,Completed,175,171.0,163.9,Morning,Standard operations
+OPS-0325,Swati Kulkarni,Team Beta,2026-09-29,Quality Control,Completed,38,95.0,116.0,Afternoon,Standard operations
+OPS-0326,Rajesh Kumar,Team Alpha,2026-09-19,Manufacturing,Completed,131,69.0,66.9,Night,Standard operations
+OPS-0327,Kavita Nair,Team Gamma,2026-09-27,Logistics,Completed,168,134.0,134.5,Night,Standard operations
+OPS-0328,Vikram Singh,Team Gamma,2026-09-24,Manufacturing,Completed,118,63.0,56.0,Morning,Standard operations
+OPS-0329,Siddharth Rao,Team Alpha,2026-09-11,Quality Control,Completed,182,151.0,186.9,Afternoon,Standard operations
+OPS-0330,Rajesh Kumar,Team Gamma,2026-09-09,Logistics,Completed,121,191.0,234.3,Afternoon,Standard operations
+OPS-0331,Anita Desai,Team Gamma,2026-09-19,Quality Control,Completed,188,125.0,146.2,Night,Standard operations
+OPS-0332,Amit Patel,Team Alpha,2026-09-09,Manufacturing,Completed,192,89.0,102.0,Afternoon,Standard operations
+OPS-0333,Pooja Gupta,Team Alpha,2026-09-03,Manufacturing,Failed,143,142.0,41.2,Morning,Standard operations
+OPS-0334,Vikram Singh,Team Alpha,2026-09-06,Logistics,Completed,172,181.0,183.4,Morning,Standard operations
+OPS-0335,Amit Patel,Team Beta,2026-09-18,Manufacturing,Completed,113,148.0,126.5,Afternoon,Standard operations
+OPS-0336,Arjun Rao,Team Alpha,2026-09-24,Quality Control,Failed,92,196.0,45.1,Night,Standard operations
+OPS-0337,Arjun Rao,Team Alpha,2026-09-05,Logistics,Completed,156,87.0,76.2,Afternoon,Standard operations
+OPS-0338,Suresh Iyer,Team Beta,2026-09-10,Logistics,In Progress,122,114.0,77.9,Night,Standard operations
+OPS-0339,Ramesh Pandey,Team Beta,2026-09-20,Quality Control,Completed,57,84.0,81.6,Afternoon,Standard operations
+OPS-0340,Manoj Tiwari,Team Gamma,2026-09-13,Logistics,Completed,140,84.0,81.5,Night,Standard operations
+OPS-0341,Ashok Mehta,Team Alpha,2026-09-16,Logistics,Completed,131,131.0,126.6,Night,Standard operations
+OPS-0342,Ramesh Pandey,Team Beta,2026-09-19,Manufacturing,Completed,101,150.0,149.4,Night,Standard operations
+OPS-0343,Ravi Menon,Team Gamma,2026-09-18,Manufacturing,Completed,170,56.0,68.9,Afternoon,Standard operations
+OPS-0344,Ashok Mehta,Team Alpha,2026-09-15,Logistics,In Progress,47,154.0,92.7,Morning,Standard operations
+OPS-0345,Ramesh Pandey,Team Beta,2026-09-08,Logistics,Completed,138,146.0,128.4,Night,Standard operations
+OPS-0346,Neha Agarwal,Team Gamma,2026-09-13,Quality Control,Completed,137,189.0,163.4,Afternoon,Standard operations
+OPS-0347,Ashok Mehta,Team Gamma,2026-09-20,Quality Control,Failed,57,113.0,29.9,Afternoon,Standard operations
+OPS-0348,Anita Desai,Team Gamma,2026-09-20,Manufacturing,Completed,195,152.0,188.0,Afternoon,Standard operations
+OPS-0349,Anjali Singh,Team Beta,2026-09-04,Manufacturing,Completed,86,180.0,206.8,Night,Standard operations
+OPS-0350,Rahul Mishra,Team Gamma,2026-09-19,Manufacturing,Completed,130,168.0,194.7,Night,Standard operations
+OPS-0351,Ashok Mehta,Team Gamma,2026-09-05,Logistics,Failed,153,76.0,13.2,Morning,Standard operations
+OPS-0352,Sneha Reddy,Team Gamma,2026-09-05,Logistics,Completed,146,102.0,108.0,Afternoon,Standard operations
+OPS-0353,Neha Agarwal,Team Alpha,2026-09-15,Quality Control,Completed,111,67.0,65.0,Night,Standard operations
+OPS-0354,Sneha Reddy,Team Alpha,2026-09-28,Logistics,Completed,72,112.0,118.3,Night,Standard operations
+OPS-0355,Anita Desai,Team Beta,2026-09-18,Logistics,Failed,89,153.0,39.4,Morning,Standard operations
+OPS-0356,Ramesh Pandey,Team Gamma,2026-09-14,Logistics,Completed,187,100.0,103.0,Afternoon,Standard operations
+OPS-0357,Arjun Rao,Team Alpha,2026-09-23,Manufacturing,Completed,46,197.0,175.5,Night,Standard operations
+OPS-0358,Anita Desai,Team Beta,2026-09-11,Manufacturing,Completed,97,175.0,185.7,Night,Standard operations
+OPS-0359,Manoj Tiwari,Team Gamma,2026-09-13,Quality Control,Completed,59,139.0,137.7,Afternoon,Standard operations
+OPS-0360,Divya Saxena,Team Alpha,2026-09-27,Quality Control,Completed,106,71.0,79.4,Afternoon,Standard operations
+OPS-0361,Sneha Reddy,Team Alpha,2026-09-10,Manufacturing,Completed,66,180.0,181.0,Night,Standard operations
+OPS-0362,Vikram Singh,Team Gamma,2026-09-13,Logistics,Completed,192,187.0,210.8,Night,Standard operations
+OPS-0363,Sunita Sharma,Team Alpha,2026-09-18,Manufacturing,Completed,65,97.0,94.7,Afternoon,Standard operations
+OPS-0364,Divya Saxena,Team Alpha,2026-09-28,Logistics,Failed,154,84.0,12.5,Afternoon,Standard operations
+OPS-0365,Lakshmi Bhat,Team Gamma,2026-09-21,Logistics,Completed,155,156.0,176.9,Afternoon,Standard operations
+OPS-0366,Neha Agarwal,Team Alpha,2026-09-03,Quality Control,Completed,86,124.0,107.0,Morning,Standard operations
+OPS-0367,Lakshmi Bhat,Team Beta,2026-09-06,Logistics,Completed,156,190.0,200.3,Night,Standard operations
+OPS-0368,Sneha Reddy,Team Beta,2026-09-25,Quality Control,In Progress,123,188.0,121.6,Morning,Standard operations
+OPS-0369,Tarun Kapoor,Team Gamma,2026-09-15,Quality Control,Completed,138,76.0,87.0,Night,Standard operations
+OPS-0370,Tarun Kapoor,Team Alpha,2026-09-10,Manufacturing,Completed,119,72.0,73.8,Morning,Standard operations
+OPS-0371,Tarun Kapoor,Team Alpha,2026-09-07,Quality Control,Completed,119,159.0,145.7,Morning,Standard operations
+OPS-0372,Anjali Singh,Team Alpha,2026-09-27,Manufacturing,In Progress,175,139.0,77.8,Night,Standard operations
+OPS-0373,Lakshmi Bhat,Team Alpha,2026-09-11,Quality Control,Completed,176,118.0,145.3,Night,Standard operations
+OPS-0374,Alok Kumar,Team Gamma,2026-09-27,Manufacturing,Completed,135,65.0,81.1,Night,Standard operations
+OPS-0375,Vikram Singh,Team Gamma,2026-09-28,Manufacturing,Completed,112,113.0,130.5,Night,Standard operations
+OPS-0376,Arjun Rao,Team Beta,2026-09-05,Quality Control,Completed,190,156.0,156.0,Morning,Standard operations
+OPS-0377,Ramesh Pandey,Team Alpha,2026-09-13,Quality Control,Completed,124,166.0,204.2,Afternoon,Standard operations
+OPS-0378,Rahul Mishra,Team Alpha,2026-09-28,Quality Control,Completed,147,141.0,167.8,Night,Standard operations
+OPS-0379,Arjun Rao,Team Alpha,2026-09-14,Manufacturing,Completed,112,122.0,120.2,Night,Standard operations
+OPS-0380,Vikram Singh,Team Gamma,2026-09-28,Logistics,In Progress,42,61.0,26.2,Afternoon,Standard operations
+OPS-0381,Rajesh Kumar,Team Alpha,2026-09-30,Manufacturing,Completed,30,159.0,148.0,Night,Standard operations
+OPS-0382,Sunita Sharma,Team Alpha,2026-09-29,Quality Control,Completed,100,73.0,81.2,Afternoon,Standard operations
+OPS-0383,Amit Patel,Team Beta,2026-09-22,Quality Control,Completed,131,128.0,146.0,Morning,Standard operations
+OPS-0384,Meera Pillai,Team Gamma,2026-09-03,Quality Control,Completed,84,172.0,151.6,Night,Standard operations
+OPS-0385,Kavita Nair,Team Gamma,2026-09-22,Logistics,Completed,117,80.0,99.6,Afternoon,Standard operations
+OPS-0386,Ashok Mehta,Team Alpha,2026-09-16,Manufacturing,Completed,52,76.0,67.7,Afternoon,Standard operations
+OPS-0387,Alok Kumar,Team Beta,2026-09-05,Logistics,Completed,64,86.0,75.5,Night,Standard operations
+OPS-0388,Rajesh Kumar,Team Gamma,2026-09-21,Manufacturing,Completed,84,88.0,107.2,Night,Standard operations
+OPS-0389,Swati Kulkarni,Team Beta,2026-09-28,Manufacturing,Completed,55,85.0,97.8,Night,Standard operations
+OPS-0390,Geeta Yadav,Team Beta,2026-09-12,Logistics,Completed,65,113.0,108.6,Morning,Standard operations
+OPS-0391,Kavita Nair,Team Gamma,2026-09-20,Quality Control,Completed,102,56.0,66.6,Night,Standard operations
+OPS-0392,Alok Kumar,Team Beta,2026-09-07,Quality Control,Completed,78,150.0,145.2,Morning,Standard operations
+OPS-0393,Anjali Singh,Team Alpha,2026-09-16,Logistics,Completed,157,68.0,72.2,Morning,Standard operations
+OPS-0394,Pooja Gupta,Team Beta,2026-09-05,Logistics,In Progress,175,157.0,80.0,Night,Standard operations
+OPS-0395,Anita Desai,Team Beta,2026-09-25,Manufacturing,Completed,47,53.0,50.6,Morning,Standard operations
+OPS-0396,Sunita Sharma,Team Alpha,2026-09-26,Logistics,Completed,190,178.0,205.9,Afternoon,Standard operations
+OPS-0397,Ashok Mehta,Team Beta,2026-09-03,Quality Control,Completed,187,89.0,85.5,Afternoon,Standard operations
+OPS-0398,Amit Patel,Team Gamma,2026-09-30,Manufacturing,Failed,69,187.0,34.0,Night,Standard operations
+OPS-0399,Ramesh Pandey,Team Gamma,2026-09-22,Quality Control,Completed,141,111.0,96.9,Morning,Standard operations
+OPS-0400,Sunita Sharma,Team Beta,2026-09-04,Logistics,Completed,44,129.0,144.0,Night,Standard operations
+OPS-0401,Geeta Yadav,Team Alpha,2026-09-04,Manufacturing,Completed,32,91.0,95.4,Afternoon,Standard operations
+OPS-0402,Sanjay Verma,Team Gamma,2026-09-26,Quality Control,Completed,125,82.0,94.3,Afternoon,Standard operations
+OPS-0403,Geeta Yadav,Team Alpha,2026-09-25,Manufacturing,Completed,139,119.0,126.1,Afternoon,Standard operations
+OPS-0404,Ashok Mehta,Team Gamma,2026-09-21,Manufacturing,Completed,160,142.0,123.8,Night,Standard operations
+OPS-0405,Anita Desai,Team Beta,2026-09-06,Logistics,Completed,176,79.0,74.4,Night,Standard operations
+OPS-0406,Rajesh Kumar,Team Alpha,2026-09-28,Manufacturing,Completed,150,143.0,143.5,Morning,Standard operations
+OPS-0407,Anita Desai,Team Alpha,2026-09-18,Quality Control,Completed,137,107.0,104.7,Afternoon,Standard operations
+OPS-0408,Sunita Sharma,Team Gamma,2026-09-11,Logistics,In Progress,176,145.0,63.2,Night,Standard operations
+OPS-0409,Alok Kumar,Team Alpha,2026-09-06,Manufacturing,In Progress,41,152.0,63.9,Afternoon,Standard operations
+OPS-0410,Bhavna Patel,Team Beta,2026-09-25,Logistics,Completed,171,166.0,141.6,Morning,Standard operations
+OPS-0411,Deepa Joshi,Team Gamma,2026-09-26,Logistics,Completed,92,168.0,167.5,Afternoon,Standard operations
+OPS-0412,Tarun Kapoor,Team Alpha,2026-09-24,Quality Control,Completed,92,88.0,75.0,Afternoon,Standard operations
+OPS-0413,Rajesh Kumar,Team Alpha,2026-09-18,Logistics,Completed,32,135.0,114.8,Night,Standard operations
+OPS-0414,Arjun Rao,Team Gamma,2026-09-24,Logistics,Completed,165,110.0,112.0,Morning,Standard operations
+OPS-0415,Vikram Singh,Team Gamma,2026-09-09,Manufacturing,Completed,89,183.0,185.8,Afternoon,Standard operations
+OPS-0416,Kiran Das,Team Gamma,2026-09-03,Quality Control,Completed,64,150.0,132.0,Night,Standard operations
+OPS-0417,Priya Sharma,Team Beta,2026-09-22,Manufacturing,Completed,96,130.0,158.7,Afternoon,Standard operations
+OPS-0418,Ashok Mehta,Team Gamma,2026-09-11,Logistics,Completed,89,69.0,84.7,Morning,Standard operations
+OPS-0419,Tarun Kapoor,Team Gamma,2026-09-04,Manufacturing,Completed,145,169.0,164.9,Morning,Standard operations
+OPS-0420,Lakshmi Bhat,Team Beta,2026-09-25,Manufacturing,Completed,148,117.0,139.3,Morning,Standard operations
+OPS-0421,Anita Desai,Team Gamma,2026-09-10,Quality Control,Completed,40,105.0,124.4,Afternoon,Standard operations
+OPS-0422,Vikram Singh,Team Alpha,2026-09-23,Manufacturing,Failed,131,181.0,20.3,Afternoon,Standard operations
+OPS-0423,Suresh Iyer,Team Alpha,2026-09-01,Logistics,In Progress,172,190.0,90.2,Afternoon,Standard operations
+OPS-0424,Sneha Reddy,Team Alpha,2026-09-04,Manufacturing,Completed,86,83.0,77.1,Afternoon,Standard operations
+OPS-0425,Pooja Gupta,Team Gamma,2026-09-21,Quality Control,Completed,180,116.0,141.2,Morning,Standard operations
+OPS-0426,Rajesh Kumar,Team Alpha,2026-09-07,Quality Control,Completed,62,73.0,88.5,Afternoon,Standard operations
+OPS-0427,Sneha Reddy,Team Alpha,2026-09-15,Manufacturing,Completed,176,160.0,188.6,Afternoon,Standard operations
+OPS-0428,Neha Agarwal,Team Alpha,2026-09-13,Quality Control,Completed,120,104.0,126.2,Afternoon,Standard operations
+OPS-0429,Suresh Iyer,Team Beta,2026-09-29,Manufacturing,Completed,188,112.0,124.2,Afternoon,Standard operations
+OPS-0430,Meera Pillai,Team Gamma,2026-09-16,Manufacturing,Completed,128,85.0,86.5,Night,Standard operations
+OPS-0431,Alok Kumar,Team Gamma,2026-09-08,Quality Control,Failed,169,54.0,18.8,Night,Standard operations
+OPS-0432,Pooja Gupta,Team Beta,2026-09-18,Logistics,Completed,174,178.0,174.2,Afternoon,Standard operations
+OPS-0433,Anita Desai,Team Alpha,2026-09-11,Quality Control,Completed,101,64.0,75.1,Afternoon,Standard operations
+OPS-0434,Sanjay Verma,Team Beta,2026-09-25,Quality Control,Failed,70,75.0,12.1,Morning,Standard operations
+OPS-0435,Suresh Iyer,Team Gamma,2026-09-27,Quality Control,Completed,86,197.0,234.2,Afternoon,Standard operations
+OPS-0436,Pooja Gupta,Team Alpha,2026-09-06,Manufacturing,Completed,121,57.0,64.5,Afternoon,Standard operations
+OPS-0437,Rahul Mishra,Team Gamma,2026-09-05,Quality Control,Failed,156,188.0,33.3,Afternoon,Standard operations
+OPS-0438,Priya Sharma,Team Alpha,2026-09-02,Manufacturing,Completed,35,184.0,191.6,Afternoon,Standard operations
+OPS-0439,Sunita Sharma,Team Gamma,2026-09-07,Manufacturing,Completed,75,132.0,115.3,Morning,Standard operations
+OPS-0440,Rahul Mishra,Team Gamma,2026-09-30,Manufacturing,Completed,164,143.0,176.5,Afternoon,Standard operations
+OPS-0441,Ashok Mehta,Team Gamma,2026-09-13,Quality Control,Completed,107,132.0,119.4,Morning,Standard operations
+OPS-0442,Geeta Yadav,Team Beta,2026-09-26,Quality Control,Failed,196,131.0,18.8,Night,Standard operations
+OPS-0443,Ashok Mehta,Team Gamma,2026-09-26,Logistics,Completed,180,94.0,94.1,Night,Standard operations
+OPS-0444,Ashok Mehta,Team Beta,2026-09-05,Manufacturing,Completed,176,150.0,178.5,Night,Standard operations
+OPS-0445,Priya Sharma,Team Alpha,2026-09-20,Logistics,Failed,186,106.0,27.6,Morning,Standard operations
+OPS-0446,Sunita Sharma,Team Beta,2026-09-05,Logistics,Completed,90,138.0,171.5,Morning,Standard operations
+OPS-0447,Ramesh Pandey,Team Alpha,2026-09-27,Quality Control,Completed,115,164.0,140.1,Morning,Standard operations
+OPS-0448,Kavita Nair,Team Gamma,2026-09-03,Logistics,Completed,57,50.0,43.5,Afternoon,Standard operations
+OPS-0449,Geeta Yadav,Team Beta,2026-09-06,Logistics,Completed,126,139.0,148.5,Morning,Standard operations
+OPS-0450,Siddharth Rao,Team Beta,2026-09-26,Quality Control,Completed,87,91.0,93.8,Morning,Standard operations
+OPS-0451,Deepa Joshi,Team Alpha,2026-09-11,Logistics,Failed,48,137.0,19.5,Afternoon,Standard operations
+OPS-0452,Anita Desai,Team Gamma,2026-09-03,Quality Control,Failed,53,136.0,33.8,Night,Standard operations
+OPS-0453,Alok Kumar,Team Beta,2026-09-23,Manufacturing,Completed,197,92.0,100.5,Afternoon,Standard operations
+OPS-0454,Anita Desai,Team Alpha,2026-09-04,Logistics,Completed,78,154.0,173.8,Night,Standard operations
+OPS-0455,Sunita Sharma,Team Gamma,2026-09-18,Logistics,Completed,106,110.0,97.7,Afternoon,Standard operations
+OPS-0456,Rahul Mishra,Team Gamma,2026-09-27,Logistics,Completed,122,50.0,51.1,Afternoon,Standard operations
+OPS-0457,Siddharth Rao,Team Gamma,2026-09-21,Quality Control,Completed,54,56.0,52.2,Night,Standard operations
+OPS-0458,Deepa Joshi,Team Alpha,2026-09-16,Manufacturing,Completed,131,170.0,177.8,Night,Standard operations
+OPS-0459,Suresh Iyer,Team Alpha,2026-09-21,Quality Control,Completed,124,147.0,146.7,Afternoon,Standard operations
+OPS-0460,Priya Sharma,Team Beta,2026-09-15,Logistics,Completed,98,194.0,169.7,Night,Standard operations
+OPS-0461,Swati Kulkarni,Team Alpha,2026-09-03,Quality Control,Completed,168,155.0,191.9,Night,Standard operations
+OPS-0462,Kavita Nair,Team Gamma,2026-09-02,Logistics,In Progress,137,187.0,113.3,Afternoon,Standard operations
+OPS-0463,Rahul Mishra,Team Alpha,2026-09-16,Logistics,Completed,38,178.0,192.0,Night,Standard operations
+OPS-0464,Anjali Singh,Team Gamma,2026-09-22,Quality Control,Completed,144,94.0,115.6,Morning,Standard operations
+OPS-0465,Ravi Menon,Team Alpha,2026-09-05,Manufacturing,Completed,141,101.0,126.1,Night,Standard operations
+OPS-0466,Vikram Singh,Team Gamma,2026-09-09,Logistics,Failed,47,72.0,14.2,Afternoon,Standard operations
+OPS-0467,Lakshmi Bhat,Team Beta,2026-09-28,Logistics,Completed,33,200.0,211.8,Afternoon,Standard operations
+OPS-0468,Sneha Reddy,Team Beta,2026-09-05,Manufacturing,Completed,179,75.0,91.5,Night,Standard operations
+OPS-0469,Tarun Kapoor,Team Alpha,2026-09-26,Logistics,In Progress,118,155.0,74.3,Night,Standard operations
+OPS-0470,Neha Agarwal,Team Gamma,2026-09-20,Logistics,Completed,100,153.0,138.9,Night,Standard operations
+OPS-0471,Swati Kulkarni,Team Gamma,2026-09-13,Manufacturing,Completed,114,110.0,95.7,Afternoon,Standard operations
+OPS-0472,Sunita Sharma,Team Beta,2026-09-29,Logistics,Completed,107,129.0,124.1,Afternoon,Standard operations
+OPS-0473,Bhavna Patel,Team Gamma,2026-09-22,Manufacturing,Failed,88,84.0,14.7,Night,Standard operations
+OPS-0474,Kiran Das,Team Beta,2026-09-09,Quality Control,Completed,195,72.0,66.6,Morning,Standard operations
+OPS-0475,Sunita Sharma,Team Beta,2026-09-24,Logistics,Completed,125,64.0,67.6,Morning,Standard operations
+OPS-0476,Amit Patel,Team Beta,2026-09-23,Quality Control,Completed,164,195.0,168.0,Morning,Standard operations
+OPS-0477,Alok Kumar,Team Alpha,2026-09-27,Manufacturing,Completed,146,62.0,75.5,Night,Standard operations
+OPS-0478,Ravi Menon,Team Beta,2026-09-12,Logistics,Completed,192,81.0,90.9,Morning,Standard operations
+OPS-0479,Pooja Gupta,Team Beta,2026-09-20,Logistics,Completed,151,200.0,214.1,Afternoon,Standard operations
+OPS-0480,Anita Desai,Team Beta,2026-09-24,Quality Control,Completed,37,148.0,128.7,Night,Standard operations
+OPS-0481,Tarun Kapoor,Team Alpha,2026-09-28,Manufacturing,Completed,82,118.0,131.1,Night,Standard operations
+OPS-0482,Rajesh Kumar,Team Gamma,2026-09-01,Logistics,Failed,195,94.0,23.5,Morning,Standard operations
+OPS-0483,Kavita Nair,Team Beta,2026-09-20,Logistics,Completed,194,120.0,122.3,Afternoon,Standard operations
+OPS-0484,Bhavna Patel,Team Beta,2026-09-15,Logistics,Completed,107,183.0,215.9,Afternoon,Standard operations
+OPS-0485,Rahul Mishra,Team Alpha,2026-09-01,Quality Control,Failed,125,193.0,50.5,Night,Standard operations
+OPS-0486,Deepa Joshi,Team Beta,2026-09-22,Manufacturing,Completed,116,120.0,132.7,Afternoon,Standard operations
+OPS-0487,Suresh Iyer,Team Gamma,2026-09-23,Quality Control,Completed,68,182.0,210.4,Morning,Standard operations
+OPS-0488,Anjali Singh,Team Gamma,2026-09-13,Quality Control,Completed,65,56.0,62.3,Afternoon,Standard operations
+OPS-0489,Suresh Iyer,Team Beta,2026-09-13,Logistics,Completed,179,196.0,230.6,Afternoon,Standard operations
+OPS-0490,Geeta Yadav,Team Gamma,2026-09-08,Quality Control,Completed,151,141.0,148.5,Morning,Standard operations
+OPS-0491,Siddharth Rao,Team Gamma,2026-09-29,Quality Control,Completed,54,170.0,153.2,Afternoon,Standard operations
+OPS-0492,Geeta Yadav,Team Gamma,2026-09-25,Manufacturing,Failed,115,72.0,11.2,Morning,Standard operations
+OPS-0493,Geeta Yadav,Team Beta,2026-09-14,Logistics,Completed,179,125.0,129.4,Morning,Standard operations
+OPS-0494,Neha Agarwal,Team Alpha,2026-09-28,Quality Control,Completed,188,68.0,70.6,Morning,Standard operations
+OPS-0495,Sanjay Verma,Team Alpha,2026-09-28,Quality Control,Completed,106,155.0,135.1,Morning,Standard operations
+OPS-0496,Vikram Singh,Team Alpha,2026-09-11,Logistics,Failed,147,86.0,15.4,Night,Standard operations
+OPS-0497,Anita Desai,Team Alpha,2026-09-16,Logistics,Completed,75,130.0,143.5,Morning,Standard operations
+OPS-0498,Kiran Das,Team Beta,2026-09-07,Manufacturing,Completed,70,175.0,203.7,Morning,Standard operations
+OPS-0499,Vikram Singh,Team Gamma,2026-09-14,Quality Control,Completed,139,172.0,172.6,Morning,Standard operations
+OPS-0500,Lakshmi Bhat,Team Alpha,2026-09-24,Logistics,Failed,112,185.0,27.3,Night,Standard operations
+OPS-0501,Rajesh Kumar,Team Gamma,2026-09-24,Manufacturing,Completed,118,129.0,116.3,Afternoon,Standard operations
+OPS-0502,Sanjay Verma,Team Gamma,2026-09-10,Manufacturing,Completed,41,126.0,154.9,Afternoon,Standard operations
+OPS-0503,Geeta Yadav,Team Gamma,2026-09-20,Quality Control,Completed,64,137.0,171.0,Afternoon,Standard operations
+OPS-0504,Pooja Gupta,Team Alpha,2026-09-06,Logistics,Completed,87,83.0,77.6,Morning,Standard operations
+OPS-0505,Rahul Mishra,Team Gamma,2026-09-06,Manufacturing,Completed,196,59.0,59.0,Night,Standard operations
+OPS-0506,Suresh Iyer,Team Gamma,2026-09-20,Manufacturing,Completed,42,77.0,85.6,Morning,Standard operations
+OPS-0507,Priya Sharma,Team Gamma,2026-09-04,Logistics,Completed,61,190.0,180.7,Night,Standard operations
+OPS-0508,Vikram Singh,Team Alpha,2026-09-23,Quality Control,Completed,107,157.0,175.0,Night,Standard operations
+OPS-0509,Sanjay Verma,Team Beta,2026-09-20,Quality Control,Completed,137,76.0,80.2,Night,Standard operations
+OPS-0510,Sneha Reddy,Team Beta,2026-09-04,Manufacturing,Completed,185,101.0,117.3,Night,Standard operations
+OPS-0511,Ravi Menon,Team Beta,2026-09-23,Logistics,Completed,40,190.0,199.2,Morning,Standard operations
+OPS-0512,Ashok Mehta,Team Beta,2026-09-11,Manufacturing,Completed,52,78.0,92.4,Night,Standard operations
+OPS-0513,Neha Agarwal,Team Alpha,2026-09-03,Quality Control,Completed,55,115.0,127.4,Afternoon,Standard operations
+OPS-0514,Deepa Joshi,Team Beta,2026-09-15,Manufacturing,Completed,74,60.0,71.5,Afternoon,Standard operations
+OPS-0515,Anjali Singh,Team Gamma,2026-09-11,Logistics,Completed,54,61.0,52.1,Morning,Standard operations
+OPS-0516,Swati Kulkarni,Team Gamma,2026-09-06,Logistics,Completed,142,118.0,141.8,Morning,Standard operations
+OPS-0517,Pooja Gupta,Team Beta,2026-09-06,Manufacturing,Completed,146,119.0,140.9,Night,Standard operations
+OPS-0518,Bhavna Patel,Team Beta,2026-09-26,Logistics,Completed,72,78.0,70.4,Night,Standard operations
+OPS-0519,Priya Sharma,Team Alpha,2026-09-04,Logistics,Failed,153,195.0,52.6,Morning,Standard operations
+OPS-0520,Divya Saxena,Team Beta,2026-09-25,Logistics,Completed,63,173.0,210.7,Morning,Standard operations
+OPS-0521,Alok Kumar,Team Beta,2026-09-15,Manufacturing,Completed,197,130.0,111.1,Night,Standard operations
+OPS-0522,Sanjay Verma,Team Gamma,2026-09-19,Quality Control,Completed,116,182.0,192.8,Night,Standard operations
+OPS-0523,Divya Saxena,Team Alpha,2026-09-14,Quality Control,Completed,153,138.0,153.9,Night,Standard operations
+OPS-0524,Arjun Rao,Team Alpha,2026-09-27,Quality Control,In Progress,186,63.0,25.4,Morning,Standard operations
+OPS-0525,Sanjay Verma,Team Beta,2026-09-28,Logistics,In Progress,49,175.0,86.8,Afternoon,Standard operations
+OPS-0526,Suresh Iyer,Team Alpha,2026-09-17,Manufacturing,Completed,126,153.0,180.1,Morning,Standard operations
+OPS-0527,Kiran Das,Team Beta,2026-09-26,Quality Control,Completed,157,164.0,160.1,Afternoon,Standard operations
+OPS-0528,Geeta Yadav,Team Gamma,2026-09-01,Manufacturing,Completed,39,192.0,205.4,Morning,Standard operations
+OPS-0529,Anjali Singh,Team Gamma,2026-09-20,Quality Control,Completed,160,193.0,180.0,Night,Standard operations
+OPS-0530,Kiran Das,Team Beta,2026-09-12,Manufacturing,In Progress,146,134.0,76.1,Night,Standard operations
+OPS-0531,Divya Saxena,Team Beta,2026-09-23,Quality Control,Completed,145,79.0,70.2,Night,Standard operations
+OPS-0532,Kavita Nair,Team Alpha,2026-09-11,Logistics,In Progress,104,190.0,105.8,Night,Standard operations
+OPS-0533,Sneha Reddy,Team Alpha,2026-09-29,Manufacturing,Completed,134,77.0,73.3,Morning,Standard operations
+OPS-0534,Ravi Menon,Team Alpha,2026-09-30,Logistics,Completed,78,136.0,121.5,Afternoon,Standard operations
+OPS-0535,Priya Sharma,Team Gamma,2026-09-27,Quality Control,Completed,145,167.0,185.9,Night,Standard operations
+OPS-0536,Vikram Singh,Team Beta,2026-09-01,Quality Control,Completed,171,160.0,189.7,Afternoon,Standard operations
+OPS-0537,Sunita Sharma,Team Gamma,2026-09-25,Manufacturing,Completed,74,82.0,73.1,Night,Standard operations
+OPS-0538,Divya Saxena,Team Gamma,2026-09-29,Logistics,Completed,128,157.0,195.0,Night,Standard operations
+OPS-0539,Tarun Kapoor,Team Alpha,2026-09-09,Logistics,Failed,105,165.0,49.7,Morning,Standard operations
+OPS-0540,Meera Pillai,Team Gamma,2026-09-23,Quality Control,Completed,170,130.0,147.5,Night,Standard operations
+OPS-0541,Ramesh Pandey,Team Alpha,2026-09-07,Manufacturing,Completed,104,138.0,168.1,Morning,Standard operations
+OPS-0542,Ashok Mehta,Team Gamma,2026-09-06,Quality Control,Completed,193,132.0,149.7,Afternoon,Standard operations
+OPS-0543,Lakshmi Bhat,Team Beta,2026-09-19,Quality Control,Failed,136,186.0,31.9,Afternoon,Standard operations
+OPS-0544,Anjali Singh,Team Alpha,2026-09-17,Manufacturing,Completed,67,63.0,70.4,Morning,Standard operations
+OPS-0545,Suresh Iyer,Team Alpha,2026-09-10,Quality Control,Completed,45,125.0,116.5,Night,Standard operations
+OPS-0546,Priya Sharma,Team Beta,2026-09-27,Logistics,Completed,173,107.0,122.7,Night,Standard operations
+OPS-0547,Arjun Rao,Team Alpha,2026-09-17,Quality Control,Completed,200,62.0,75.7,Afternoon,Standard operations
+OPS-0548,Meera Pillai,Team Gamma,2026-09-11,Quality Control,Completed,94,101.0,110.9,Afternoon,Standard operations
+OPS-0549,Siddharth Rao,Team Alpha,2026-09-30,Quality Control,Completed,195,144.0,165.9,Night,Standard operations
+OPS-0550,Geeta Yadav,Team Gamma,2026-09-07,Quality Control,Failed,105,164.0,23.7,Night,Standard operations
+OPS-0551,Amit Patel,Team Alpha,2026-09-06,Quality Control,Completed,126,60.0,61.3,Night,Standard operations
+OPS-0552,Suresh Iyer,Team Alpha,2026-09-06,Quality Control,In Progress,31,134.0,72.3,Morning,Standard operations
+OPS-0553,Priya Sharma,Team Alpha,2026-09-30,Logistics,Completed,190,127.0,132.9,Night,Standard operations
+OPS-0554,Lakshmi Bhat,Team Beta,2026-09-03,Quality Control,Completed,86,97.0,102.6,Night,Standard operations
+OPS-0555,Anita Desai,Team Beta,2026-09-18,Quality Control,Completed,119,106.0,127.6,Night,Standard operations
+OPS-0556,Manoj Tiwari,Team Beta,2026-09-12,Logistics,Completed,188,185.0,192.4,Night,Standard operations
+OPS-0557,Siddharth Rao,Team Gamma,2026-09-01,Manufacturing,Completed,144,111.0,134.5,Night,Standard operations
+OPS-0558,Sunita Sharma,Team Gamma,2026-09-08,Manufacturing,Completed,112,147.0,178.8,Morning,Standard operations
+OPS-0559,Arjun Rao,Team Beta,2026-09-18,Quality Control,Completed,162,145.0,153.1,Night,Standard operations
+OPS-0560,Kiran Das,Team Beta,2026-09-02,Logistics,In Progress,79,132.0,73.2,Morning,Standard operations
+OPS-0561,Anita Desai,Team Gamma,2026-09-18,Manufacturing,Completed,83,104.0,124.4,Afternoon,Standard operations
+OPS-0562,Siddharth Rao,Team Alpha,2026-09-07,Quality Control,In Progress,141,68.0,42.4,Morning,Standard operations
+OPS-0563,Rajesh Kumar,Team Beta,2026-09-23,Logistics,Completed,48,63.0,58.0,Afternoon,Standard operations
+OPS-0564,Lakshmi Bhat,Team Alpha,2026-09-19,Manufacturing,Failed,134,149.0,31.7,Afternoon,Standard operations
+OPS-0565,Meera Pillai,Team Beta,2026-09-01,Logistics,Completed,166,51.0,56.4,Night,Standard operations
+OPS-0566,Amit Patel,Team Gamma,2026-09-19,Manufacturing,Completed,48,141.0,172.2,Morning,Standard operations
+OPS-0567,Deepa Joshi,Team Gamma,2026-09-10,Quality Control,Completed,142,147.0,148.2,Night,Standard operations
+OPS-0568,Rajesh Kumar,Team Beta,2026-09-06,Quality Control,Completed,130,189.0,183.0,Night,Standard operations
+OPS-0569,Vikram Singh,Team Beta,2026-09-22,Quality Control,Completed,32,191.0,229.2,Morning,Standard operations
+OPS-0570,Sneha Reddy,Team Alpha,2026-09-01,Quality Control,Completed,167,190.0,233.5,Afternoon,Standard operations
+OPS-0571,Ravi Menon,Team Gamma,2026-09-24,Quality Control,Completed,135,181.0,164.2,Morning,Standard operations
+OPS-0572,Kavita Nair,Team Gamma,2026-09-27,Logistics,Completed,76,195.0,232.2,Night,Standard operations
+OPS-0573,Kiran Das,Team Gamma,2026-09-18,Manufacturing,Completed,47,114.0,101.4,Night,Standard operations
+OPS-0574,Rahul Mishra,Team Beta,2026-09-11,Logistics,Completed,197,110.0,97.9,Night,Standard operations
+OPS-0575,Amit Patel,Team Alpha,2026-09-11,Logistics,Completed,187,128.0,144.3,Morning,Standard operations
+OPS-0576,Rahul Mishra,Team Gamma,2026-09-12,Logistics,Failed,73,51.0,9.1,Morning,Standard operations
+OPS-0577,Ashok Mehta,Team Gamma,2026-09-21,Logistics,Completed,122,84.0,94.2,Afternoon,Standard operations
+OPS-0578,Alok Kumar,Team Beta,2026-09-15,Logistics,Completed,108,174.0,186.3,Morning,Standard operations
+OPS-0579,Ramesh Pandey,Team Gamma,2026-09-03,Logistics,In Progress,65,187.0,85.8,Night,Standard operations
+OPS-0580,Alok Kumar,Team Gamma,2026-09-03,Quality Control,Completed,34,179.0,197.4,Night,Standard operations
+OPS-0581,Rahul Mishra,Team Beta,2026-09-25,Quality Control,Completed,39,191.0,182.3,Night,Standard operations
+OPS-0582,Neha Agarwal,Team Gamma,2026-09-25,Manufacturing,Completed,87,200.0,228.7,Afternoon,Standard operations
+OPS-0583,Vikram Singh,Team Beta,2026-09-17,Quality Control,Completed,123,178.0,152.1,Morning,Standard operations
+OPS-0584,Bhavna Patel,Team Gamma,2026-09-22,Manufacturing,Completed,65,164.0,149.8,Night,Standard operations
+OPS-0585,Rahul Mishra,Team Gamma,2026-09-28,Manufacturing,Completed,153,141.0,122.1,Afternoon,Standard operations
+OPS-0586,Kavita Nair,Team Alpha,2026-09-09,Logistics,Completed,82,182.0,220.8,Afternoon,Standard operations
+OPS-0587,Arjun Rao,Team Beta,2026-09-30,Logistics,In Progress,40,132.0,56.9,Night,Standard operations
+OPS-0588,Ramesh Pandey,Team Beta,2026-09-27,Quality Control,Completed,169,195.0,179.3,Night,Standard operations
+OPS-0589,Arjun Rao,Team Beta,2026-09-19,Quality Control,In Progress,49,182.0,86.5,Morning,Standard operations
+OPS-0590,Sanjay Verma,Team Beta,2026-09-12,Logistics,Completed,153,51.0,53.6,Morning,Standard operations
+OPS-0591,Kiran Das,Team Alpha,2026-09-08,Manufacturing,Completed,101,104.0,94.7,Morning,Standard operations
+OPS-0592,Pooja Gupta,Team Gamma,2026-09-23,Manufacturing,Completed,136,134.0,152.5,Afternoon,Standard operations
+OPS-0593,Swati Kulkarni,Team Beta,2026-09-16,Manufacturing,Completed,195,155.0,133.1,Morning,Standard operations
+OPS-0594,Vikram Singh,Team Gamma,2026-09-19,Manufacturing,Completed,161,60.0,72.4,Morning,Standard operations
+OPS-0595,Priya Sharma,Team Alpha,2026-09-09,Manufacturing,Completed,133,194.0,214.4,Night,Standard operations
+OPS-0596,Geeta Yadav,Team Gamma,2026-09-27,Logistics,Failed,85,164.0,41.3,Afternoon,Standard operations
+OPS-0597,Bhavna Patel,Team Beta,2026-09-06,Manufacturing,In Progress,183,86.0,54.9,Morning,Standard operations
+OPS-0598,Divya Saxena,Team Gamma,2026-09-17,Logistics,Completed,117,166.0,180.7,Morning,Standard operations
+OPS-0599,Kavita Nair,Team Beta,2026-09-13,Manufacturing,Completed,81,183.0,218.5,Night,Standard operations
+OPS-0600,Swati Kulkarni,Team Beta,2026-09-27,Manufacturing,Completed,75,171.0,207.0,Night,Standard operations
+OPS-0601,Priya Sharma,Team Gamma,2026-09-17,Manufacturing,Completed,198,83.0,100.5,Night,Standard operations
+OPS-0602,Siddharth Rao,Team Alpha,2026-09-29,Quality Control,Completed,163,157.0,156.7,Morning,Standard operations
+OPS-0603,Ashok Mehta,Team Gamma,2026-09-14,Manufacturing,Failed,153,147.0,27.6,Night,Standard operations
+OPS-0604,Sunita Sharma,Team Gamma,2026-09-19,Manufacturing,Completed,95,172.0,198.9,Morning,Standard operations
+OPS-0605,Deepa Joshi,Team Gamma,2026-09-29,Quality Control,Completed,78,51.0,57.8,Morning,Standard operations
+OPS-0606,Rahul Mishra,Team Gamma,2026-09-04,Quality Control,Completed,197,102.0,114.8,Afternoon,Standard operations
+OPS-0607,Meera Pillai,Team Beta,2026-09-04,Manufacturing,Completed,179,114.0,108.8,Night,Standard operations
+OPS-0608,Meera Pillai,Team Gamma,2026-09-12,Quality Control,Completed,131,102.0,103.6,Night,Standard operations
+OPS-0609,Neha Agarwal,Team Alpha,2026-09-12,Quality Control,Completed,94,128.0,138.4,Night,Standard operations
+OPS-0610,Arjun Rao,Team Gamma,2026-09-05,Quality Control,Completed,88,164.0,190.8,Morning,Standard operations
+OPS-0611,Sneha Reddy,Team Alpha,2026-09-17,Logistics,In Progress,170,63.0,28.2,Night,Standard operations
+OPS-0612,Rajesh Kumar,Team Alpha,2026-09-27,Manufacturing,Completed,183,161.0,142.5,Afternoon,Standard operations
+OPS-0613,Kavita Nair,Team Beta,2026-09-03,Quality Control,Completed,128,152.0,166.5,Night,Standard operations
+OPS-0614,Deepa Joshi,Team Gamma,2026-09-20,Manufacturing,Failed,74,176.0,36.9,Morning,Standard operations
+OPS-0615,Bhavna Patel,Team Gamma,2026-09-30,Quality Control,Completed,38,180.0,190.1,Morning,Standard operations
+OPS-0616,Divya Saxena,Team Alpha,2026-09-22,Manufacturing,Completed,197,50.0,62.0,Morning,Standard operations
+OPS-0617,Suresh Iyer,Team Beta,2026-09-12,Quality Control,Completed,180,101.0,106.8,Night,Standard operations
+OPS-0618,Ashok Mehta,Team Alpha,2026-09-30,Manufacturing,Completed,173,199.0,196.9,Afternoon,Standard operations
+OPS-0619,Kavita Nair,Team Gamma,2026-09-07,Logistics,Failed,177,51.0,8.4,Afternoon,Standard operations
+OPS-0620,Sanjay Verma,Team Alpha,2026-09-18,Manufacturing,Completed,117,79.0,92.5,Afternoon,Standard operations
+OPS-0621,Alok Kumar,Team Gamma,2026-09-27,Quality Control,Completed,143,146.0,157.0,Morning,Standard operations
+OPS-0622,Tarun Kapoor,Team Beta,2026-09-25,Logistics,Completed,180,57.0,59.4,Afternoon,Standard operations
+OPS-0623,Amit Patel,Team Beta,2026-09-21,Manufacturing,Completed,88,130.0,131.9,Afternoon,Standard operations
+OPS-0624,Sanjay Verma,Team Gamma,2026-09-01,Quality Control,In Progress,93,123.0,52.6,Night,Standard operations
+OPS-0625,Geeta Yadav,Team Beta,2026-09-03,Quality Control,Failed,151,130.0,24.5,Night,Standard operations
+OPS-0626,Suresh Iyer,Team Alpha,2026-09-24,Quality Control,Failed,78,177.0,50.3,Morning,Standard operations
+OPS-0627,Geeta Yadav,Team Alpha,2026-09-28,Logistics,Completed,81,113.0,133.9,Afternoon,Standard operations
+OPS-0628,Vikram Singh,Team Alpha,2026-09-04,Manufacturing,Completed,199,176.0,192.8,Night,Standard operations
+OPS-0629,Priya Sharma,Team Beta,2026-09-12,Quality Control,Completed,177,120.0,125.6,Night,Standard operations
+OPS-0630,Suresh Iyer,Team Beta,2026-09-08,Quality Control,Completed,164,158.0,164.5,Night,Standard operations
+OPS-0631,Priya Sharma,Team Gamma,2026-09-12,Logistics,In Progress,74,167.0,115.7,Night,Standard operations
+OPS-0632,Sanjay Verma,Team Beta,2026-09-11,Quality Control,Completed,83,147.0,159.1,Afternoon,Standard operations
+OPS-0633,Pooja Gupta,Team Gamma,2026-09-28,Logistics,Completed,97,110.0,105.4,Night,Standard operations
+OPS-0634,Manoj Tiwari,Team Beta,2026-09-06,Logistics,Completed,137,145.0,144.4,Afternoon,Standard operations
+OPS-0635,Suresh Iyer,Team Beta,2026-09-06,Quality Control,Completed,177,108.0,127.0,Night,Standard operations
+OPS-0636,Suresh Iyer,Team Alpha,2026-09-18,Logistics,In Progress,80,87.0,55.7,Night,Standard operations
+OPS-0637,Vikram Singh,Team Beta,2026-09-26,Manufacturing,Completed,157,84.0,104.9,Night,Standard operations
+OPS-0638,Sanjay Verma,Team Gamma,2026-09-24,Logistics,In Progress,106,114.0,64.8,Night,Standard operations
+OPS-0639,Priya Sharma,Team Beta,2026-09-04,Quality Control,Completed,85,115.0,119.7,Night,Standard operations
+OPS-0640,Sneha Reddy,Team Beta,2026-09-24,Logistics,Completed,122,193.0,207.1,Afternoon,Standard operations
+OPS-0641,Pooja Gupta,Team Alpha,2026-09-14,Manufacturing,Completed,185,100.0,108.1,Night,Standard operations
+OPS-0642,Ramesh Pandey,Team Gamma,2026-09-06,Logistics,Completed,160,174.0,201.8,Afternoon,Standard operations
+OPS-0643,Alok Kumar,Team Alpha,2026-09-13,Quality Control,Completed,191,87.0,104.2,Night,Standard operations
+OPS-0644,Anjali Singh,Team Beta,2026-09-14,Quality Control,Completed,133,68.0,60.0,Afternoon,Standard operations
+OPS-0645,Kavita Nair,Team Beta,2026-09-11,Quality Control,Completed,98,151.0,144.7,Afternoon,Standard operations
+OPS-0646,Tarun Kapoor,Team Beta,2026-09-24,Quality Control,Completed,145,155.0,142.1,Morning,Standard operations
+OPS-0647,Vikram Singh,Team Gamma,2026-09-08,Quality Control,Completed,50,103.0,94.4,Morning,Standard operations
+OPS-0648,Sneha Reddy,Team Alpha,2026-09-30,Logistics,Completed,36,151.0,160.0,Morning,Standard operations
+OPS-0649,Sneha Reddy,Team Beta,2026-09-20,Manufacturing,Completed,129,129.0,121.5,Night,Standard operations
+OPS-0650,Deepa Joshi,Team Beta,2026-09-21,Manufacturing,Completed,73,57.0,49.3,Afternoon,Standard operations
+OPS-0651,Bhavna Patel,Team Beta,2026-09-28,Logistics,Completed,168,119.0,127.3,Morning,Standard operations
+OPS-0652,Ashok Mehta,Team Gamma,2026-09-06,Quality Control,Completed,191,194.0,198.7,Night,Standard operations
+OPS-0653,Ramesh Pandey,Team Gamma,2026-09-10,Logistics,Completed,88,72.0,73.9,Afternoon,Standard operations
+OPS-0654,Meera Pillai,Team Beta,2026-09-05,Logistics,Completed,163,84.0,83.0,Afternoon,Standard operations
+OPS-0655,Lakshmi Bhat,Team Alpha,2026-09-23,Logistics,Failed,152,126.0,12.9,Afternoon,Standard operations
+OPS-0656,Anjali Singh,Team Beta,2026-09-20,Manufacturing,In Progress,170,145.0,66.2,Night,Standard operations
+OPS-0657,Meera Pillai,Team Beta,2026-09-08,Manufacturing,Completed,195,149.0,176.0,Morning,Standard operations
+OPS-0658,Suresh Iyer,Team Alpha,2026-09-14,Quality Control,Completed,186,119.0,114.7,Night,Standard operations
+OPS-0659,Lakshmi Bhat,Team Beta,2026-09-14,Manufacturing,In Progress,76,84.0,40.9,Night,Standard operations
+OPS-0660,Kiran Das,Team Gamma,2026-09-15,Logistics,Completed,155,98.0,95.9,Morning,Standard operations
+OPS-0661,Priya Sharma,Team Gamma,2026-09-01,Manufacturing,Failed,102,118.0,15.5,Afternoon,Standard operations
+OPS-0662,Geeta Yadav,Team Alpha,2026-09-08,Manufacturing,Completed,156,105.0,103.6,Afternoon,Standard operations
+OPS-0663,Anjali Singh,Team Beta,2026-09-12,Logistics,Completed,38,134.0,118.2,Morning,Standard operations
+OPS-0664,Priya Sharma,Team Beta,2026-09-25,Logistics,Completed,150,96.0,89.0,Afternoon,Standard operations
+OPS-0665,Siddharth Rao,Team Beta,2026-09-27,Manufacturing,Completed,93,148.0,171.5,Afternoon,Standard operations
+OPS-0666,Kavita Nair,Team Gamma,2026-09-02,Manufacturing,Completed,54,183.0,204.3,Morning,Standard operations
+OPS-0667,Neha Agarwal,Team Beta,2026-09-22,Logistics,Failed,70,60.0,17.2,Night,Standard operations
+OPS-0668,Sanjay Verma,Team Alpha,2026-09-09,Logistics,Completed,80,142.0,171.1,Night,Standard operations
+OPS-0669,Ravi Menon,Team Alpha,2026-09-08,Quality Control,Completed,33,92.0,107.4,Night,Standard operations
+OPS-0670,Sneha Reddy,Team Beta,2026-09-26,Manufacturing,Completed,40,198.0,230.4,Afternoon,Standard operations
+OPS-0671,Ashok Mehta,Team Gamma,2026-09-05,Logistics,Completed,93,90.0,94.5,Night,Standard operations
+OPS-0672,Divya Saxena,Team Beta,2026-09-30,Quality Control,Completed,121,89.0,100.6,Morning,Standard operations
+OPS-0673,Vikram Singh,Team Beta,2026-09-08,Logistics,Failed,195,138.0,41.6,Afternoon,Standard operations
+OPS-0674,Geeta Yadav,Team Alpha,2026-09-01,Quality Control,Completed,64,114.0,137.9,Afternoon,Standard operations
+OPS-0675,Ashok Mehta,Team Beta,2026-09-18,Logistics,Completed,155,98.0,105.5,Night,Standard operations
+OPS-0676,Pooja Gupta,Team Beta,2026-09-24,Logistics,Completed,183,191.0,174.6,Night,Standard operations
+OPS-0677,Vikram Singh,Team Beta,2026-09-10,Logistics,Completed,146,50.0,58.0,Night,Standard operations
+OPS-0678,Arjun Rao,Team Gamma,2026-09-06,Manufacturing,Completed,123,111.0,108.6,Morning,Standard operations
+OPS-0679,Swati Kulkarni,Team Gamma,2026-09-27,Logistics,Completed,157,191.0,174.1,Afternoon,Standard operations
+OPS-0680,Manoj Tiwari,Team Beta,2026-09-21,Logistics,Completed,163,67.0,58.1,Morning,Standard operations
+OPS-0681,Anita Desai,Team Alpha,2026-09-07,Manufacturing,Completed,55,58.0,62.5,Afternoon,Standard operations
+OPS-0682,Swati Kulkarni,Team Beta,2026-09-17,Quality Control,Completed,95,62.0,61.8,Night,Standard operations
+OPS-0683,Ashok Mehta,Team Alpha,2026-09-01,Manufacturing,Completed,50,169.0,197.8,Morning,Standard operations
+OPS-0684,Pooja Gupta,Team Gamma,2026-09-24,Logistics,In Progress,44,118.0,65.9,Night,Standard operations
+OPS-0685,Amit Patel,Team Beta,2026-09-03,Manufacturing,Failed,54,75.0,21.1,Night,Standard operations
+OPS-0686,Arjun Rao,Team Alpha,2026-09-07,Quality Control,Completed,175,95.0,102.0,Night,Standard operations
+OPS-0687,Meera Pillai,Team Gamma,2026-09-04,Quality Control,Completed,147,159.0,191.3,Morning,Standard operations
+OPS-0688,Anjali Singh,Team Alpha,2026-09-18,Logistics,Completed,198,90.0,95.7,Night,Standard operations
+OPS-0689,Kiran Das,Team Beta,2026-09-29,Logistics,Completed,113,145.0,147.2,Night,Standard operations
+OPS-0690,Meera Pillai,Team Gamma,2026-09-11,Quality Control,Completed,169,104.0,104.0,Night,Standard operations
+OPS-0691,Sunita Sharma,Team Gamma,2026-09-09,Logistics,Failed,144,151.0,15.1,Morning,Standard operations
+OPS-0692,Deepa Joshi,Team Gamma,2026-09-01,Quality Control,Completed,107,51.0,49.5,Morning,Standard operations
+OPS-0693,Ravi Menon,Team Beta,2026-09-01,Quality Control,In Progress,171,180.0,102.0,Night,Standard operations
+OPS-0694,Vikram Singh,Team Alpha,2026-09-02,Logistics,Completed,65,117.0,116.6,Night,Standard operations
+OPS-0695,Kavita Nair,Team Alpha,2026-09-09,Logistics,Completed,132,195.0,237.3,Night,Standard operations
+OPS-0696,Amit Patel,Team Gamma,2026-09-11,Logistics,Completed,177,74.0,80.5,Afternoon,Standard operations
+OPS-0697,Priya Sharma,Team Gamma,2026-09-26,Quality Control,Completed,44,135.0,133.5,Afternoon,Standard operations
+OPS-0698,Meera Pillai,Team Alpha,2026-09-28,Manufacturing,Completed,184,52.0,57.4,Night,Standard operations
+OPS-0699,Arjun Rao,Team Alpha,2026-09-10,Quality Control,Completed,168,194.0,176.5,Night,Standard operations
+OPS-0700,Ashok Mehta,Team Alpha,2026-09-05,Manufacturing,Completed,130,164.0,188.8,Night,Standard operations
+OPS-0701,Sanjay Verma,Team Alpha,2026-09-08,Logistics,Completed,130,87.0,78.6,Morning,Standard operations
+OPS-0702,Neha Agarwal,Team Gamma,2026-09-24,Manufacturing,Completed,97,71.0,71.7,Afternoon,Standard operations
+OPS-0703,Tarun Kapoor,Team Gamma,2026-09-05,Manufacturing,Completed,80,174.0,175.4,Night,Standard operations
+OPS-0704,Ravi Menon,Team Gamma,2026-09-20,Quality Control,Completed,92,68.0,65.0,Afternoon,Standard operations
+OPS-0705,Manoj Tiwari,Team Gamma,2026-09-30,Quality Control,Completed,135,158.0,157.4,Morning,Standard operations
+OPS-0706,Manoj Tiwari,Team Beta,2026-09-20,Quality Control,Completed,108,93.0,115.8,Night,Standard operations
+OPS-0707,Siddharth Rao,Team Beta,2026-09-20,Manufacturing,Completed,89,101.0,113.5,Morning,Standard operations
+OPS-0708,Tarun Kapoor,Team Gamma,2026-09-28,Manufacturing,Completed,43,112.0,137.7,Morning,Standard operations
+OPS-0709,Bhavna Patel,Team Beta,2026-09-01,Logistics,Completed,58,128.0,131.8,Morning,Standard operations
+OPS-0710,Manoj Tiwari,Team Alpha,2026-09-24,Quality Control,Completed,169,183.0,210.5,Night,Standard operations
+OPS-0711,Neha Agarwal,Team Gamma,2026-09-24,Manufacturing,Completed,34,146.0,158.1,Night,Standard operations
+OPS-0712,Sanjay Verma,Team Alpha,2026-09-09,Manufacturing,Completed,81,119.0,103.7,Night,Standard operations
+OPS-0713,Rajesh Kumar,Team Alpha,2026-09-13,Quality Control,Completed,198,142.0,169.8,Morning,Standard operations
+OPS-0714,Deepa Joshi,Team Gamma,2026-09-13,Manufacturing,Failed,160,75.0,24.4,Afternoon,Standard operations
+OPS-0715,Bhavna Patel,Team Gamma,2026-09-18,Manufacturing,Completed,158,167.0,179.4,Night,Standard operations
+OPS-0716,Rajesh Kumar,Team Alpha,2026-09-08,Quality Control,Completed,155,150.0,172.2,Morning,Standard operations
+OPS-0717,Pooja Gupta,Team Gamma,2026-09-12,Logistics,Completed,90,178.0,170.9,Morning,Standard operations
+OPS-0718,Ramesh Pandey,Team Beta,2026-09-29,Logistics,In Progress,37,192.0,131.5,Morning,Standard operations
+OPS-0719,Vikram Singh,Team Beta,2026-09-29,Logistics,Completed,52,147.0,155.6,Night,Standard operations
+OPS-0720,Divya Saxena,Team Gamma,2026-09-22,Manufacturing,Completed,176,89.0,90.8,Afternoon,Standard operations
+OPS-0721,Sunita Sharma,Team Gamma,2026-09-11,Logistics,Completed,82,85.0,92.0,Night,Standard operations
+OPS-0722,Anjali Singh,Team Alpha,2026-09-28,Manufacturing,Completed,164,84.0,85.9,Morning,Standard operations
+OPS-0723,Ramesh Pandey,Team Gamma,2026-09-30,Manufacturing,Completed,172,186.0,228.7,Morning,Standard operations
+OPS-0724,Anita Desai,Team Beta,2026-09-27,Manufacturing,Completed,111,155.0,191.3,Afternoon,Standard operations
+OPS-0725,Kiran Das,Team Gamma,2026-09-30,Quality Control,Failed,100,88.0,25.9,Morning,Standard operations
+OPS-0726,Vikram Singh,Team Alpha,2026-09-01,Quality Control,Completed,185,195.0,213.5,Night,Standard operations
+OPS-0727,Kavita Nair,Team Alpha,2026-09-22,Manufacturing,Completed,152,84.0,88.3,Night,Standard operations
+OPS-0728,Neha Agarwal,Team Gamma,2026-09-21,Logistics,Completed,129,175.0,181.9,Morning,Standard operations
+OPS-0729,Ravi Menon,Team Alpha,2026-09-02,Logistics,Completed,33,119.0,146.4,Morning,Standard operations
+OPS-0730,Geeta Yadav,Team Gamma,2026-09-07,Manufacturing,Completed,142,175.0,196.9,Afternoon,Standard operations
+OPS-0731,Alok Kumar,Team Alpha,2026-09-14,Logistics,Completed,185,147.0,167.3,Afternoon,Standard operations
+OPS-0732,Divya Saxena,Team Gamma,2026-09-19,Quality Control,Completed,194,59.0,62.4,Afternoon,Standard operations
+OPS-0733,Kiran Das,Team Alpha,2026-09-29,Manufacturing,Completed,131,60.0,64.4,Night,Standard operations
+OPS-0734,Tarun Kapoor,Team Gamma,2026-09-02,Manufacturing,Completed,131,127.0,147.3,Afternoon,Standard operations
+OPS-0735,Kiran Das,Team Alpha,2026-09-14,Logistics,Completed,43,182.0,220.5,Afternoon,Standard operations
+OPS-0736,Siddharth Rao,Team Gamma,2026-09-15,Manufacturing,Completed,58,96.0,111.5,Night,Standard operations
+OPS-0737,Lakshmi Bhat,Team Alpha,2026-09-13,Logistics,Completed,36,95.0,98.0,Night,Standard operations
+OPS-0738,Alok Kumar,Team Alpha,2026-09-29,Logistics,Completed,112,91.0,103.5,Morning,Standard operations
+OPS-0739,Amit Patel,Team Alpha,2026-09-23,Logistics,Completed,51,184.0,208.5,Night,Standard operations
+OPS-0740,Anjali Singh,Team Gamma,2026-09-20,Manufacturing,Completed,127,61.0,70.6,Afternoon,Standard operations
+OPS-0741,Rahul Mishra,Team Gamma,2026-09-28,Manufacturing,Completed,67,95.0,110.0,Morning,Standard operations
+OPS-0742,Meera Pillai,Team Beta,2026-09-10,Quality Control,Completed,144,123.0,135.4,Morning,Standard operations
+OPS-0743,Alok Kumar,Team Alpha,2026-09-07,Manufacturing,Completed,94,53.0,54.8,Afternoon,Standard operations
+OPS-0744,Lakshmi Bhat,Team Alpha,2026-09-20,Logistics,Completed,180,171.0,176.4,Afternoon,Standard operations
+OPS-0745,Amit Patel,Team Gamma,2026-09-20,Manufacturing,Completed,170,121.0,132.8,Night,Standard operations
+OPS-0746,Siddharth Rao,Team Alpha,2026-09-02,Manufacturing,Completed,197,139.0,120.2,Morning,Standard operations
+OPS-0747,Swati Kulkarni,Team Gamma,2026-09-27,Quality Control,Completed,52,62.0,55.4,Morning,Standard operations
+OPS-0748,Anita Desai,Team Gamma,2026-09-10,Quality Control,Completed,182,196.0,228.3,Morning,Standard operations
+OPS-0749,Kiran Das,Team Gamma,2026-09-19,Logistics,Failed,53,126.0,22.8,Afternoon,Standard operations
+OPS-0750,Siddharth Rao,Team Alpha,2026-09-25,Logistics,In Progress,46,124.0,67.1,Morning,Standard operations
+OPS-0751,Ashok Mehta,Team Beta,2026-09-11,Quality Control,Completed,83,103.0,112.8,Morning,Standard operations
+OPS-0752,Rahul Mishra,Team Gamma,2026-09-21,Quality Control,Failed,153,123.0,25.4,Afternoon,Standard operations
+OPS-0753,Suresh Iyer,Team Gamma,2026-09-19,Quality Control,Completed,63,194.0,203.4,Night,Standard operations
+OPS-0754,Ramesh Pandey,Team Beta,2026-09-16,Manufacturing,In Progress,89,124.0,86.0,Morning,Standard operations
+OPS-0755,Sneha Reddy,Team Alpha,2026-09-15,Quality Control,In Progress,83,156.0,81.8,Afternoon,Standard operations
+OPS-0756,Pooja Gupta,Team Gamma,2026-09-26,Quality Control,Completed,193,101.0,113.7,Afternoon,Standard operations
+OPS-0757,Anjali Singh,Team Alpha,2026-09-10,Logistics,Completed,112,51.0,45.7,Afternoon,Standard operations
+OPS-0758,Manoj Tiwari,Team Beta,2026-09-24,Quality Control,Completed,37,94.0,87.2,Afternoon,Standard operations
+OPS-0759,Sunita Sharma,Team Gamma,2026-09-16,Logistics,In Progress,195,84.0,45.7,Night,Standard operations
+OPS-0760,Kiran Das,Team Gamma,2026-09-29,Logistics,Completed,135,64.0,75.8,Afternoon,Standard operations
+OPS-0761,Rahul Mishra,Team Gamma,2026-09-22,Logistics,Completed,34,103.0,111.3,Afternoon,Standard operations
+OPS-0762,Anjali Singh,Team Beta,2026-09-03,Manufacturing,Completed,37,136.0,169.1,Night,Standard operations
+OPS-0763,Lakshmi Bhat,Team Alpha,2026-09-19,Quality Control,Completed,182,79.0,94.5,Afternoon,Standard operations
+OPS-0764,Ashok Mehta,Team Beta,2026-09-23,Manufacturing,Completed,52,177.0,212.5,Afternoon,Standard operations
+OPS-0765,Kiran Das,Team Beta,2026-09-07,Quality Control,Completed,58,145.0,168.8,Morning,Standard operations
+OPS-0766,Sunita Sharma,Team Alpha,2026-09-15,Quality Control,Completed,153,178.0,162.3,Afternoon,Standard operations
+OPS-0767,Sunita Sharma,Team Beta,2026-09-24,Quality Control,Completed,113,86.0,99.6,Morning,Standard operations
+OPS-0768,Siddharth Rao,Team Gamma,2026-09-22,Manufacturing,Completed,39,167.0,167.8,Night,Standard operations
+OPS-0769,Sneha Reddy,Team Alpha,2026-09-10,Manufacturing,Completed,182,72.0,70.8,Morning,Standard operations
+OPS-0770,Sneha Reddy,Team Gamma,2026-09-25,Quality Control,Completed,35,197.0,227.2,Night,Standard operations
+OPS-0771,Alok Kumar,Team Alpha,2026-09-11,Manufacturing,Completed,100,186.0,181.8,Afternoon,Standard operations
+OPS-0772,Swati Kulkarni,Team Alpha,2026-09-09,Manufacturing,Completed,59,53.0,65.4,Night,Standard operations
+OPS-0773,Sanjay Verma,Team Alpha,2026-09-07,Quality Control,Completed,111,119.0,107.9,Night,Standard operations
+OPS-0774,Anjali Singh,Team Beta,2026-09-19,Manufacturing,Completed,109,136.0,145.0,Morning,Standard operations
+OPS-0775,Vikram Singh,Team Alpha,2026-09-16,Quality Control,Completed,128,63.0,55.7,Afternoon,Standard operations
+OPS-0776,Anita Desai,Team Gamma,2026-09-20,Quality Control,Completed,144,141.0,137.5,Morning,Standard operations
+OPS-0777,Ashok Mehta,Team Gamma,2026-09-26,Quality Control,Completed,149,195.0,176.0,Night,Standard operations
+OPS-0778,Kiran Das,Team Alpha,2026-09-15,Logistics,Completed,149,170.0,160.3,Morning,Standard operations
+OPS-0779,Vikram Singh,Team Gamma,2026-09-09,Logistics,Completed,200,134.0,156.2,Afternoon,Standard operations
+OPS-0780,Kiran Das,Team Beta,2026-09-01,Manufacturing,Completed,119,172.0,177.9,Morning,Standard operations
+OPS-0781,Deepa Joshi,Team Beta,2026-09-20,Quality Control,Completed,56,153.0,180.1,Morning,Standard operations
+OPS-0782,Manoj Tiwari,Team Gamma,2026-09-21,Manufacturing,In Progress,166,168.0,87.4,Afternoon,Standard operations
+OPS-0783,Kavita Nair,Team Gamma,2026-09-08,Quality Control,Completed,153,148.0,129.7,Morning,Standard operations
+OPS-0784,Siddharth Rao,Team Gamma,2026-09-19,Logistics,In Progress,141,195.0,124.1,Night,Standard operations
+OPS-0785,Ashok Mehta,Team Alpha,2026-09-06,Quality Control,Completed,176,174.0,155.9,Night,Standard operations
+OPS-0786,Kiran Das,Team Beta,2026-09-18,Manufacturing,In Progress,75,128.0,87.9,Morning,Standard operations
+OPS-0787,Divya Saxena,Team Alpha,2026-09-22,Quality Control,Completed,127,133.0,139.3,Night,Standard operations
+OPS-0788,Priya Sharma,Team Alpha,2026-09-07,Manufacturing,In Progress,192,50.0,31.4,Night,Standard operations
+OPS-0789,Vikram Singh,Team Beta,2026-09-18,Logistics,Completed,177,164.0,152.2,Night,Standard operations
+OPS-0790,Alok Kumar,Team Beta,2026-09-10,Quality Control,In Progress,107,161.0,99.1,Afternoon,Standard operations
+OPS-0791,Amit Patel,Team Gamma,2026-09-01,Quality Control,Failed,133,82.0,25.7,Morning,Standard operations
+OPS-0792,Pooja Gupta,Team Gamma,2026-09-02,Manufacturing,Completed,121,78.0,93.2,Morning,Standard operations
+OPS-0793,Kavita Nair,Team Beta,2026-09-23,Quality Control,Completed,111,147.0,148.8,Afternoon,Standard operations
+OPS-0794,Lakshmi Bhat,Team Alpha,2026-09-22,Manufacturing,Completed,78,192.0,192.7,Afternoon,Standard operations
+OPS-0795,Siddharth Rao,Team Beta,2026-09-05,Logistics,Failed,62,84.0,8.6,Night,Standard operations
+OPS-0796,Rajesh Kumar,Team Alpha,2026-09-24,Logistics,Completed,64,71.0,64.2,Afternoon,Standard operations
+OPS-0797,Bhavna Patel,Team Beta,2026-09-29,Quality Control,Completed,138,96.0,99.0,Afternoon,Standard operations
+OPS-0798,Lakshmi Bhat,Team Beta,2026-09-13,Logistics,Completed,138,51.0,55.1,Night,Standard operations
+OPS-0799,Kavita Nair,Team Gamma,2026-09-17,Logistics,Completed,169,197.0,196.4,Morning,Standard operations
+OPS-0800,Rahul Mishra,Team Beta,2026-09-23,Logistics,Completed,153,70.0,63.5,Night,Standard operations
+OPS-0801,Sanjay Verma,Team Beta,2026-09-15,Quality Control,Completed,186,72.0,68.3,Night,Standard operations
+OPS-0802,Geeta Yadav,Team Gamma,2026-09-22,Manufacturing,Completed,168,198.0,193.0,Morning,Standard operations
+OPS-0803,Alok Kumar,Team Beta,2026-09-18,Manufacturing,Completed,161,170.0,183.5,Afternoon,Standard operations
+OPS-0804,Meera Pillai,Team Beta,2026-09-26,Logistics,Completed,39,127.0,144.9,Night,Standard operations
+OPS-0805,Suresh Iyer,Team Alpha,2026-09-21,Logistics,Completed,176,63.0,70.1,Afternoon,Standard operations
+OPS-0806,Anjali Singh,Team Gamma,2026-09-20,Manufacturing,Completed,51,82.0,86.3,Afternoon,Standard operations
+OPS-0807,Suresh Iyer,Team Alpha,2026-09-20,Logistics,Completed,95,53.0,60.8,Night,Standard operations
+OPS-0808,Anita Desai,Team Gamma,2026-09-24,Manufacturing,Completed,124,94.0,89.7,Night,Standard operations
+OPS-0809,Kavita Nair,Team Beta,2026-09-06,Quality Control,In Progress,117,71.0,49.0,Night,Standard operations
+OPS-0810,Sunita Sharma,Team Alpha,2026-09-27,Logistics,Completed,135,148.0,139.9,Afternoon,Standard operations
+OPS-0811,Geeta Yadav,Team Gamma,2026-09-06,Manufacturing,Completed,118,63.0,69.7,Morning,Standard operations
+OPS-0812,Priya Sharma,Team Alpha,2026-09-15,Logistics,Completed,151,186.0,175.5,Night,Standard operations
+OPS-0813,Ashok Mehta,Team Beta,2026-09-16,Logistics,Completed,141,53.0,51.2,Afternoon,Standard operations
+OPS-0814,Arjun Rao,Team Gamma,2026-09-11,Quality Control,Completed,40,74.0,90.1,Night,Standard operations
+OPS-0815,Pooja Gupta,Team Beta,2026-09-20,Quality Control,In Progress,115,119.0,57.1,Morning,Standard operations
+OPS-0816,Suresh Iyer,Team Gamma,2026-09-19,Logistics,Completed,91,200.0,231.6,Night,Standard operations
+OPS-0817,Manoj Tiwari,Team Gamma,2026-09-23,Manufacturing,Completed,32,52.0,61.5,Morning,Standard operations
+OPS-0818,Meera Pillai,Team Alpha,2026-09-17,Manufacturing,Completed,119,106.0,120.9,Afternoon,Standard operations
+OPS-0819,Ravi Menon,Team Alpha,2026-09-01,Quality Control,Completed,182,105.0,129.2,Night,Standard operations
+OPS-0820,Sneha Reddy,Team Gamma,2026-09-04,Manufacturing,In Progress,63,146.0,87.2,Night,Standard operations
+OPS-0821,Rahul Mishra,Team Alpha,2026-09-29,Manufacturing,Completed,94,125.0,129.6,Morning,Standard operations
+OPS-0822,Ramesh Pandey,Team Beta,2026-09-30,Logistics,Completed,200,132.0,125.8,Morning,Standard operations
+OPS-0823,Suresh Iyer,Team Alpha,2026-09-13,Logistics,Completed,45,116.0,142.9,Afternoon,Standard operations
+OPS-0824,Anita Desai,Team Beta,2026-09-03,Logistics,Failed,81,150.0,21.7,Afternoon,Standard operations
+OPS-0825,Sneha Reddy,Team Alpha,2026-09-18,Logistics,Completed,194,77.0,93.6,Night,Standard operations
+OPS-0826,Suresh Iyer,Team Alpha,2026-09-02,Manufacturing,Completed,94,164.0,140.6,Afternoon,Standard operations
+OPS-0827,Vikram Singh,Team Gamma,2026-09-21,Manufacturing,Failed,200,149.0,24.8,Night,Standard operations
+OPS-0828,Manoj Tiwari,Team Beta,2026-09-19,Manufacturing,Completed,155,172.0,176.2,Night,Standard operations
+OPS-0829,Tarun Kapoor,Team Alpha,2026-09-18,Manufacturing,Completed,153,81.0,87.2,Afternoon,Standard operations
+OPS-0830,Manoj Tiwari,Team Gamma,2026-09-10,Logistics,Completed,195,73.0,72.7,Afternoon,Standard operations
+OPS-0831,Amit Patel,Team Beta,2026-09-25,Logistics,Completed,75,191.0,165.4,Afternoon,Standard operations
+OPS-0832,Swati Kulkarni,Team Alpha,2026-09-10,Quality Control,Completed,57,141.0,147.3,Night,Standard operations
+OPS-0833,Kiran Das,Team Gamma,2026-09-07,Manufacturing,Completed,36,111.0,116.1,Morning,Standard operations
+OPS-0834,Anjali Singh,Team Gamma,2026-09-21,Logistics,Completed,145,54.0,46.7,Morning,Standard operations
+OPS-0835,Manoj Tiwari,Team Gamma,2026-09-02,Logistics,Completed,197,183.0,189.1,Night,Standard operations
+OPS-0836,Bhavna Patel,Team Gamma,2026-09-05,Quality Control,Completed,48,59.0,67.5,Afternoon,Standard operations
+OPS-0837,Ramesh Pandey,Team Alpha,2026-09-16,Quality Control,Completed,196,83.0,71.0,Night,Standard operations
+OPS-0838,Priya Sharma,Team Beta,2026-09-27,Manufacturing,Completed,73,66.0,77.7,Morning,Standard operations
+OPS-0839,Sneha Reddy,Team Beta,2026-09-20,Quality Control,Completed,81,159.0,156.6,Night,Standard operations
+OPS-0840,Swati Kulkarni,Team Beta,2026-09-11,Manufacturing,Failed,177,189.0,25.4,Morning,Standard operations
+OPS-0841,Tarun Kapoor,Team Alpha,2026-09-19,Manufacturing,Completed,60,120.0,108.8,Afternoon,Standard operations
+OPS-0842,Anita Desai,Team Gamma,2026-09-12,Quality Control,Completed,92,198.0,171.5,Morning,Standard operations
+OPS-0843,Anjali Singh,Team Gamma,2026-09-20,Logistics,Completed,34,174.0,153.5,Morning,Standard operations
+OPS-0844,Anita Desai,Team Alpha,2026-09-23,Quality Control,Completed,102,156.0,175.9,Afternoon,Standard operations
+OPS-0845,Ashok Mehta,Team Alpha,2026-09-07,Manufacturing,Completed,163,165.0,167.4,Morning,Standard operations
+OPS-0846,Divya Saxena,Team Gamma,2026-09-02,Quality Control,Completed,157,72.0,79.3,Afternoon,Standard operations
+OPS-0847,Pooja Gupta,Team Beta,2026-09-01,Quality Control,Completed,60,185.0,229.5,Night,Standard operations
+OPS-0848,Pooja Gupta,Team Gamma,2026-09-17,Manufacturing,Completed,190,103.0,98.9,Morning,Standard operations
+OPS-0849,Sneha Reddy,Team Alpha,2026-09-22,Logistics,Completed,70,61.0,53.2,Afternoon,Standard operations
+OPS-0850,Deepa Joshi,Team Alpha,2026-09-14,Logistics,Completed,146,61.0,54.4,Morning,Standard operations
+OPS-0851,Sunita Sharma,Team Gamma,2026-09-06,Manufacturing,In Progress,154,181.0,78.7,Morning,Standard operations
+OPS-0852,Geeta Yadav,Team Beta,2026-09-19,Quality Control,Completed,80,133.0,125.3,Morning,Standard operations
+OPS-0853,Manoj Tiwari,Team Alpha,2026-09-04,Manufacturing,Completed,81,146.0,176.2,Morning,Standard operations
+OPS-0854,Neha Agarwal,Team Gamma,2026-09-16,Manufacturing,In Progress,67,105.0,71.2,Afternoon,Standard operations
+OPS-0855,Anita Desai,Team Beta,2026-09-12,Manufacturing,Completed,79,141.0,174.9,Morning,Standard operations
+OPS-0856,Manoj Tiwari,Team Alpha,2026-09-02,Quality Control,Completed,101,84.0,75.1,Afternoon,Standard operations
+OPS-0857,Kiran Das,Team Beta,2026-09-06,Logistics,Completed,105,90.0,104.9,Night,Standard operations
+OPS-0858,Divya Saxena,Team Alpha,2026-09-19,Quality Control,In Progress,52,155.0,101.8,Afternoon,Standard operations
+OPS-0859,Bhavna Patel,Team Alpha,2026-09-19,Logistics,In Progress,101,53.0,32.8,Night,Standard operations
+OPS-0860,Bhavna Patel,Team Alpha,2026-09-08,Logistics,Completed,86,88.0,107.0,Morning,Standard operations
+OPS-0861,Meera Pillai,Team Alpha,2026-09-02,Logistics,Completed,159,58.0,59.2,Afternoon,Standard operations
+OPS-0862,Neha Agarwal,Team Gamma,2026-09-27,Manufacturing,Completed,91,71.0,76.2,Morning,Standard operations
+OPS-0863,Ashok Mehta,Team Gamma,2026-09-14,Manufacturing,Completed,105,111.0,123.1,Morning,Standard operations
+OPS-0864,Rajesh Kumar,Team Beta,2026-09-22,Logistics,Completed,147,196.0,225.2,Morning,Standard operations
+OPS-0865,Kiran Das,Team Beta,2026-09-25,Manufacturing,In Progress,133,97.0,61.8,Afternoon,Standard operations
+OPS-0866,Ramesh Pandey,Team Beta,2026-09-23,Quality Control,Completed,190,68.0,68.3,Night,Standard operations
+OPS-0867,Manoj Tiwari,Team Gamma,2026-09-02,Logistics,Completed,99,188.0,203.1,Morning,Standard operations
+OPS-0868,Anjali Singh,Team Gamma,2026-09-03,Quality Control,In Progress,44,181.0,123.7,Night,Standard operations
+OPS-0869,Pooja Gupta,Team Alpha,2026-09-04,Logistics,Completed,188,60.0,59.8,Morning,Standard operations
+OPS-0870,Ramesh Pandey,Team Gamma,2026-09-23,Manufacturing,Completed,82,85.0,105.6,Morning,Standard operations
+OPS-0871,Lakshmi Bhat,Team Alpha,2026-09-21,Logistics,Completed,178,103.0,118.6,Morning,Standard operations
+OPS-0872,Manoj Tiwari,Team Beta,2026-09-29,Logistics,Completed,138,120.0,104.6,Afternoon,Standard operations
+OPS-0873,Pooja Gupta,Team Beta,2026-09-16,Quality Control,Completed,61,170.0,192.8,Night,Standard operations
+OPS-0874,Siddharth Rao,Team Gamma,2026-09-29,Logistics,Completed,124,66.0,61.1,Afternoon,Standard operations
+OPS-0875,Amit Patel,Team Alpha,2026-09-13,Manufacturing,Completed,49,77.0,70.5,Morning,Standard operations
+OPS-0876,Ashok Mehta,Team Alpha,2026-09-16,Manufacturing,In Progress,163,55.0,26.8,Night,Standard operations
+OPS-0877,Lakshmi Bhat,Team Alpha,2026-09-16,Logistics,Completed,195,55.0,53.2,Morning,Standard operations
+OPS-0878,Rajesh Kumar,Team Alpha,2026-09-27,Quality Control,Completed,135,198.0,195.4,Night,Standard operations
+OPS-0879,Anjali Singh,Team Beta,2026-09-16,Quality Control,Completed,165,190.0,195.3,Afternoon,Standard operations
+OPS-0880,Rahul Mishra,Team Alpha,2026-09-29,Logistics,Completed,96,108.0,112.7,Afternoon,Standard operations
+OPS-0881,Tarun Kapoor,Team Alpha,2026-09-05,Logistics,Completed,72,91.0,103.3,Afternoon,Standard operations
+OPS-0882,Anita Desai,Team Alpha,2026-09-27,Quality Control,Completed,200,89.0,81.4,Morning,Standard operations
+OPS-0883,Priya Sharma,Team Beta,2026-09-19,Manufacturing,Completed,124,97.0,90.4,Night,Standard operations
+OPS-0884,Priya Sharma,Team Gamma,2026-09-11,Logistics,Completed,144,188.0,233.2,Night,Standard operations
+OPS-0885,Deepa Joshi,Team Alpha,2026-09-30,Manufacturing,Completed,157,87.0,106.9,Afternoon,Standard operations
+OPS-0886,Vikram Singh,Team Alpha,2026-09-24,Quality Control,Failed,114,125.0,27.3,Afternoon,Standard operations
+OPS-0887,Tarun Kapoor,Team Gamma,2026-09-22,Manufacturing,In Progress,143,136.0,82.5,Night,Standard operations
+OPS-0888,Neha Agarwal,Team Alpha,2026-09-05,Quality Control,Completed,108,56.0,56.6,Morning,Standard operations
+OPS-0889,Kiran Das,Team Beta,2026-09-03,Logistics,Completed,194,99.0,107.3,Morning,Standard operations
+OPS-0890,Anjali Singh,Team Beta,2026-09-07,Manufacturing,Completed,144,72.0,89.3,Afternoon,Standard operations
+OPS-0891,Ravi Menon,Team Beta,2026-09-11,Quality Control,Completed,44,142.0,143.3,Night,Standard operations
+OPS-0892,Bhavna Patel,Team Beta,2026-09-12,Logistics,Completed,102,138.0,136.7,Afternoon,Standard operations
+OPS-0893,Bhavna Patel,Team Gamma,2026-09-03,Manufacturing,Completed,143,156.0,182.7,Afternoon,Standard operations
+OPS-0894,Anita Desai,Team Gamma,2026-09-29,Logistics,Completed,136,85.0,100.7,Night,Standard operations
+OPS-0895,Amit Patel,Team Alpha,2026-09-07,Logistics,Completed,164,135.0,118.3,Night,Standard operations
+OPS-0896,Tarun Kapoor,Team Beta,2026-09-03,Manufacturing,Completed,99,156.0,143.5,Afternoon,Standard operations
+OPS-0897,Ashok Mehta,Team Gamma,2026-09-25,Manufacturing,Completed,127,124.0,132.9,Morning,Standard operations
+OPS-0898,Siddharth Rao,Team Beta,2026-09-27,Quality Control,Completed,173,168.0,157.9,Morning,Standard operations
+OPS-0899,Vikram Singh,Team Beta,2026-09-10,Quality Control,In Progress,150,81.0,48.3,Afternoon,Standard operations
+OPS-0900,Meera Pillai,Team Alpha,2026-09-16,Quality Control,Completed,37,80.0,92.5,Afternoon,Standard operations
+OPS-0901,Amit Patel,Team Gamma,2026-09-24,Logistics,Completed,174,161.0,192.8,Night,Standard operations
+OPS-0902,Swati Kulkarni,Team Beta,2026-09-23,Manufacturing,Completed,177,54.0,64.2,Morning,Standard operations
+OPS-0903,Rahul Mishra,Team Alpha,2026-09-05,Logistics,Completed,64,141.0,129.1,Afternoon,Standard operations
+OPS-0904,Pooja Gupta,Team Beta,2026-09-21,Logistics,Completed,104,185.0,204.5,Morning,Standard operations
+OPS-0905,Sanjay Verma,Team Alpha,2026-09-25,Quality Control,Completed,54,92.0,98.2,Afternoon,Standard operations
+OPS-0906,Siddharth Rao,Team Gamma,2026-09-26,Logistics,Completed,122,74.0,78.7,Afternoon,Standard operations
+OPS-0907,Siddharth Rao,Team Alpha,2026-09-01,Manufacturing,Completed,125,174.0,176.6,Morning,Standard operations
+OPS-0908,Sneha Reddy,Team Alpha,2026-09-05,Quality Control,Completed,78,193.0,211.4,Night,Standard operations
+OPS-0909,Bhavna Patel,Team Gamma,2026-09-23,Quality Control,Completed,59,156.0,161.3,Morning,Standard operations
+OPS-0910,Sneha Reddy,Team Alpha,2026-09-30,Manufacturing,Completed,109,142.0,128.6,Afternoon,Standard operations
+OPS-0911,Alok Kumar,Team Gamma,2026-09-17,Logistics,Completed,107,57.0,65.4,Morning,Standard operations
+OPS-0912,Kavita Nair,Team Alpha,2026-09-28,Quality Control,Completed,88,128.0,115.2,Morning,Standard operations
+OPS-0913,Amit Patel,Team Beta,2026-09-23,Manufacturing,Completed,153,160.0,138.7,Morning,Standard operations
+OPS-0914,Priya Sharma,Team Gamma,2026-09-17,Quality Control,Completed,60,114.0,98.9,Afternoon,Standard operations
+OPS-0915,Swati Kulkarni,Team Alpha,2026-09-25,Manufacturing,In Progress,184,102.0,58.8,Morning,Standard operations
+OPS-0916,Anita Desai,Team Gamma,2026-09-12,Manufacturing,Completed,101,198.0,195.8,Morning,Standard operations
+OPS-0917,Bhavna Patel,Team Gamma,2026-09-25,Quality Control,Completed,159,195.0,171.1,Night,Standard operations
+OPS-0918,Tarun Kapoor,Team Alpha,2026-09-17,Manufacturing,Completed,102,93.0,112.6,Night,Standard operations
+OPS-0919,Rajesh Kumar,Team Gamma,2026-09-04,Manufacturing,Failed,151,143.0,39.3,Morning,Standard operations
+OPS-0920,Kiran Das,Team Gamma,2026-09-04,Manufacturing,In Progress,127,158.0,73.4,Morning,Standard operations
+OPS-0921,Meera Pillai,Team Alpha,2026-09-25,Logistics,Completed,58,183.0,165.5,Afternoon,Standard operations
+OPS-0922,Ashok Mehta,Team Beta,2026-09-18,Quality Control,Completed,113,176.0,157.7,Afternoon,Standard operations
+OPS-0923,Kiran Das,Team Gamma,2026-09-24,Logistics,Completed,143,107.0,114.7,Afternoon,Standard operations
+OPS-0924,Bhavna Patel,Team Beta,2026-09-07,Manufacturing,In Progress,151,144.0,65.3,Night,Standard operations
+OPS-0925,Neha Agarwal,Team Gamma,2026-09-04,Logistics,Completed,198,71.0,63.7,Afternoon,Standard operations
+OPS-0926,Arjun Rao,Team Gamma,2026-09-19,Manufacturing,Completed,73,66.0,65.7,Morning,Standard operations
+OPS-0927,Manoj Tiwari,Team Alpha,2026-09-20,Logistics,Completed,138,177.0,170.2,Night,Standard operations
+OPS-0928,Tarun Kapoor,Team Gamma,2026-09-19,Logistics,Completed,194,152.0,150.9,Night,Standard operations
+OPS-0929,Divya Saxena,Team Beta,2026-09-16,Quality Control,Completed,146,77.0,69.2,Afternoon,Standard operations
+OPS-0930,Neha Agarwal,Team Alpha,2026-09-21,Manufacturing,Completed,43,67.0,70.3,Morning,Standard operations
+OPS-0931,Anita Desai,Team Beta,2026-09-20,Quality Control,Completed,107,74.0,85.4,Night,Standard operations
+OPS-0932,Tarun Kapoor,Team Gamma,2026-09-25,Logistics,In Progress,81,125.0,74.8,Afternoon,Standard operations
+OPS-0933,Sanjay Verma,Team Beta,2026-09-18,Logistics,In Progress,168,189.0,76.6,Morning,Standard operations
+OPS-0934,Meera Pillai,Team Alpha,2026-09-13,Logistics,Completed,126,163.0,168.5,Morning,Standard operations
+OPS-0935,Anita Desai,Team Gamma,2026-09-22,Logistics,In Progress,72,175.0,92.6,Afternoon,Standard operations
+OPS-0936,Ashok Mehta,Team Beta,2026-09-16,Manufacturing,Completed,155,191.0,214.7,Night,Standard operations
+OPS-0937,Neha Agarwal,Team Beta,2026-09-18,Manufacturing,Completed,130,117.0,122.6,Afternoon,Standard operations
+OPS-0938,Divya Saxena,Team Gamma,2026-09-12,Logistics,Completed,37,61.0,55.0,Afternoon,Standard operations
+OPS-0939,Pooja Gupta,Team Gamma,2026-09-19,Manufacturing,Completed,190,137.0,137.3,Afternoon,Standard operations
+OPS-0940,Pooja Gupta,Team Beta,2026-09-14,Logistics,Completed,92,113.0,106.7,Afternoon,Standard operations
+OPS-0941,Rahul Mishra,Team Alpha,2026-09-30,Quality Control,Completed,108,79.0,77.8,Morning,Standard operations
+OPS-0942,Lakshmi Bhat,Team Beta,2026-09-02,Logistics,Completed,138,195.0,205.9,Afternoon,Standard operations
+OPS-0943,Suresh Iyer,Team Alpha,2026-09-23,Logistics,Completed,111,146.0,157.4,Afternoon,Standard operations
+OPS-0944,Rahul Mishra,Team Alpha,2026-09-26,Logistics,Completed,82,136.0,142.6,Night,Standard operations
+OPS-0945,Manoj Tiwari,Team Alpha,2026-09-20,Logistics,Completed,141,101.0,105.9,Morning,Standard operations
+OPS-0946,Siddharth Rao,Team Gamma,2026-09-07,Logistics,Completed,106,196.0,198.1,Morning,Standard operations
+OPS-0947,Divya Saxena,Team Gamma,2026-09-03,Quality Control,In Progress,54,136.0,65.6,Night,Standard operations
+OPS-0948,Anjali Singh,Team Gamma,2026-09-16,Logistics,Completed,49,127.0,133.6,Afternoon,Standard operations
+OPS-0949,Meera Pillai,Team Gamma,2026-09-18,Logistics,Completed,132,114.0,125.4,Afternoon,Standard operations
+OPS-0950,Swati Kulkarni,Team Gamma,2026-09-06,Manufacturing,Completed,162,97.0,104.8,Morning,Standard operations
+OPS-0951,Swati Kulkarni,Team Gamma,2026-09-15,Logistics,Failed,166,161.0,53.7,Night,Standard operations
+OPS-0952,Ramesh Pandey,Team Alpha,2026-09-17,Manufacturing,Completed,67,111.0,101.0,Night,Standard operations
+OPS-0953,Tarun Kapoor,Team Beta,2026-09-28,Logistics,Completed,46,102.0,121.2,Afternoon,Standard operations
+OPS-0954,Siddharth Rao,Team Beta,2026-09-21,Manufacturing,Completed,183,110.0,111.4,Morning,Standard operations
+OPS-0955,Vikram Singh,Team Alpha,2026-09-01,Manufacturing,In Progress,109,168.0,91.7,Afternoon,Standard operations
+OPS-0956,Meera Pillai,Team Gamma,2026-09-29,Manufacturing,Completed,99,84.0,72.4,Afternoon,Standard operations
+OPS-0957,Swati Kulkarni,Team Gamma,2026-09-06,Quality Control,In Progress,154,55.0,22.9,Morning,Standard operations
+OPS-0958,Manoj Tiwari,Team Gamma,2026-09-10,Manufacturing,Failed,134,143.0,38.3,Morning,Standard operations
+OPS-0959,Arjun Rao,Team Gamma,2026-09-27,Manufacturing,Completed,176,178.0,217.7,Night,Standard operations
+OPS-0960,Swati Kulkarni,Team Gamma,2026-09-25,Quality Control,Completed,53,110.0,119.9,Afternoon,Standard operations
+OPS-0961,Manoj Tiwari,Team Gamma,2026-09-24,Logistics,In Progress,90,158.0,73.5,Morning,Standard operations
+OPS-0962,Anita Desai,Team Alpha,2026-09-09,Logistics,Completed,180,64.0,67.0,Afternoon,Standard operations
+OPS-0963,Ashok Mehta,Team Alpha,2026-09-11,Quality Control,Completed,93,121.0,145.4,Morning,Standard operations
+OPS-0964,Pooja Gupta,Team Beta,2026-09-23,Logistics,In Progress,35,58.0,37.8,Night,Standard operations
+OPS-0965,Anjali Singh,Team Alpha,2026-09-23,Quality Control,Completed,171,148.0,144.1,Night,Standard operations
+OPS-0966,Pooja Gupta,Team Gamma,2026-09-04,Quality Control,In Progress,143,149.0,60.0,Afternoon,Standard operations
+OPS-0967,Sunita Sharma,Team Beta,2026-09-10,Manufacturing,Failed,90,126.0,19.2,Morning,Standard operations
+OPS-0968,Sunita Sharma,Team Beta,2026-09-21,Logistics,In Progress,194,154.0,98.1,Afternoon,Standard operations
+OPS-0969,Bhavna Patel,Team Alpha,2026-09-27,Logistics,Completed,135,135.0,153.5,Morning,Standard operations
+OPS-0970,Siddharth Rao,Team Alpha,2026-09-23,Logistics,Completed,120,157.0,171.3,Night,Standard operations
+OPS-0971,Geeta Yadav,Team Beta,2026-09-15,Quality Control,Completed,43,97.0,106.9,Night,Standard operations
+OPS-0972,Vikram Singh,Team Alpha,2026-09-13,Manufacturing,Completed,110,197.0,173.9,Morning,Standard operations
+OPS-0973,Kavita Nair,Team Gamma,2026-09-23,Quality Control,Completed,182,155.0,180.9,Afternoon,Standard operations
+OPS-0974,Kiran Das,Team Beta,2026-09-28,Quality Control,Completed,74,133.0,155.6,Morning,Standard operations
+OPS-0975,Amit Patel,Team Beta,2026-09-12,Manufacturing,Completed,126,196.0,184.2,Morning,Standard operations
+OPS-0976,Sunita Sharma,Team Gamma,2026-09-21,Quality Control,Completed,52,168.0,156.1,Night,Standard operations
+OPS-0977,Bhavna Patel,Team Alpha,2026-09-02,Logistics,Completed,183,116.0,105.5,Afternoon,Standard operations
+OPS-0978,Anita Desai,Team Gamma,2026-09-04,Manufacturing,Completed,141,166.0,196.0,Afternoon,Standard operations
+OPS-0979,Sneha Reddy,Team Alpha,2026-09-23,Manufacturing,Completed,98,123.0,141.3,Afternoon,Standard operations
+OPS-0980,Vikram Singh,Team Beta,2026-09-28,Manufacturing,Completed,102,98.0,99.7,Afternoon,Standard operations
+OPS-0981,Anjali Singh,Team Alpha,2026-09-01,Logistics,Failed,90,165.0,53.9,Afternoon,Standard operations
+OPS-0982,Rahul Mishra,Team Gamma,2026-09-21,Logistics,Completed,150,84.0,100.7,Night,Standard operations
+OPS-0983,Arjun Rao,Team Gamma,2026-09-07,Quality Control,Completed,138,115.0,101.1,Night,Standard operations
+OPS-0984,Priya Sharma,Team Alpha,2026-09-11,Manufacturing,Completed,120,61.0,52.0,Night,Standard operations
+OPS-0985,Divya Saxena,Team Beta,2026-09-10,Logistics,Completed,63,193.0,167.2,Morning,Standard operations
+OPS-0986,Suresh Iyer,Team Alpha,2026-09-17,Logistics,Failed,149,83.0,10.2,Night,Standard operations
+OPS-0987,Sanjay Verma,Team Beta,2026-09-05,Logistics,Completed,41,82.0,86.1,Afternoon,Standard operations
+OPS-0988,Geeta Yadav,Team Beta,2026-09-30,Logistics,Completed,97,117.0,123.6,Afternoon,Standard operations
+OPS-0989,Alok Kumar,Team Alpha,2026-09-11,Quality Control,Failed,68,192.0,60.1,Night,Standard operations
+OPS-0990,Ramesh Pandey,Team Beta,2026-09-02,Manufacturing,Completed,88,96.0,83.0,Afternoon,Standard operations
+OPS-0991,Anita Desai,Team Gamma,2026-09-15,Logistics,Completed,156,60.0,61.6,Night,Standard operations
+OPS-0992,Lakshmi Bhat,Team Beta,2026-09-15,Logistics,Completed,67,81.0,80.2,Morning,Standard operations
+OPS-0993,Bhavna Patel,Team Beta,2026-09-06,Manufacturing,Completed,99,194.0,234.0,Night,Standard operations
+OPS-0994,Ravi Menon,Team Gamma,2026-09-01,Quality Control,Completed,76,156.0,190.0,Morning,Standard operations
+OPS-0995,Tarun Kapoor,Team Beta,2026-09-22,Manufacturing,In Progress,36,122.0,73.7,Night,Standard operations
+OPS-0996,Sneha Reddy,Team Beta,2026-09-12,Quality Control,Failed,57,132.0,18.3,Morning,Standard operations
+OPS-0997,Kiran Das,Team Gamma,2026-09-22,Logistics,Completed,98,51.0,50.1,Morning,Standard operations
+OPS-0998,Ramesh Pandey,Team Gamma,2026-09-15,Logistics,Failed,175,83.0,12.7,Morning,Standard operations
+OPS-0999,Anjali Singh,Team Gamma,2026-09-10,Logistics,In Progress,48,190.0,130.3,Afternoon,Standard operations
+OPS-1000,Amit Patel,Team Beta,2026-09-09,Manufacturing,Completed,132,72.0,61.8,Morning,Standard operations
+OPS-1001,Invalid Date Emp,Team Alpha,2026/09/31,Manufacturing,Completed,100,100.0,100.0,Morning,Bad date format
+OPS-1002,Bad Target Emp,Team Beta,2026-09-15,Logistics,Completed,100,INVALID_FLOAT,100.0,Afternoon,Bad float target
+OPS-1003,,Team Gamma,2026-09-15,Quality Control,Completed,100,100.0,100.0,Night,Missing employee
+OPS-1004,Bad Qty Emp,Team Alpha,2026-09-15,Manufacturing,In Progress,NOT_AN_INT,100.0,50.0,Morning,Bad int qty
+OPS-0005,Duplicate ID Emp,Team Beta,2026-09-15,Logistics,Completed,100,100.0,100.0,Afternoon,Duplicate ID

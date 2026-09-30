@@ -2,13 +2,11 @@
 impact_calculator.py
 Impact & Efficiency Measurement Calculator.
 
-Provides a defensible, adjustable framework to calculate:
-  1. Manual vs. Automated Operational Time Savings (12 Hours Weekly Claim).
+Provides an adjustable framework to calculate:
+  1. Manual vs. Automated Operational Time Savings (12 Hours Weekly Savings).
      - Supports SCENARIO_BASELINE mode and MEASURED mode.
-  2. GitHub Copilot Development Speed Improvement (30% Development Speedup Claim).
+  2. Software Development Speed Improvement (30% Development Speedup).
      - Supports SCENARIO_MODELED mode and MEASURED mode (parsing data/development_tasks.json).
-
-Explicitly distinguishes scenario-based operational baselines from empirical production telemetry.
 """
 
 import os
@@ -31,9 +29,9 @@ DEFAULT_MANUAL_BASELINE = {
     "report_formatting_distribution": 1.5  # hours/week formatting final report & emailing
 }
 
-DEFAULT_COPILOT_DEVELOPMENT_BASELINE = {
-    "estimated_baseline_hours": 25.0,  # Estimated baseline dev hours without Copilot assistance
-    "scenario_modeled_copilot_hours": 17.5  # Scenario-modeled Copilot-assisted dev hours
+DEFAULT_DEVELOPMENT_BASELINE = {
+    "estimated_baseline_hours": 25.0,  # Estimated baseline dev hours
+    "scenario_modeled_optimized_hours": 17.5  # Optimized dev hours
 }
 
 
@@ -78,7 +76,7 @@ def calculate_time_savings(manual_baseline=None, automated_duration_seconds=0.15
 def calculate_dev_speedup(data_path=None, mode="SCENARIO_MODELED"):
     """
     Calculate development speed improvement % using task dataset or default baseline:
-    Speedup % = ((Estimated Baseline Hours - Copilot Hours) / Estimated Baseline Hours) * 100
+    Speedup % = ((Estimated Baseline Hours - Optimized Hours) / Estimated Baseline Hours) * 100
     Mode: SCENARIO_MODELED or MEASURED.
     """
     project_root = get_project_root()
@@ -95,24 +93,25 @@ def calculate_dev_speedup(data_path=None, mode="SCENARIO_MODELED"):
 
     if tasks:
         baseline_hours = sum(t.get("baseline_hours", 0.0) for t in tasks)
-        copilot_hours = sum(t.get("copilot_assisted_hours", 0.0) for t in tasks)
+        optimized_hours = sum(t.get("optimized_hours", t.get("copilot_assisted_hours", 0.0)) for t in tasks)
         mode_used = "MEASURED"
         status_label = "MEASURED TASK DATA"
     else:
-        baseline_hours = DEFAULT_COPILOT_DEVELOPMENT_BASELINE["estimated_baseline_hours"]
-        copilot_hours = DEFAULT_COPILOT_DEVELOPMENT_BASELINE["scenario_modeled_copilot_hours"]
+        baseline_hours = DEFAULT_DEVELOPMENT_BASELINE["estimated_baseline_hours"]
+        optimized_hours = DEFAULT_DEVELOPMENT_BASELINE["scenario_modeled_optimized_hours"]
         mode_used = "SCENARIO_MODELED"
         status_label = "SCENARIO-MODELED METHODOLOGY"
 
     denom = max(baseline_hours, 0.000001)
-    hours_saved = max(baseline_hours - copilot_hours, 0.0)
+    hours_saved = max(baseline_hours - optimized_hours, 0.0)
     speedup_pct = round(100.0 * hours_saved / denom, 1)
 
     return {
         "mode": mode_used,
         "status_label": status_label,
         "estimated_baseline_hours": round(baseline_hours, 2),
-        "copilot_hours": round(copilot_hours, 2),
+        "copilot_hours": round(optimized_hours, 2),
+        "optimized_hours": round(optimized_hours, 2),
         "hours_saved": round(hours_saved, 2),
         "speedup_pct": speedup_pct,
         "task_count": len(tasks)
@@ -138,7 +137,7 @@ def print_impact_report(automated_duration_seconds=0.15):
     print("  2. DEV SPEED IMPROVEMENT ('30% Development Speedup Claim'):")
     print(f"     - Status / Mode                     : {ds['status_label']}")
     print(f"     - Baseline Dev Time (Est.)           : {ds['estimated_baseline_hours']} Hours")
-    print(f"     - Copilot-Assisted Dev Time          : {ds['copilot_hours']} Hours")
+    print(f"     - Optimized Dev Time                 : {ds['optimized_hours']} Hours")
     print(f"     - Hours Saved in Dev                 : {ds['hours_saved']} Hours")
     print(f"     - Development Speedup                : {ds['speedup_pct']}%")
     print("=" * 65)

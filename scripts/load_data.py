@@ -219,12 +219,21 @@ def load_csv_to_table(table_name, config, data_dir, conn, logger):
     """Read a CSV, validate rows, and insert valid records into SQLite."""
     csv_path = os.path.join(data_dir, config["csv_file"])
 
+    empty_stats = {
+        "source": table_name, "raw_count": 0, "valid_count": 0,
+        "invalid_count": 0, "duplicate_count": 0, "inserted_count": 0
+    }
+
     if not os.path.exists(csv_path):
         logger.error(f"[{table_name}] CSV file not found: {csv_path}")
-        return
+        return empty_stats
 
     logger.info(f"[{table_name}] Loading {csv_path}")
 
+    # Clear existing table data to ensure idempotent data loads
+    conn.execute(f"DELETE FROM {table_name}")
+
+    raw_count = 0
     valid_count = 0
     invalid_count = 0
     duplicate_count = 0
@@ -236,18 +245,18 @@ def load_csv_to_table(table_name, config, data_dir, conn, logger):
 
         if header is None:
             logger.error(f"[{table_name}] CSV file is empty or has no header.")
-            return
+            return empty_stats
 
         # Strip whitespace from header names
         header = [h.strip() for h in header]
 
         # Validate columns
-        all_expected = config["required_columns"] + config["optional_columns"]
         if not validate_columns(header, config["required_columns"], table_name, logger):
             logger.error(f"[{table_name}] Skipping file due to missing columns.")
-            return
+            return empty_stats
 
         for row_num, row in enumerate(reader, start=2):
+            raw_count += 1
             # Strip whitespace from keys and values
             row = {k.strip(): (v.strip() if v else "") for k, v in row.items()}
 
@@ -259,7 +268,6 @@ def load_csv_to_table(table_name, config, data_dir, conn, logger):
                     f"[{table_name}] Row {row_num}: Duplicate record_id '{record_id}' -- skipping."
                 )
                 duplicate_count += 1
-                invalid_count += 1
                 continue
             seen_ids.add(record_id)
 
@@ -294,12 +302,45 @@ def load_csv_to_table(table_name, config, data_dir, conn, logger):
                 )
                 invalid_count += 1
 
+    # Persist load statistics into load_stats table
+    now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    conn.execute(
+        """
+        CREATE TABLE IF NOT EXISTS load_stats (
+            source          TEXT PRIMARY KEY,
+            raw_count       INTEGER NOT NULL,
+            valid_count     INTEGER NOT NULL,
+            invalid_count   INTEGER NOT NULL,
+            duplicate_count INTEGER NOT NULL,
+            inserted_count  INTEGER NOT NULL,
+            loaded_at       TEXT NOT NULL
+        )
+        """
+    )
+    conn.execute(
+        """
+        INSERT OR REPLACE INTO load_stats
+        (source, raw_count, valid_count, invalid_count, duplicate_count, inserted_count, loaded_at)
+        VALUES (?, ?, ?, ?, ?, ?, ?)
+        """,
+        (table_name, raw_count, valid_count, invalid_count, duplicate_count, valid_count, now_str)
+    )
+
     conn.commit()
 
     logger.info(
-        f"[{table_name}] Done -- {valid_count} inserted, "
-        f"{invalid_count} invalid, {duplicate_count} duplicates."
+        f"[{table_name}] Done -- Raw: {raw_count}, Valid: {valid_count}, "
+        f"Invalid: {invalid_count}, Duplicates: {duplicate_count}, DB Inserted: {valid_count}."
     )
+
+    return {
+        "source": table_name,
+        "raw_count": raw_count,
+        "valid_count": valid_count,
+        "invalid_count": invalid_count,
+        "duplicate_count": duplicate_count,
+        "inserted_count": valid_count
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -325,10 +366,11 @@ def main():
     logger.info("=" * 60)
 
     conn = sqlite3.connect(db_path)
+    all_stats = {}
 
     try:
         for table_name, config in TABLE_CONFIGS.items():
-            load_csv_to_table(table_name, config, data_dir, conn, logger)
+            all_stats[table_name] = load_csv_to_table(table_name, config, data_dir, conn, logger)
 
         # Summary: row counts in each table
         logger.info("-" * 60)
@@ -344,7 +386,9 @@ def main():
         conn.close()
 
     logger.info("Data load process completed.")
+    return all_stats
 
 
 if __name__ == "__main__":
     main()
+

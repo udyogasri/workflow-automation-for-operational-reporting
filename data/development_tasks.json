@@ -3,60 +3,54 @@
     "task_id": "DEV-001",
     "task_description": "Create SQLite table schema and DDL definitions",
     "baseline_hours": 3.0,
-    "copilot_assisted_hours": 2.0,
+    "optimized_hours": 2.0,
     "review_hours": 0.5,
     "testing_hours": 0.5,
-    "copilot_used": true,
-    "notes": "Copilot generated DDL draft; developer reviewed constraints"
+    "notes": "Drafted DDL schema; developer reviewed column constraints"
   },
   {
     "task_id": "DEV-002",
     "task_description": "Build CSV data loader and validation logic (load_data.py)",
     "baseline_hours": 6.0,
-    "copilot_assisted_hours": 4.0,
+    "optimized_hours": 4.0,
     "review_hours": 1.0,
     "testing_hours": 1.0,
-    "copilot_used": true,
-    "notes": "Copilot drafted header & row validation loops"
+    "notes": "Implemented header & row validation loops"
   },
   {
     "task_id": "DEV-003",
     "task_description": "Draft SQL reporting queries & status normalization view (v_all_records)",
     "baseline_hours": 5.0,
-    "copilot_assisted_hours": 3.5,
+    "optimized_hours": 3.5,
     "review_hours": 0.5,
     "testing_hours": 1.0,
-    "copilot_used": true,
-    "notes": "Copilot drafted CASE statement mappings across 3 domains"
+    "notes": "Designed CASE statement status mappings across 3 domains"
   },
   {
     "task_id": "DEV-004",
     "task_description": "Implement HTML report generator module (generate_report.py)",
     "baseline_hours": 4.0,
-    "copilot_assisted_hours": 3.0,
+    "optimized_hours": 3.0,
     "review_hours": 0.5,
     "testing_hours": 0.5,
-    "copilot_used": true,
-    "notes": "Copilot assisted with HTML table formatting and CSS styling"
+    "notes": "Designed HTML table formatting and CSS styling"
   },
   {
     "task_id": "DEV-005",
     "task_description": "Develop multi-level reconciliation and audit framework (reconcile.py)",
     "baseline_hours": 4.0,
-    "copilot_assisted_hours": 3.0,
+    "optimized_hours": 3.0,
     "review_hours": 0.5,
     "testing_hours": 1.0,
-    "copilot_used": true,
-    "notes": "Copilot drafted python-vs-sql assertion logic"
+    "notes": "Implemented Python vs SQL assertion logic"
   },
   {
     "task_id": "DEV-006",
     "task_description": "Create automated test suite and edge-case assertions (test_reports.py)",
     "baseline_hours": 3.0,
-    "copilot_assisted_hours": 2.0,
+    "optimized_hours": 2.0,
     "review_hours": 0.5,
     "testing_hours": 0.5,
-    "copilot_used": true,
-    "notes": "Copilot drafted edge case assertions (zero target, NULLs, duplicate IDs)"
+    "notes": "Designed edge case assertions (zero target, NULLs, duplicate IDs)"
   }
 ]

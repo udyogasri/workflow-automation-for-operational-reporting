@@ -25,8 +25,25 @@ import logging
 import urllib.request
 import urllib.error
 
+def load_dotenv():
+    """Load environment variables from a .env file if present."""
+    project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    env_path = os.path.join(project_root, ".env")
+    if os.path.exists(env_path):
+        with open(env_path, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith("#") and "=" in line:
+                    key, val = line.split("=", 1)
+                    key = key.strip()
+                    val = val.strip().strip("'").strip('"')
+                    if key and key not in os.environ:
+                        os.environ[key] = val
+
+
 def get_confluence_config():
-    """Read Confluence credentials from environment variables."""
+    """Read Confluence credentials from environment variables or .env file."""
+    load_dotenv()
     base_url = os.environ.get("CONFLUENCE_BASE_URL", "").rstrip("/")
     email = os.environ.get("CONFLUENCE_EMAIL", "").strip()
     api_token = os.environ.get("CONFLUENCE_API_TOKEN", "").strip()

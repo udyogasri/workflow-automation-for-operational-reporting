@@ -42,3 +42,14 @@ CREATE TABLE IF NOT EXISTS support (
     priority                TEXT,
     resolution_time_hrs     REAL
 );
+
+CREATE TABLE IF NOT EXISTS load_stats (
+    source          TEXT PRIMARY KEY,
+    raw_count       INTEGER NOT NULL,
+    valid_count     INTEGER NOT NULL,
+    invalid_count   INTEGER NOT NULL,
+    duplicate_count INTEGER NOT NULL,
+    inserted_count  INTEGER NOT NULL,
+    loaded_at       TEXT NOT NULL
+);
+

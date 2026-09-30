@@ -74,21 +74,55 @@ def reconcile_all(project_root=None, logger=None):
             logger.info(f"  [CSV] {source_name}: {len(rows)} raw rows detected.")
 
     # ----------------------------------------------------
-    # LEVEL 2: Database Table Counts vs CSV Counts
+    # LEVEL 2: Database Row Count & Integrity Validation
     # ----------------------------------------------------
     logger.info("Level 2: Database Row Count & Integrity Validation...")
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
 
+    # Fetch persisted loading stats if available
+    stats_rows = conn.execute(
+        "SELECT name FROM sqlite_master WHERE type='table' AND name='load_stats'"
+    ).fetchone()
+    stats_by_source = {}
+    if stats_rows:
+        rows = conn.execute("SELECT * FROM load_stats").fetchall()
+        stats_by_source = {r["source"]: dict(r) for r in rows}
+
     db_counts = {}
     for source_name in sources.keys():
         count = conn.execute(f"SELECT COUNT(*) FROM {source_name}").fetchone()[0]
         db_counts[source_name] = count
-        logger.info(f"  [DB]  {source_name}: {count} loaded rows.")
-        if count != csv_counts.get(source_name, -1):
+
+        st = stats_by_source.get(source_name, {})
+        raw_rows = st.get("raw_count", csv_counts.get(source_name, count))
+        valid_rows = st.get("valid_count", count)
+        rejected_rows = st.get("invalid_count", 0)
+        duplicate_rows = st.get("duplicate_count", 0)
+
+        logger.info(f"  [{source_name}]")
+        logger.info(f"    Raw CSV rows      : {raw_rows}")
+        logger.info(f"    Valid rows        : {valid_rows}")
+        logger.info(f"    Rejected rows     : {rejected_rows}")
+        logger.info(f"    Duplicate rows    : {duplicate_rows}")
+        logger.info(f"    Database rows     : {count}")
+
+        # Rule 1: RAW = VALID + REJECTED (invalid) + DUPLICATES
+        if raw_rows != (valid_rows + rejected_rows + duplicate_rows):
             discrepancies.append(
-                f"Mismatch in {source_name} rows: CSV={csv_counts.get(source_name)} vs DB={count}"
+                f"[{source_name}] Raw row math discrepancy: Raw ({raw_rows}) != Valid ({valid_rows}) + Rejected ({rejected_rows}) + Duplicates ({duplicate_rows})"
             )
+
+        # Rule 2: VALID = DATABASE
+        if valid_rows != count:
+            discrepancies.append(
+                f"[{source_name}] Database row count mismatch: Valid ({valid_rows}) != DB ({count})"
+            )
+
+        if valid_rows == count and raw_rows == (valid_rows + rejected_rows + duplicate_rows):
+            logger.info("    Reconciliation    : PASS")
+        else:
+            logger.error("    Reconciliation    : FAIL")
 
     # ----------------------------------------------------
     # LEVEL 3: Independent SQL vs Python Calculation Reconciliation

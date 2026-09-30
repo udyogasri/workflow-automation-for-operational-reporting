@@ -136,6 +136,15 @@ def collect_report_data(conn, logger):
         # 7. Data quality
         data["quality"] = [dict(r) for r in conn.execute(DATA_QUALITY_SQL).fetchall()]
 
+        # 7b. Data loading stats
+        load_stats_table = conn.execute(
+            "SELECT name FROM sqlite_master WHERE type='table' AND name='load_stats'"
+        ).fetchone()
+        if load_stats_table:
+            data["load_stats"] = [dict(r) for r in conn.execute("SELECT * FROM load_stats ORDER BY source").fetchall()]
+        else:
+            data["load_stats"] = []
+
         # Date range
         if data["daily"]:
             data["date_min"] = data["daily"][0]["date"]
@@ -291,7 +300,15 @@ def generate_html(data, generation_time, duration_seconds):
         parts.append('<p class="good">No records require attention.</p>')
 
     # ---- 7. Data Quality ----
-    parts.append("<h2>7. Data Quality</h2>")
+    parts.append("<h2>7. Data Quality & Data Loading Summary</h2>")
+
+    if data.get("load_stats"):
+        parts.append("<h3>Data Loading Summary</h3>")
+        dl_headers = ["Source", "Raw Rows", "Valid Rows", "Rejected Rows", "Duplicates", "Loaded Rows"]
+        dl_keys = ["source", "raw_count", "valid_count", "invalid_count", "duplicate_count", "inserted_count"]
+        parts.append(build_table(dl_headers, data["load_stats"], dl_keys))
+
+    parts.append("<h3>Database Data Integrity</h3>")
     dq_headers = [
         "Source", "Total Records", "Unexpected Status", "Null Target",
         "Null Actual", "Null Employee", "Null Date",

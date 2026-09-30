@@ -248,7 +248,12 @@ def main():
     print(divider)
 
     if status != "SUCCESS":
-        sys.exit(1)
+        if __name__ == "__main__":
+            sys.exit(1)
+        else:
+            raise RuntimeError(f"Workflow execution failed with status: {status}")
+
+    return report_path
 
 
 if __name__ == "__main__":
